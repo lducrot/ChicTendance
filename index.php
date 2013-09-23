@@ -11,8 +11,22 @@
     <?php include("header.html"); ?>
     
     <body>
-        <img class="robe" src="images/robe_bleue.jpg" />
-        <img class="robe" src="images/robe_rouge.jpg" />
-        <img class="robe" src="images/robe_violette.jpg" />
+        <table class="tab_img">
+            <tr>
+                <td class="img_robe">
+                    <img class="robe" src="images/robe_bleue.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td class="img_robe">
+                    <img class="robe" src="images/robe_mariee.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td class="img_robe">
+                    <img class="robe" src="images/robe_cocktail.jpeg" />                
+                </td>
+            </tr>
+        </table>
     </body>
 </html>
