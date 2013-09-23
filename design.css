@@ -3,7 +3,6 @@ margin-top: 40px;
 margin-left: 40px;
 margin-right: 40px;
 }
-
 .row [class^="col-"] {
 padding-top: 10px;
 padding-bottom: 10px;
@@ -14,6 +13,28 @@ border: 1px solid rgba(86,61,124,.2);
 position: center;
 }
 
-.img robe {
-    border: black solid 2px;
+a {
+    color: black;
+}
+a:hover {
+    color: #856d4d;
+    border: rgba(133,109,77,.80);
+    border-radius: 60%;
+}
+body {
+    background-image: url("images/fond_1.bmp");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.imgAccueil {
+    text-align: center;
+}
+.imgAccueilRobeSoiree {
+    width: 300px; 
+}
+.imgAccueilRobeMariee {
+    width: 300px;
+}
+.imgAccueilRobeCocktail {
+    width: 319px;
 }
