@@ -45,5 +45,8 @@
     </nav>
     
     <body>
+        <img class="robe" href="robe_bleue.jpg" />
+        <img class="robe" href="robe_rouge.jpg" />
+        <img class="robe" href="robe_violette.jpg" />
     </body>
 </html>
