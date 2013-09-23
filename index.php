@@ -45,6 +45,5 @@
     </nav>
     
     <body>
-        <a href="accueil.php">Accueil</a>
     </body>
 </html>
