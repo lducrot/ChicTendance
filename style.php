@@ -8,7 +8,7 @@
     </head>
     <body>
         
-        <!-- NAV -->
+        <!-- NAVBAR -->
         <div class="navbar navbar-default navbar-inverse" role="navigation">
             <!-- Partie de la barre toujours affichée -->
             <div class="navbar-header">
@@ -19,7 +19,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="accueil.php">Chic Tendance</a>
+                <a class="navbar-brand" href="index.php">Chic Tendance</a>
             </div>
             <!-- Partie de la barre masquée en fonction de la zone d'affichage -->
             <div class="collapse navbar-collapse navbar-right">
@@ -30,9 +30,9 @@
                 </ul>
             </div>
         </div>
-                <!-- FIN NAV -->
+        <!-- FIN NAVBAR -->
        
-       <nav>
+        <nav>
         <!-- <a href="#">ACCUEIL</a>
         <a href="#">NOUVEAUTES</a>
         <a href="#">STYLES</a>-->
@@ -50,3 +50,4 @@
         
     </body>
 </html>
+

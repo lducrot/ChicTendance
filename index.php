@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <LINK rel="stylesheet" type="text/css" href="design.css">
         <title>Accueil</title>
     </head>
     
@@ -36,14 +37,14 @@
         <a href="#">STYLES</a>-->
     <div class="row-xs-4">
         <ul class="nav nav-justified nav-stacked">
-            <li class="active"><a href="">ACCUEIL</a></li>
-            <li><a href="">NOUVEAUTES</a></li>
-            <li><a href="">STYLES</a></li>
+            <li class="active"><a href="index.php">ACCUEIL</a></li>
+            <li><a href="nouveaute.html">NOUVEAUTES</a></li>
+            <li><a href="style.php">STYLES</a></li>
         </ul>
     </div>
     </nav>
     
     <body>
-        
+        <a href="accueil.php">Accueil</a>
     </body>
 </html>
