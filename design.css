@@ -28,7 +28,7 @@ body {
 }
 
 /* Accueil */
-.imgAccueil {
+.imgAccueil, {
     text-align: center;
 }
 .imgAccueil td {
@@ -37,11 +37,14 @@ body {
 .imgAccueilRobeSoiree {
     width: 400px; 
 }
-.imgAccueilRobeMariee {
+.imgAccueilRobeMariee, .imgAccueilRobeCocktail, .imgNouveaute1, .imgNouveaute4 {
     width: 205px;
 }
-.imgAccueilRobeCocktail {
-    width: 205px;
+.imgNouveaute2 {
+    width: 208px;
+}
+.imgNouveaute3 {
+    width: 210px;
 }
 .textAccueil {
     font-family: 'Spirax', cursive;
