@@ -16,13 +16,9 @@
                 <td class="img_robe">
                     <img class="robe" src="images/robe_bleue.jpg" />
                 </td>
-            </tr>
-            <tr>
                 <td class="img_robe">
                     <img class="robe" src="images/robe_mariee.jpg" />
                 </td>
-            </tr>
-            <tr>
                 <td class="img_robe">
                     <img class="robe" src="images/robe_cocktail.jpeg" />                
                 </td>
