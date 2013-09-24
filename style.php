@@ -8,7 +8,10 @@
     </head>
     <body>
        <?php include("header.html"); ?>
-        
+        <ul class="breadcrumb">
+            <li><a href="index.php">Accueil</a></li>
+            <li class="active">Styles</li>
+        </ul>
         
         <nav class="menuStyle">
             <ul>
