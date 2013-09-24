@@ -8,6 +8,17 @@
     <ul class="breadcrumb">
          <li><a class="filAriane" href="accueil.php">Accueil</a></li>
     </ul>
+    <div class="row">
+        <div class="col-md-3">
+                <ul class="listMenuStyle">
+                    <a href="robeSoiree.php"><li>Robe de soirée</li></a>
+                    <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
+                    <a href="robeMariee.php"><li>Robe de mariée</li></a>
+                </ul>
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-8">
         <center>
         <table class="imgAccueil">
             <tr>
@@ -26,7 +37,7 @@
         </table>
         </center>
         <p class="textAccueil">Chic Tendance vous présente ces plus belles créations en robes de soirées, robes de mariée et robes de cocktails ! Grâce à elles vous êtes sûr d'être à la pointe de la mode. Il y en a assez pour satisfaire tout les goûts, alors n'hésitez plus !</p>
-        
+        </div></div>
         
     </body>
     <?php include("footer.html"); ?>
