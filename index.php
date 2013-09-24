@@ -10,7 +10,9 @@
     </head>
     
     <?php include("header.html"); ?>
-    
+    <ul class="breadcrumb">
+            <li><a href="index.php">Accueil</a></li>
+        </ul>
     <body>
         <center>
         <table class="imgAccueil">
@@ -33,4 +35,5 @@
         
         
     </body>
+    <?php include("footer.html"); ?>
 </html>
