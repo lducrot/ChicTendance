@@ -14,7 +14,10 @@ position: center;
 }
 
 a {
-    color: black;
+    color: #ffdead;
+    font-family: 'Cinzel Decorative', cursive;
+    /*font-family: 'Raleway Dots', cursive; écriture avec les points*/
+    font-size: 50px;
 }
 a:hover {
     color: #856d4d;
@@ -28,11 +31,14 @@ body {
 }
 
 /* Accueil */
-.imgAccueil, {
+.imgAccueil {
     text-align: center;
+    border-radius: 20px;
+    
 }
 .imgAccueil td {
     border-collapse: collapse;
+    border: 3px solid;
 }
 .imgAccueilRobeSoiree {
     width: 400px; 
@@ -47,7 +53,8 @@ body {
     width: 210px;
 }
 .textAccueil {
-    font-family: 'Spirax', cursive;
+    
+    font-family: 'Parisienne', cursive;
     font-size: 23px;
     margin-top: 40px;
     margin-right: 70px;
