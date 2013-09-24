@@ -16,4 +16,5 @@
         <h1>Page en construction</h1>
         
     </body>
+    <?php include("footer.html"); ?>
 </html>
