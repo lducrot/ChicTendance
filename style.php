@@ -10,7 +10,7 @@
     <body>
        <?php include("header.html"); ?>
         <ul class="breadcrumb">
-            <li><a href="index.php">Accueil</a></li>
+            <li><a href="accueil.php">Accueil</a></li>
             <li class="active">Styles</li>
         </ul>
         
