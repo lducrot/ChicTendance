@@ -9,14 +9,22 @@
     <body>
        <?php include("header.html"); ?>
         
-        <section class="menuStyle">
-            <ul class="listMenuStyle">
-                <li>Robe de soir&eacute;e</li>
-                <li>Robe de cocktail</li>
-                <li>Robe de mari&eacute;e</li>
-            </ul>
-        </section>
+        <table class="menuStyle">
+            <tr>
+                <td>Robe de soir&eacute;e</td>
+            </tr>
+            <tr>
+                <td>Robe de cocktail</td>
+            </tr>
+            <tr>
+                <td>Robe de mari&eacute;e</td>
+            </tr>
+        </table>
         
+        <table class="affichageRobes">
+            <p>Page en construction</p>
+            
+        </table>
     </body>
 </html>
 
