@@ -8,8 +8,14 @@
     </head>
     <body>
        <?php include("header.html"); ?>
-        <h1>Page en construction</h1>
         
+        <section class="menuStyle">
+            <ul class="listMenuStyle">
+                <li>Robe de soir&eacute;e</li>
+                <li>Robe de cocktail</li>
+                <li>Robe de mari&eacute;e</li>
+            </ul>
+        </section>
     </body>
 </html>
 
