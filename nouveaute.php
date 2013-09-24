@@ -10,8 +10,8 @@
     <body>
        <?php include("header.html"); ?>
         <ul class="breadcrumb">
-        <li><a href="index.php">Accueil</a> <span class="divider"></span></li>
-        <li class="active">Nouveautes</li>
+            <li><a href="index.php">Accueil</a></li>
+            <li class="active">Nouveautes</li>
         </ul>
         <h1>Page en construction</h1>
         
