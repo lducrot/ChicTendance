@@ -13,12 +13,12 @@ border: 1px solid rgba(86,61,124,.2);
 position: center;
 }
 
-a {
+.navPrincipal {
     color: #ffdead;
     font-family: 'Cinzel Decorative', cursive;
     font-size: 44px;
 }
-a:hover {
+.navPrincipal:hover {
     color: #856d4d;
     border: rgba(133,109,77,.80);
     border-radius: 60%;
@@ -28,14 +28,22 @@ a:hover {
     font-family: 'Playball', cursive;
     font-size: 24px;
 }
-.titreEnTete {
+a {
+    font-family: 'Playball', cursive;
+    font-size: 22px;
+}
+a:hover, a:link {
+    text-decoration: none;
+}
+.titreEnTete, .titreEnTete:link {
     font-family: 'Mr De Haviland', cursive;
-    font-size: 40px;
+    font-size: 42px;
     margin-left: 10px;
+    text-decoration: none;
 }
 .filAriane {
     font-family: 'Playball', cursive;
-    font-size: 20px;
+    font-size: 18px;
 }
 body {
     background: url("images/fond2.jpg") repeat;

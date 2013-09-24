@@ -14,9 +14,9 @@
         <div class="row">
             <div class="col-md-3">
                 <ul class="listMenuStyle">
-                    <li>Robe de soir&eacute;e</li>
-                    <li>Robe de cocktail</li>
-                    <li>Robe de mari&eacute;e</li>
+                    <a href="robeSoiree.php"><li>Robe de soirée</li></a>
+                    <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
+                    <a href="robeMariee.php"><li>Robe de mariée</li></a>
                 </ul>
             </div>
             <div class="col-md-1">
