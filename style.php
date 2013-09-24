@@ -11,19 +11,13 @@
         
         <table class="menuStyle">
             <tr>
-                <td>
-                    <li>Robe de soir&eacute;e</li>
-                </td>
+                <td>Robe de soir&eacute;e</td>
             </tr>
             <tr>
-                <td>
-                    <li>Robe de cocktail</li>
-                </td>
+                <td>Robe de cocktail</td>
             </tr>
             <tr>
-                <td>
-                    <li>Robe de mari&eacute;e</li>
-                </td>
+                <td>Robe de mari&eacute;e</td>
             </tr>
         </table>
         
