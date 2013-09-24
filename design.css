@@ -28,13 +28,17 @@ body {
 }
 .imgAccueil {
     text-align: center;
+ 
+}
+.imgAccueil td {
+    border-collapse: collapse;
 }
 .imgAccueilRobeSoiree {
-    width: 300px; 
+    width: 400px; 
 }
 .imgAccueilRobeMariee {
-    width: 300px;
+    width: 205px;
 }
 .imgAccueilRobeCocktail {
-    width: 319px;
+    width: 205px;
 }
