@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <LINK rel="stylesheet" type="text/css" href="design.css">  
-        <link rel="icon" type="image/png" href="images/icone.png" />
         <title>Accueil</title>
     </head>
-    
-    <?php include("header.html"); ?>
+        <?php include("header.html"); ?>
+    <body> 
     <ul class="breadcrumb">
-         <li><a href="accueil.php">Accueil</a></li>
+         <li><a class="filAriane" href="accueil.php">Accueil</a></li>
     </ul>
-    <body>
         <center>
         <table class="imgAccueil">
             <tr>

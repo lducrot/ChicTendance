@@ -2,16 +2,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Chic Tendance - Accueil</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <LINK rel="stylesheet" type="text/css" href="design.css">
-        <link rel="icon" type="image/png" href="images/icone.png" />
+        <title>Chic Tendance - Nouveauté</title>
     </head>
+        <?php include("header.html"); ?>
     <body>
-       <?php include("header.html"); ?>
+       
         <ul class="breadcrumb">
-            <li><a href="accueil.php">Accueil</a></li>
+            <li><a class="filAriane" href="accueil.php">Accueil</a></li>
             <li class="active">Nouveautes</li>
         </ul>
         <h1>Nouvelle collection</h1>

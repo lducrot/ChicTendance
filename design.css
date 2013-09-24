@@ -16,18 +16,31 @@ position: center;
 a {
     color: #ffdead;
     font-family: 'Cinzel Decorative', cursive;
-    /*font-family: 'Raleway Dots', cursive; écriture avec les points*/
-    font-size: 50px;
+    font-size: 44px;
 }
 a:hover {
     color: #856d4d;
     border: rgba(133,109,77,.80);
     border-radius: 60%;
+} 
+.enTete {
+    /*font-family: 'Raleway Dots', cursive; /* écriture en points*/
+    font-family: 'Playball', cursive;
+    font-size: 24px;
+}
+.titreEnTete {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.filAriane {
+    font-family: 'Playball', cursive;
+    font-size: 20px;
 }
 body {
-    background-image: url("images/fond_1.bmp");
+    background: url("images/fond2.jpg") repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 50%;
 }
 
 /* Accueil */
@@ -61,7 +74,6 @@ body {
     margin-left: 70px;
     color: black;
 }
-
     /* FIN Accueil */
     
 /* Style */
@@ -83,5 +95,4 @@ body {
 }
 .row [class="col-md-8"] {
 }
-
     /*FIN Style */
