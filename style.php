@@ -9,22 +9,19 @@
     <body>
        <?php include("header.html"); ?>
         
-        <table class="menuStyle">
-            <tr>
-                <td>Robe de soir&eacute;e</td>
-            </tr>
-            <tr>
-                <td>Robe de cocktail</td>
-            </tr>
-            <tr>
-                <td>Robe de mari&eacute;e</td>
-            </tr>
-        </table>
         
-        <table class="affichageRobes">
-            <p>Page en construction</p>
-            
-        </table>
+        <nav class="menuStyle">
+            <ul>
+                <li>Robe de soir&eacute;e</li>
+                <li>Robe de cocktail</li>
+                <li>Robe de mari&eacute;e</li>
+            </ul>
+        </nav>
+        
+        <section class="affichageRobes" style="padding:50px; border-radius:15px;">
+            <img class="imgAccueilRobeSoiree" src="images/robe_bleue.jpg" style="height:300px;width:auto;" />
+        </section>
+        
     </body>
 </html>
 
