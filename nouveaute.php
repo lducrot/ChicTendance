@@ -18,20 +18,18 @@
         <table class="imgAccueil">
             <tr>
                 <td>
-                    <img class="imgNouveaute" src="images/robe_bleue.jpg" />
+                    <img class="imgNouveaute1" src="images/robe_bleue.jpg" />
                 </td>
                 <td>
-                    <img class="imgNouveaute" src="images/robe_mariee_2.jpg" />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img class="imgNouveaute" src="images/robe_cocktail_bleue.jpg" />
+                    <img class="imgNouveaute2" src="images/robe_mariee_2.jpg" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img class="imgNouveaute" src="images/robe_soiree_blanche.jpg" />
+                    <img class="imgNouveaute3" src="images/robe_mariee_3.jpg" />
+                </td>
+                <td>
+                    <img class="imgNouveaute4" src="images/robe_cocktail_bleue.jpg" />
                 </td>
             </tr>
         </table>
