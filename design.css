@@ -28,7 +28,6 @@ body {
 }
 .imgAccueil {
     text-align: center;
- 
 }
 .imgAccueil td {
     border-collapse: collapse;
@@ -41,4 +40,13 @@ body {
 }
 .imgAccueilRobeCocktail {
     width: 205px;
+}
+
+.textAccueil {
+    font-family: 'Spirax', cursive;
+    font-size: 23px;
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left: 70px;
+    color: black;
 }
