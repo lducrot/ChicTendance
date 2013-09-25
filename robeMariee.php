@@ -51,7 +51,7 @@
             <img src="images/robe_mariee_4.jpg" title="Robe de mariée plume" />
             <div class="caption">
               <h3>Robe de mariée plume</h3>
-              <p>Grâce à cette magnifique robe votre mariage sera un réel compte de fées et vous rendrez jalouse toutes les femmes.<br />EUR 79.99</p>
+              <p>Grâce à cette magnifique robe votre mariage sera un réel conte de fées et vous rendrez jalouse toutes les femmes.<br />EUR 79.99</p>
               <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
             </div>
           </div>
