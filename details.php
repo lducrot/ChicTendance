@@ -10,7 +10,7 @@
             <li><a class="filAriane" href="accueil.php">Accueil</a></li>
             <li><a class="filAriane" href="style.php">Style</a></li>
             <li><a class="filAriane" href="robeCocktail.php">Robes de cocktails</a></li>
-            <li class="active">Robe de cocktail rouge</li>
+            <li class="active">Robe de soirée rouge tendance</li>
             
         </ul>
         
@@ -26,8 +26,8 @@
             </div>
             <div class="col-md-8">
                 <center>
-                    <h2>Robe de cocktail rouge</h2>
-                    <img class="imgAccueilRobeSoiree" src="images/robe_cocktail_rouge.jpg" style="height:300px;width:auto;" />
+                    <h2>Robe de soirée rouge tendance</h2>
+                    <img class="imgAccueilRobeSoiree" src="images/robe_soiree_rouge.jpg" style="height:300px;width:auto;" />
                 </center>
             </div>
 
