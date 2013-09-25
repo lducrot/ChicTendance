@@ -19,7 +19,7 @@
         <div class="caption">
           <h3>Robe de cocktail rouge</h3>
           <p>Vous avez envi de vous faire remarquer ? Cette robe extremement tendance est parfaite pour vous !<br /><br />EUR 89.99</p>
-          <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
+          <p><a href="details.php" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
         </div>
       </div>
     </div>
