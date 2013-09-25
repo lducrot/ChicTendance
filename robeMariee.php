@@ -61,7 +61,7 @@
         <!--Robe 5-->
         <div class="col-sm-6 col-md-3">
           <div class="thumbnail">
-            <img src="images/robe_mariee_5.jpg.jpg" title="Robe de cocktail bleue" />
+            <img src="images/robe_mariee_5.jpg" title="Robe de cocktail bleue" />
             <div class="caption">
               <h3>Robe de mariée duvet</h3>
               <p>Cette robe fera de vous la plus convoitée femmes !<br /><br />EUR 79.99</p>
@@ -72,7 +72,7 @@
         <!--Robe 6-->
         <div class="col-sm-6 col-md-3">
           <div class="thumbnail">
-            <img src="images/robe_mariee_6.jpg.jpg" title="Robe de cocktail violette" />
+            <img src="images/robe_mariee_6.jpg" title="Robe de cocktail violette" />
             <div class="caption">
               <h3>Robe de mariée</h3>
               <p>Cette robe originale brillera de mille feux sur vous.<br /><br />EUR 79.99</p>
@@ -83,7 +83,7 @@
         <!--Robe 7-->
         <div class="col-sm-6 col-md-3">
           <div class="thumbnail">
-            <img src="images/robe_mariee_7.jpg.jpg" title="Robe de cocktail blanche" />
+            <img src="images/robe_mariee_7.jpg" title="Robe de cocktail blanche" />
             <div class="caption">
               <h3>Robe de mariée légère</h3>
               <p>Grâce à cette robe simple et aérienne vous serez la princesse de cet évènement.<br />EUR 85.99</p>
