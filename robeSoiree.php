@@ -15,7 +15,7 @@
     <!--Robe 1-->
     <div class="col-sm-6 col-md-3">
       <div class="thumbnail">
-        <img src="images/robe_rouge.jpg" alt="Robe de soirée rouge tendance" />
+        <img src="images/robe_soiree_rouge.jpg" alt="Robe de soirée rouge tendance" />
         <div class="caption">
           <h3>Robe de soirée rouge tendance</h3>
           <p>Vous avez envi de vous faire remarquer ? Cette robe extremement tendance est parfaite pour vous !<br />EUR 129.99</p>
@@ -48,7 +48,7 @@
     <!--Robe 4-->
     <div class="col-sm-6 col-md-3">
       <div class="thumbnail">
-        <img src="images/robe_bleue.jpg" alt="Robe de soirée rouge tendance" />
+        <img src="images/robe_soiree_bleueFonce.jpg" alt="Robe de soirée rouge tendance" />
         <div class="caption">
           <h3>Robe de soirée bleue séductrice</h3>
           <p>En portant cette robe aucun homme ne pourra vous resister. N'hésitez plus elle est faite pour vous !<br />EUR 129.99</p>
