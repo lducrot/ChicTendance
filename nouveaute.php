@@ -16,7 +16,7 @@
         <table class="imgAccueil">
             <tr>
                 <td>
-                    <img class="imgNouveaute1" src="images/robe_soiree_bleueFoncee.jpg" />
+                    <!--<img class="imgNouveaute1" src="images/robe_soiree_bleueFoncee.jpg" />-->
                 </td>
                 <td>
                     <img class="imgNouveaute2" src="images/robe_mariee_2.jpg" />

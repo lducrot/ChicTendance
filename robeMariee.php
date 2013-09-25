@@ -11,4 +11,5 @@
          <li class="active">Robes de mariées</li>
     </ul>
     </body>
+     <?php include("footer.html"); ?>
 </html>

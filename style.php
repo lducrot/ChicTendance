@@ -22,7 +22,7 @@
             <div class="col-md-1">
             </div>
             <div class="col-md-8">
-                <img class="imgAccueilRobeSoiree" src="images/robe_bleue.jpg" style="height:300px;width:auto;" />
+                <!--<img class="imgAccueilRobeSoiree" src="images/robe_soiree_bleueFonce.jpg" style="height:300px;width:auto;" />-->
             </div>
 
         </div>
