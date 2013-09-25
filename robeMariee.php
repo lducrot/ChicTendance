@@ -74,7 +74,7 @@
           <div class="thumbnail">
             <img src="images/robe_mariee_6.jpg" title="Robe de cocktail violette" />
             <div class="caption">
-              <h3>Robe de mariée</h3>
+              <h3>Robe de mariée étincelante</h3>
               <p>Cette robe originale brillera de mille feux sur vous.<br /><br />EUR 79.99</p>
               <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
             </div>
