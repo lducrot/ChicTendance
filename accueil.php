@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <LINK rel="stylesheet" type="text/css" href="design.css">
-        
-        <link rel="icon" type="image/png" href="images/icone.png" />
         <title>Accueil</title>
     </head>
-    
-    <?php include("header.html"); ?>
+        <?php include("header.html"); ?>
+    <body> 
     <ul class="breadcrumb">
-         <li><a href="accueil.php">Accueil</a></li>
+         <li><a class="filAriane" href="accueil.php">Accueil</a></li>
     </ul>
-    <body>
+    <div class="row">
+        <div class="col-md-3">
+                <ul class="listMenuStyle">
+                    <a href="robeSoiree.php"><li>Robe de soirée</li></a>
+                    <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
+                    <a href="robeMariee.php"><li>Robe de mariée</li></a>
+                </ul>
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-8">
         <center>
         <table class="imgAccueil">
             <tr>
@@ -32,8 +36,8 @@
             </tr>
         </table>
         </center>
-        <p class="textAccueil">Chic Tendance vous présente ses plus belles créations en robes de soirées, robes de mariées et robes de cocktails ! Grâce à elles vous êtes sûr d'être à la pointe de la mode. Il y en a assez pour satisfaire tout les goûts, alors n'hésitez plus !</p>
-        
+        <p class="textAccueil">Chic Tendance vous présente ces plus belles créations en robes de soirées, robes de mariée et robes de cocktails ! Grâce à elles vous êtes sûr d'être à la pointe de la mode. Il y en a assez pour satisfaire tout les goûts, alors n'hésitez plus !</p>
+        </div></div>
         
     </body>
     <?php include("footer.html"); ?>

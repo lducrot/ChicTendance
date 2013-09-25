@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Chic Tendance - Accueil</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <LINK rel="stylesheet" type="text/css" href="design.css">
-        <link rel="icon" type="image/png" href="images/icone.png" />
+        <title>Chic Tendance - Style</title>
     </head>
+        <?php include("header.html"); ?>
     <body>
-       <?php include("header.html"); ?>
+       
         <ul class="breadcrumb">
-            <li><a href="accueil.php">Accueil</a></li>
+            <li><a class="filAriane" href="accueil.php">Accueil</a></li>
             <li class="active">Styles</li>
         </ul>
         
         <div class="row">
             <div class="col-md-3">
                 <ul class="listMenuStyle">
-                    <li>Robe de soir&eacute;e</li>
-                    <li>Robe de cocktail</li>
-                    <li>Robe de mari&eacute;e</li>
+                    <a href="robeSoiree.php"><li>Robe de soirée</li></a>
+                    <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
+                    <a href="robeMariee.php"><li>Robe de mariée</li></a>
                 </ul>
             </div>
             <div class="col-md-1">
