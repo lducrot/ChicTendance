@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-md-3">
                 <ul class="listMenuStyle">
-                    <a href="robeSoiree.php"><li>Robe de soirée</li></a>
+                    
                     <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
                     <a href="robeMariee.php"><li>Robe de mariée</li></a>
                 </ul>
@@ -22,7 +22,9 @@
             <div class="col-md-1">
             </div>
             <div class="col-md-8">
-                <img class="imgAccueilRobeSoiree" src="images/robe_soiree_bleueFonce.jpg" style="height:300px;width:auto;" />
+                <p class="textAccueil"><img class="imgAccueilRobeSoiree" src="images/robe_soiree_bleueFonce.jpg" style="height:300px;width:auto;" />
+                <a href="robeSoiree.php">Robe de soirée</a><br />
+                Vous trouverez dans cette catégorie de multiples choix de robes pour rendre toutes vos soirées inoubliables</p>
             </div>
 
         </div>
