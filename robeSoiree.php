@@ -40,7 +40,7 @@
         <img src="images/robe_soiree_verte.jpg" title="Robe de soirée verte audacieuse" />
         <div class="caption">
           <h3>Robe de soirée verte audacieuse</h3>
-          <p>Grâce à cette ravissante robe vous serez la plus belle pour allez danser et rendrez jalouse toutes les femmes.<br />EUR 129.99</p>
+          <p>Grâce à cette ravissante robe vous serez la plus belle pour allez danser et rendrez jalouse toutes les femmes.<br />EUR 100.99</p>
           <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
         </div>
       </div>
@@ -65,6 +65,39 @@
           <div class="caption">
             <h3>Robe de soirée bleue attirante</h3>
             <p>Cette robe fera de vous la plus convoitée femmes !<br />EUR 104.99</p>
+            <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
+          </div>
+        </div>
+      </div>
+    <!--Robe 6-->
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src="images/robe_soiree_jaune.jpg" title="Robe de soirée dorée lumineuse" />
+          <div class="caption">
+            <h3>Robe de soirée dorée lumineuse</h3>
+            <p>En portant ce tissu dorée vous deviendrez la plus lumineuse des femmes.<br />EUR 139.99</p>
+            <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
+          </div>
+        </div>
+      </div>
+    <!--Robe 5-->
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src="images/robe_soiree_violette.jpg" title="Robe de soirée violette tentatrice" />
+          <div class="caption">
+            <h3>Robe de soirée violette tentatrice</h3>
+            <p>Cette robe d'une extreme tendance est parfaite pour les femmes tentatrice.<br />EUR 119.99</p>
+            <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
+          </div>
+        </div>
+      </div>
+    <!--Robe 5-->
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src="images/robe_soiree_beige.jpg" title="Robe de soirée beige élégante" />
+          <div class="caption">
+            <h3>Robe de soirée bleue attirante</h3>
+            <p>Parfaite pour une soirée chic, cette robe élégante vous ira à ravir !<br />EUR 104.99</p>
             <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
           </div>
         </div>

@@ -12,7 +12,7 @@ background-color: rgba(86,61,124,.15);
 border: 1px solid black;
 position: center;
 }
-.navPrincipal {
+.navPrincipal, h1 {
     color: #ffdead;
     font-family: 'Cinzel Decorative', cursive;
     font-size: 44px;

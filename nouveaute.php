@@ -11,12 +11,12 @@
             <li><a class="filAriane" href="accueil.php">Accueil</a></li>
             <li class="active">Nouveautes</li>
         </ul>
-        <h1>Nouvelle collection</h1>
+        <center><h1>Nouvelle collection</h1></center>
         <center>
         <table class="imgAccueil">
             <tr>
                 <td>
-                    <img class="imgNouveaute1" src="images/robe_soiree_bleueFoncee.jpg" title="Robe de soirée bleue séductrice" />
+                    <img class="imgNouveaute1" src="images/robe_soiree_bleueFonce.jpg" title="Robe de soirée bleue séductrice" />
                 </td>
                 <td>
                     <img class="imgNouveaute2" src="images/robe_mariee_2.jpg" title="Robe de mariée n°RDM02" />
