@@ -57,6 +57,19 @@
       </div>
     </div>
   </div>
+  <div class="row">  
+  <!--Robe 5-->
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="images/robe_soiree_bleueClaire.jpg" alt="Robe de soirée rouge tendance" />
+        <div class="caption">
+          <h3>Robe de soirée bleue séductrice</h3>
+          <p>En portant cette robe aucun homme ne pourra vous resister. N'hésitez plus elle est faite pour vous !<br />EUR 129.99</p>
+          <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Voir détails</a></p>
+        </div>
+      </div>
+    </div>
+    </div>
         
     </body>
 </html>
