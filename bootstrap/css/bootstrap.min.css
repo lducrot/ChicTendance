@@ -25,6 +25,8 @@
  }
  .breadcrumb>.active{
      color: #faebd7;
+     font-family: 'Playball', cursive;
+     font-size: 16px;
  }
  
  .pagination{

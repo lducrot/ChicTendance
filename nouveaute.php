@@ -2,35 +2,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Chic Tendance - Accueil</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <LINK rel="stylesheet" type="text/css" href="design.css">
-        <link rel="icon" type="image/png" href="images/icone.png" />
+        <title>Chic Tendance - Nouveauté</title>
     </head>
+        <?php include("header.html"); ?>
     <body>
-       <?php include("header.html"); ?>
+       
         <ul class="breadcrumb">
-            <li><a href="accueil.php">Accueil</a></li>
+            <li><a class="filAriane" href="accueil.php">Accueil</a></li>
             <li class="active">Nouveautes</li>
         </ul>
-        <h1>Nouvelle collection</h1>
+        <center><h1>Nouvelle collection</h1></center>
         <center>
         <table class="imgAccueil">
             <tr>
                 <td>
-                    <img class="imgNouveaute1" src="images/robe_bleue.jpg" />
+                    <img class="imgNouveaute1" src="images/robe_soiree_bleueFonce.jpg" title="Robe de soirée bleue séductrice" />
                 </td>
                 <td>
-                    <img class="imgNouveaute2" src="images/robe_mariee_2.jpg" />
+                    <img class="imgNouveaute2" src="images/robe_mariee_2.jpg" title="Robe de mariée n°RDM02" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img class="imgNouveaute3" src="images/robe_mariee_3.jpg" />
+                    <img class="imgNouveaute3" src="images/robe_mariee_3.jpg" title="Robe de mariée n°RDM03" />
                 </td>
                 <td>
-                    <img class="imgNouveaute4" src="images/robe_cocktail_bleue.jpg" />
+                    <img class="imgNouveaute4" src="images/robe_cocktail_bleue.jpg" title="Robe de cocktail bleue mystérieuse" />
                 </td>
             </tr>
         </table>
