@@ -6,12 +6,12 @@
         <?php include("header.html"); ?>
     <body> 
     <ul class="breadcrumb">
-        
          <li><a class="filAriane" href="accueil.php">Accueil</a></li>
     </ul>
     <div class="row">
         <div class="col-md-3">
                 <ul class="listMenuStyle">
+                    <h1 class="enTete">STYLES</h1>
                     <a href="robeSoiree.php"><li>Robe de soirée</li></a>
                     <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
                     <a href="robeMariee.php"><li>Robe de mariée</li></a>
@@ -24,15 +24,15 @@
         <table class="imgAccueil">
             <tr>
                 <td rowspan="2">
-                    <img class="imgAccueilRobeSoiree" src="images/robe_bleue.jpg" />
+                    <img class="imgAccueilRobeSoiree" src="images/robe_soiree_bleueFonce.jpg" />
                 </td>
                 <td>
-                    <img class="imgAccueilRobeMariee" src="images/robe_mariee.jpg" />
+                    <img class="imgAccueilRobeMariee" src="images/robe_mariee_4.jpg" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img class="imgAccueilRobeCocktail" src="images/robe_cocktail.jpeg" />
+                    <img class="imgAccueilRobeCocktail" src="images/robe_cocktail_rouge.jpg" />
                 </td>
             </tr>
         </table>

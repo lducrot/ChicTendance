@@ -8,7 +8,10 @@
        
         <ul class="breadcrumb">
             <li><a class="filAriane" href="accueil.php">Accueil</a></li>
-            <li class="active">Styles</li>
+            <li><a class="filAriane" href="style.php">Style</a></li>
+            <li><a class="filAriane" href="robeSoiree.php">Robes de soirées</a></li>
+            <li class="active">Robe de soirée rouge tendance</li>
+            
         </ul>
         
         <div class="row">
@@ -22,9 +25,10 @@
             <div class="col-md-1">
             </div>
             <div class="col-md-8">
-                <p class="textAccueil"><img class="imgAccueilRobeSoiree" src="images/robe_soiree_bleueFonce.jpg" style="height:300px;width:auto;" />
-                <a href="robeSoiree.php">Robe de soirée</a><br />
-                Vous trouverez dans cette catégorie de multiples choix de robes pour rendre toutes vos soirées inoubliables</p>
+                <center>
+                    <h2>Robe de soirée rouge tendance</h2>
+                    <img class="imgAccueilRobeSoiree" src="images/robe_soiree_rouge.jpg" style="height:300px;width:auto;" />
+                </center>
             </div>
 
         </div>
