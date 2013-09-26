@@ -7,6 +7,7 @@
         <LINK rel="stylesheet" type="text/css" href="design.css">
         <link rel="icon" type="image/png" href="images/icone.png" />
         <title>Accueil</title>
+        
     </head>
     
     <?php include("header.html"); ?>
