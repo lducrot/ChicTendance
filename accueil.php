@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>Accueil</title>
-        
     </head>
         <?php include("header.html"); ?>
     <body> 
