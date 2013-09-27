@@ -12,7 +12,7 @@
         </ul>
         
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 article">
                 <ul class="listMenuStyle">
                     <a href="robeSoiree.php"><li>Robe de soirée</li></a>
                     <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
@@ -21,10 +21,22 @@
             </div>
             <div class="col-md-1">
             </div>
-            <div class="col-md-8">
-                <p class="textAccueil"><img class="imgAccueilRobeSoiree" src="images/robe_soiree_bleueFonce.jpg" style="height:300px;width:auto;" />
-                <a href="robeSoiree.php">Robe de soirée</a><br />
-                Vous trouverez dans cette catégorie de multiples choix de robes pour rendre toutes vos soirées inoubliables</p>
+            <div class="col-md-8 article">
+                <table>
+                    <tr>
+                        <td rowspan="2">
+                            <img class="imgAccueilRobeSoiree" src="images/robe_soiree_bleueFonce.jpg" style="height:300px;width:auto;" />
+                        </td>
+                        <td>
+                            <a href="robeSoiree.php">Robe de soirée</a><br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="textAccueil">Vous trouverez dans cette catégorie de multiples choix de robes pour rendre toutes vos soirées inoubliables</p>
+                        </td>
+                    </tr>
+                </table>
             </div>
 
         </div>
@@ -38,5 +50,6 @@
         </section>
         
     </body>
+    <?php include("footer.html"); ?>
 </html>
 
