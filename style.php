@@ -33,7 +33,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <p class="textAccueil">Vous trouverez dans cette catégorie de multiples choix de robes pour rendre toutes vos soirées inoubliables</p>
+                            <p>Vous trouverez dans cette catégorie de multiples choix de robes pour rendre toutes vos soirées inoubliables</p>
                         </td>
                     </tr>
                 </table>

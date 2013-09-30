@@ -6,20 +6,17 @@ margin-right: 40px;
 .row [class^="col-"] {
 padding-top: 10px;
 padding-bottom: 10px;
-/*background-color: #eee;
-border: 1px solid #ddd;
-background-color: rgba(86,61,124,.15);
-border: 1px solid black;*/
+border: 1px solid black;
+border-radius: 15px;
+background-color: rgba(0,0,28,.30);
+color: black;
 position: center;
 margin-left: 15px;
 }
-.row [class^="article"] {
-background-color: #eee;
-border: 1px solid #ddd;
-background-color: rgba(86,61,124,.15);
-border: 1px solid black;
+#cache {
+    opacity: 0;
+    border: transparent;
 }
-
 .navPrincipal, h1 {
     color: #ffdead;
     font-family: 'Cinzel Decorative', cursive;
@@ -30,19 +27,16 @@ border: 1px solid black;
     color: #202020;
     font-weight: bold;
     border-radius: 60%;
+    text-decoration: none;
 } 
-.enTete {
-    /*font-family: 'Raleway Dots', cursive; /* écriture en points*/
+.enTete, h2 {
+    /*font-family: 'Raleway Dots', cursive; /* écriture en points */
     font-family: 'Playball', cursive;
     font-size: 24px;
 }
 a {
     font-family: 'Playball', cursive;
     font-size: 22px;
-    text-decoration: none;
-}
-a:hover {
-    color: black;
     text-decoration: none;
 }
 .titreEnTete, .titreEnTete:link {
@@ -58,7 +52,7 @@ a:hover {
 body {
     background: url("images/fond2.jpg") repeat;
     background-attachment: fixed;
-    background-size: 50%;
+    background-size: 100%;
 }
 .footer {
     color: #ffdead;
@@ -77,7 +71,7 @@ body {
     border-collapse: collapse;
     border: 3px solid;
 }
-.imgAccueilRobeSoiree {
+.imgAccueilRobeSoiree, .imgRobeSoireeRouge {
     width: 400px;
     border-radius: 5px;
 }
@@ -91,7 +85,7 @@ body {
 .imgNouveaute3 {
     width: 210px;
 }
-.textAccueil {   
+p {   
     font-family: 'Parisienne', cursive;
     font-size: 23px;
     margin-top: 40px;
@@ -105,11 +99,6 @@ body {
 /* Style */
 .listMenuStyle {
     list-style: none;
-}
-.row [class^="col-"] {
-    border-radius: 15px;
-    background-color: rgba(0,0,28,.30);
-    color: black;
 }
 .row [class="col-md-1"] {
     opacity: 0;

@@ -12,7 +12,7 @@
     </ul>
         
     <div class="row">
-        <div class="col-sm-6 col-md-2 article">
+        <div class="col-sm-6 col-md-2">
             <ul class="listMenuStyle">
                 <a href="robeSoiree.php"><li>Robe de soirée</li></a>
                 <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
@@ -20,18 +20,18 @@
             </ul>
         </div>
     <!--Robe 1-->
-    <div class="col-sm-6 col-md-2 article">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
           <a class="thumbnail" href="details.php"><img class="robeSoiree" src="images/robe_soiree_rouge.jpg" title="Robe de soirée rouge tendance" /></a>
         <div class="caption">
           <h3>Robe de soirée rouge tendance</h3>
-          <p>Vous avez envi de vous faire remarquer ? Cette robe extremement tendance est parfaite pour vous !<br />EUR 129.99</p>
+          <p><br />EUR 129.99</p>
           <p><a href="details.php" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
         </div>
       </div>
     </div>
     <!--Robe 2-->
-    <div class="col-sm-6 col-md-2 article">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
         <img class="robeSoiree" src="images/robe_soiree_blanche.jpg" title="Robe de soirée blanche étincelante" />
         <div class="caption">
@@ -42,7 +42,7 @@
       </div>
     </div>
     <!--Robe 3-->
-    <div class="col-sm-6 col-md-2 article">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
         <img class="robeSoiree" src="images/robe_soiree_verte.jpg" title="Robe de soirée verte audacieuse" />
         <div class="caption">
@@ -53,7 +53,7 @@
       </div>
     </div>
     <!--Robe 4-->
-    <div class="col-sm-6 col-md-2 article">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
         <img class="robeSoiree" src="images/robe_soiree_bleueFonce.jpg" title="Robe de soirée bleue séductrice" />
         <div class="caption">
@@ -65,9 +65,9 @@
     </div>
   </div><br />
   <div class="row">  
-      <div class="col-sm-6 col-md-2"></div>
+      <div class="col-sm-6 col-md-2" id="cache"></div>
     <!--Robe 5-->
-      <div class="col-sm-6 col-md-2 article">
+      <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
           <img class="robeSoiree" src="images/robe_soiree_bleueClaire.jpg" title="Robe de soirée bleue attirante" />
           <div class="caption">
@@ -78,7 +78,7 @@
         </div>
       </div>
     <!--Robe 6-->
-      <div class="col-sm-6 col-md-2 article">
+      <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
           <img class="robeSoiree" src="images/robe_soiree_jaune.jpg" title="Robe de soirée dorée lumineuse" />
           <div class="caption">
@@ -89,7 +89,7 @@
         </div>
       </div>
     <!--Robe 7-->
-      <div class="col-sm-6 col-md-2 article">
+      <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
           <img class="robeSoiree" src="images/robe_soiree_violette.jpg" title="Robe de soirée violette tentatrice" />
           <div class="caption">
@@ -100,7 +100,7 @@
         </div>
       </div>
     <!--Robe 8-->
-      <div class="col-sm-6 col-md-2 article">
+      <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
           <img class="robeSoiree" src="images/robe_soiree_beige.jpg" title="Robe de soirée beige élégante" />
           <div class="caption">
