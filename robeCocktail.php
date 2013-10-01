@@ -12,8 +12,15 @@
     </ul>
         
     <div class="row">
+    <div class="col-sm-6 col-md-2">
+        <ul class="listMenuStyle">
+            <a href="robeSoiree.php"><li>Robe de soirée</li></a>
+            <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
+            <a href="robeMariee.php"><li>Robe de mariée</li></a>
+        </ul>
+    </div>
     <!--Robe 1-->
-    <div class="col-sm-6 col-md-3">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
         <img src="images/robe_cocktail_rouge.jpg" title="Robe de cocktail rouge" />
         <div class="caption">
@@ -24,7 +31,7 @@
       </div>
     </div>
     <!--Robe 2-->
-    <div class="col-sm-6 col-md-3">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
         <img src="images/robe_cocktail_noire.jpg" title="Robe de cocktail noire" />
         <div class="caption">
@@ -35,7 +42,7 @@
       </div>
     </div>
     <!--Robe 3-->
-    <div class="col-sm-6 col-md-3">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
         <img src="images/robe_cocktail_rose.jpg" title="Robe de cocktail rose" />
         <div class="caption">
@@ -46,7 +53,7 @@
       </div>
     </div>
     <!--Robe 4-->
-    <div class="col-sm-6 col-md-3">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
         <img src="images/robe_cocktail_verte.jpg" title="Robe de cocktail verte" />
         <div class="caption">
@@ -58,8 +65,9 @@
     </div>
     </div>
     <div class="row">
+        <div class="col-sm-6 col-md-2" id="cache"></div>
     <!--Robe 5-->
-    <div class="col-sm-6 col-md-3">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
         <img src="images/robe_cocktail_bleue.jpg" title="Robe de cocktail bleue" />
         <div class="caption">
@@ -70,7 +78,7 @@
       </div>
     </div>
     <!--Robe 6-->
-    <div class="col-sm-6 col-md-3">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
         <img src="images/robe_cocktail_violette.jpg" title="Robe de cocktail violette" />
         <div class="caption">
@@ -81,7 +89,7 @@
       </div>
     </div>
     <!--Robe 7-->
-    <div class="col-sm-6 col-md-3">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
         <img src="images/robe_cocktail_blanche.jpg" title="Robe de cocktail blanche" />
         <div class="caption">
@@ -92,7 +100,7 @@
       </div>
     </div>
     <!--Robe 8-->
-    <div class="col-sm-6 col-md-3">
+    <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
         <img src="images/robe_cocktail_corail.jpg" title="Robe de cocktail corail" />
         <div class="caption">

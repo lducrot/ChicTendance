@@ -15,7 +15,7 @@
         </ul>
         
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 article">
                 <ul class="listMenuStyle">
                     <a href="robeSoiree.php"><li>Robe de soirée</li></a>
                     <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
@@ -24,10 +24,11 @@
             </div>
             <div class="col-md-1">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 article">
                 <center>
                     <h2>Robe de soirée rouge tendance</h2>
-                    <img class="imgAccueilRobeSoiree" src="images/robe_soiree_rouge.jpg" style="height:300px;width:auto;" />
+                    <img class="imgRobeSoireeRouge" src="images/robe_soiree_rouge.jpg" />
+                    <p>Vous avez envi de vous faire remarquer ? Cette robe extremement tendance est parfaite pour vous !</p>
                 </center>
             </div>
 
@@ -42,5 +43,6 @@
         </section>
         
     </body>
+    <?php include("footer.html"); ?>
 </html>
 
