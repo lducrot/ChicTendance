@@ -28,17 +28,21 @@
             </div>-->
             <div class="col-md-8">
                 <center>
-                    <h2>Robe de soirée rouge tendance</h2>
+                    <h1>Robe de soirée rouge tendance</h1>
                     <table>
                         <tr>
                             <td rowspan="2">
                                  <img class="imgRobeSoireeRouge" src="Contenu/images/robe_soiree_rouge.jpg" />v
                             </td>
+                            <td>
+                                <p>
+                                    Description :<br />
+                                    Matière : 96% polyester, 4% élasthanne<br />
+                                    Entretien : Lavage à la main uniquement
+                                </p>
+                            </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p></p>
-                            </td>
                             <td>
                                 <p>Vous avez envie de vous faire remarquer ? Cette robe extremement tendance est parfaite pour vous !</p>
                             </td>
