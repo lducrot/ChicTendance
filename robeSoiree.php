@@ -15,9 +15,9 @@
         <div class="col-sm-6 col-md-2">
             <ul class="listMenuStyle">
                 <h1 class="enTete">STYLES</h1>
-                <a href="robeSoiree.php"><li>Robe de soirée</li></a>
-                <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
-                <a href="robeMariee.php"><li>Robe de mariée</li></a>
+                <a href="robeSoiree.php"><li class=>Robe de soirée (8)</li></a>
+                <a href="robeCocktail.php"><li>Robe de cocktail (8)</li></a>
+                <a href="robeMariee.php"><li>Robe de mariée (8)</li></a>
             </ul>
         </div>
     <!--Robe 1-->

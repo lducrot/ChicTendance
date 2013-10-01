@@ -35,7 +35,7 @@
                             <td rowspan="2">
                                  <img class="imgRobeSoireeRouge" src="Contenu/images/robe_soiree_rouge.jpg" />v
                             </td>
-                            <td class="detailRobetr">
+                            <td class="RobeDetailTD">
                                 <p>
                                     <u>Description</u> :<br /><br />
                                     

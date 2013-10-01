@@ -15,9 +15,9 @@
         <div class="col-sm-6 col-md-2">
             <ul class="listMenuStyle">
                 <h1 class="enTete">STYLES</h1>
-                <a href="robeSoiree.php"><li>Robe de soirée</li></a>
-                <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
-                <a href="robeMariee.php"><li>Robe de mariée</li></a>
+                <a href="robeSoiree.php"><li>Robe de soirée (8)</li></a>
+                <a href="robeCocktail.php"><li>Robe de cocktail (8)</li></a>
+                <a href="robeMariee.php"><li>Robe de mariée (8)</li></a>
             </ul>
         </div>
         <!--Robe 1-->
@@ -37,7 +37,7 @@
             <img class="robeMariee" src="Contenu/images/robe_mariee_2.jpg" title="Robe de mariée dentelle" />
             <div class="caption">
               <h3>Robe de mariée dentelle</h3>
-              <!--<p>Parfaite pour un mariage d'exception, cette robe élégante vous ira à ravir !-->EUR 299.99
+              <!--<p>Parfaite pour un mariage d'exception, cette robe élégante vous ira à ravir !--><br /><br /><br /><br />EUR 299.99
               <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
             </div>
           </div>
