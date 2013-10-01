@@ -64,17 +64,18 @@ body {
 /* Accueil */
 .imgAccueil {
     text-align: center;
-    border-radius: 30px;
-    border: 3px solid black;
+    /*border-radius: 30px;
+    border: 3px solid black;*/
 }
 .imgAccueil td {
     border-collapse: collapse;
-    border: 3px solid;
-    border-radius: 20px;
+    /*border: 3px solid;
+    border-radius: 20px;*/
 }
 .imgAccueilRobeSoiree {
     width: 400px;
     border-radius: 5px;
+    border: 3px black solid;
 }
 .imgRobeSoireeRouge {
     width: 190px;
@@ -94,6 +95,7 @@ body {
 .imgAccueilRobeMariee, .imgAccueilRobeCocktail, .imgNouveaute1, .imgNouveaute4 {
     border-radius: 5px;
     width: 205px;
+    border: 3px black solid;
 }
 .imgNouveaute2 {
     width: 208px;
