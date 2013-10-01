@@ -25,7 +25,7 @@
                 <table>
                     <tr>
                         <td rowspan="2">
-                            <img class="imgAccueilRobeSoiree" src="images/robe_soiree_bleueFonce.jpg" style="height:300px;width:auto;" />
+                            <a href="robeSoiree.php"><img class="imgRobeSoiree" src="images/robe_soiree_bleueFonce.jpg" /></a>
                         </td>
                         <td>
                             <a href="robeSoiree.php">Robe de soirée</a><br />
