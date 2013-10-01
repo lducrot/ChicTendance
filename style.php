@@ -45,7 +45,7 @@
                 <table>
                     <tr>
                         <td rowspan="2">
-                            <a href="robeCocktail.php"><img class="imgRobeSoiree" src="Contenu/images/robe_cocktail_rose.jpg" /></a>
+                            <a href="robeCocktail.php"><img class="imgRobeCocktail" src="Contenu/images/robe_cocktail_rose.jpg" /></a>
                         </td>
                         <td>
                             <a href="robeCocktail.php">Robe de cocktail</a><br />
@@ -64,7 +64,7 @@
                 <table>
                     <tr>
                         <td rowspan="2">
-                            <a href="robeMariee.php"><img class="imgRobeSoiree" src="Contenu/images/robe_mariee_3.jpg" /></a>
+                            <a href="robeMariee.php"><img class="imgRobeMariee" src="Contenu/images/robe_mariee_3.jpg" /></a>
                         </td>
                         <td>
                             <a href="robeMariee.php">Robe de mariée</a><br />
