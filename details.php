@@ -28,18 +28,25 @@
             </div>-->
             <div class="col-md-8">
                 <center>
-                    <h2>Robe de soirée rouge tendance</h2>
-                    <table>
+                    <h1>Robe de soirée rouge tendance</h1>
+                    <table class="detailRobe">
                         <tr>
                             <td rowspan="2">
                                  <img class="imgRobeSoireeRouge" src="Contenu/images/robe_soiree_rouge.jpg" />v
                             </td>
+                            <td class="detailRobetr">
+                                <p>
+                                    <u>Description</u> :<br /><br />
+                                    
+                                    Matière : 96% polyester, 4% élasthanne<br />
+                                    Entretien : Lavage à la main uniquement<br />
+                                    Prix : 129.99€<br />
+                                    Temps de livraison : 6 jours;
+                                </p>
+                            </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p></p>
-                            </td>
-                            <td>
+                            <td class="detailRobetr">
                                 <p>Vous avez envie de vous faire remarquer ? Cette robe extremement tendance est parfaite pour vous !</p>
                             </td>
                         </tr>
