@@ -70,10 +70,14 @@ body {
     border-collapse: collapse;
     border: 3px solid;
 }
-.imgAccueilRobeSoiree, .imgRobeSoireeRouge {
+.imgAccueilRobeSoiree {
     width: 400px;
     border-radius: 5px;
 }
+.imgRobeSoireeRouge {
+    width: 150px;
+}
+
 .imgAccueilRobeMariee, .imgAccueilRobeCocktail, .imgNouveaute1, .imgNouveaute4, .imgRobeSoiree {
     border-radius: 5px;
     width: 205px;
