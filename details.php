@@ -27,7 +27,7 @@
             <div class="col-md-8 article">
                 <center>
                     <h2>Robe de soirée rouge tendance</h2>
-                    <img class="imgRobeSoireeRouge" src="images/robe_soiree_rouge.jpg" />
+                    <img class="imgRobeSoireeRouge" src="Contenu/images/robe_soiree_rouge.jpg" />
                     <p>Vous avez envi de vous faire remarquer ? Cette robe extremement tendance est parfaite pour vous !</p>
                 </center>
             </div>
