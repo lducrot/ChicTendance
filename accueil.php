@@ -25,15 +25,15 @@
         <table class="imgAccueil">
             <tr>
                 <td rowspan="2">
-                    <img class="imgAccueilRobeSoiree" src="images/robe_soiree_bleueFonce.jpg" />
+                    <img class="imgAccueilRobeSoiree" src="Contenu/images/robe_soiree_bleueFonce.jpg" />
                 </td>
                 <td>
-                    <img class="imgAccueilRobeMariee" src="images/robe_mariee_4.jpg" />
+                    <img class="imgAccueilRobeMariee" src="Contenu/images/robe_mariee_4.jpg" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img class="imgAccueilRobeCocktail" src="images/robe_cocktail_rouge.jpg" />
+                    <img class="imgAccueilRobeCocktail" src="Contenu/images/robe_cocktail_rouge.jpg" />
                 </td>
             </tr>
         </table>
