@@ -136,7 +136,7 @@ p {
     /*FIN Style */
     
 /*Robe de soiree */
-.robeSoiree {
+.robeSoiree, .robeMariee, .robeCocktail {
     border: 1px solid black;
     border-radius: 5px;
 }
