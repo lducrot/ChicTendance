@@ -6,7 +6,6 @@
     </head>
         <?php include("header.html"); ?>
     <body>
-       
         <ul class="breadcrumb">
             <li><a class="filAriane" href="accueil.php">Accueil</a></li>
             <li class="active">Nouveautes</li>
