@@ -78,7 +78,7 @@ body {
     width: 150px;
 }
 
-.imgAccueilRobeMariee, .imgAccueilRobeCocktail, .imgNouveaute1, .imgNouveaute4, .imgRobeSoiree {
+.imgAccueilRobeMariee, .imgAccueilRobeCocktail, .imgNouveaute1, .imgNouveaute4 {
     border-radius: 5px;
     width: 205px;
 }
@@ -111,6 +111,12 @@ p {
     width: 225px;
 }
 .row [class="col-md-8"] {
+    margin-bottom: 10px;
+}
+.imgRobeSoiree, .imgRobeCocktail, .imgRobeMariee {
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
     /*FIN Style */
     
