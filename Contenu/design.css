@@ -64,13 +64,9 @@ body {
 /* Accueil */
 .imgAccueil {
     text-align: center;
-    /*border-radius: 30px;
-    border: 3px solid black;*/
 }
 .imgAccueil td {
     border-collapse: collapse;
-    /*border: 3px solid;
-    border-radius: 20px;*/
 }
 .imgAccueilRobeSoiree {
     width: 400px;
@@ -90,7 +86,6 @@ body {
 }
 .RobeDetailTD {
     padding-left: 20px;
-    
 }
 .imgAccueilRobeMariee, .imgAccueilRobeCocktail, .imgNouveaute1, .imgNouveaute4 {
     border-radius: 5px;
@@ -115,7 +110,7 @@ p {
     /* FIN Accueil */
     
 /* Style */
-.listMenuStyle li {
+#listMenuStyle li {
     list-style: none;
     font-size: 17px;
 }
@@ -141,3 +136,4 @@ p {
     border: 1px solid black;
     border-radius: 5px;
 }
+    /*FIN Robe de soirée*/

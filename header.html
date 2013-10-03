@@ -12,11 +12,12 @@
         
         <link rel="stylesheet" type="text/css" href="Contenu/design.css">
         <link rel="icon" type="image/png" href="Contenu/images/icone.png" />
-        <link href="Librairies/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">   
+        <link href="Librairies/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">  
+        <link href="Librairies/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <div class="navbar navbar-default navbar-inverse" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
         <!-- Partie de la barre toujours affichee -->
         <div class="navbar-header">
             <!-- Bouton affiché a droite si la zone d'affichage est trop petite -->
@@ -29,15 +30,18 @@
             <a class="titreEnTete" href="accueil.php">Chic Tendance</a>
         </div>
         <!-- Partie de la barre masquee en fonction de la zone d'affichage --> 
-        <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="enTete" href="#">Inscription</a></li>
-                    <li><a class="enTete" href="#">Se Connecter</a></li>
-                    <li><a class="enTete" href="#">Panier</a></li>
-                </ul>       
-            </div>
+        <nav class="nav <!--nav-collapse--> navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="enTete" href="#">Inscription</a></li>
+                <li><a class="enTete" href="#">Se Connecter</a></li>
+                <li><a class="enTete" href="#">Panier</a></li>
+            </ul>       
+        </nav>
+        
+        
         
     </div>
+    <br /><br /><br /><br /><br />
     <nav>
         <div class="row-xs-4">
             <ul class="nav nav-justified nav-stacked">

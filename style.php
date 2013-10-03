@@ -12,11 +12,11 @@
         
         <div class="row">
             <div class="col-md-2">
-                <ul class="listMenuStyle">
+                <ul class="nav nav-stacked" id="listMenuStyle">
                     <h1 class="enTete">STYLES</h1>
-                    <a href="robeSoiree.php"><li>Robe de soirée (8)</li></a>
-                    <a href="robeCocktail.php"><li>Robe de cocktail (8)</li></a>
-                    <a href="robeMariee.php"><li>Robe de mariée (8)</li></a>
+                    <li class="active"><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
+                    <li class="active"><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
+                    <li class="active"><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
                 </ul>
         </div>
             <div class="col-md-1"></div>
