@@ -5,14 +5,31 @@
     </head>
         <?php include("header.html"); ?>
     <body> 
-    <ul class="breadcrumb">
+    <!--<ul class="breadcrumb">
          <li><a class="filAriane" href="accueil.php">Accueil</a></li>
          <li><a class="filAriane" href="style.php">Style</a></li>
          <li class="active">Robes de cocktails</li>
-    </ul>
+    </ul>-->
     
-        
-    <div class="btn-group">
+    <nav>
+        <div class="row-xs-4">
+            <ul class="nav nav-justified nav-stacked">
+                <li class="active"><a class="navPrincipal" href="accueil.php">Accueil</a></li>
+                <li><a class="navPrincipal" href="nouveaute.php">Nouveautés</a></li>
+                <li class="dropdown">
+                <a class="navPrincipal dropdown-toggle" data-toggle="dropdown" href="style.php">
+                Styles <span class="caret"></span><span class="badge">24</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+   <!-- <div class="btn-group">
         <button type="button" class="btn btn-danger">Action</button>
         <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
           <span class="caret"></span>
@@ -25,7 +42,7 @@
           <li><a href="#">Separated link</a></li>
         </ul>
     </div>
-    <!--<div class="btn-group">
+    <div class="btn-group">
         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
           STYLES <span class="caret"></span>
         </button>
