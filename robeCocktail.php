@@ -10,8 +10,18 @@
          <li><a class="filAriane" href="style.php">Style</a></li>
          <li class="active">Robes de cocktails</li>
     </ul>
-        
-    <div class="row">
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          STYLES
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="robeSoiree.php">Robe de soirée</a></li>
+          <li><a href="robeCocktail.php">Robe de cocktail</a></li>
+          <li><a href="robeMariee.php">Robe de mariée</a></li>
+        </ul>
+    </div>
+    <!--<div class="row">
         <div class="col-md-3 col-sm-3">
             <ul class="nav nav-stacked" id="listMenuStyle">
                 <h1 class="enTete">STYLES</h1>
@@ -20,7 +30,7 @@
                 <li><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
             </ul>
         </div>
-    </div>
+    </div>-->
         <div class="row">
     <!--Robe 1-->
     <div class="col-sm-4 col-md-3">
