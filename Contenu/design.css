@@ -17,7 +17,7 @@ margin-left: 15px;
     opacity: 0;
     border: transparent;
 }
-.navPrincipal, h1 {
+.navPrincipal, h1, .titreDetail {
     color: #ffdead;
     font-family: 'Cinzel Decorative', cursive;
     font-size: 44px;
@@ -137,3 +137,15 @@ p {
     border-radius: 5px;
 }
     /*FIN Robe de soirée*/
+    
+/* Detail */
+.detail {
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+}
+.btnPanier {
+    vertical-align: top;
+    text-align: right;
+    width: 60px;
+}
+        /* FIN Detail */
