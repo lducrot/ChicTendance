@@ -39,7 +39,7 @@
             <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_2.jpg" title="Robe de mariée dentelle" /></a>
             <div class="caption">
               <h4>Robe de mariée dentelle</h4>
-              <!--<p>Parfaite pour un mariage d'exception, cette robe élégante vous ira à ravir !-->EUR 299.99
+              <!--<p>Parfaite pour un mariage d'exception, cette robe élégante vous ira à ravir !--><br /><br /><br />EUR 299.99
               <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
             </div>
           </div>
@@ -75,7 +75,7 @@
             <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_5.jpg" title="Robe de mariée duvet" /></a>
             <div class="caption">
               <h4>Robe de mariée duvet</h4>
-              <!--<p>Cette robe fera de vous la plus convoitée femmes !--><br /><br /><br />EUR 179.99
+              <!--<p>Cette robe fera de vous la plus convoitée femmes !--><br /><br /><br /><br />EUR 179.99
               <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
             </div>
           </div>
