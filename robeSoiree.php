@@ -28,7 +28,7 @@
       <div class="thumbnail">
           <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_rouge.jpg" title="Robe de soirée rouge tendance" /></a>
         <div class="caption">
-          <h3>Robe de soirée rouge tendance</h3>
+          <h4>Robe de soirée rouge tendance</h4>
           EUR 129.99
           <p><a href="details.php" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
         </div>
@@ -39,7 +39,7 @@
       <div class="thumbnail">
         <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_blanche.jpg" title="Robe de soirée blanche étincelante" /></a>
         <div class="caption">
-          <h3>Robe de soirée blanche étincelante</h3>
+          <h4>Robe de soirée blanche étincelante</h4>
           <!--<p>Cette robe est tellement brillante qu'elle fera de vous la plus étincelante lorsque vous la portrez.-->EUR 109.99
           <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
         </div>
@@ -50,7 +50,7 @@
       <div class="thumbnail">
         <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_verte.jpg" title="Robe de soirée verte audacieuse" /></a>
         <div class="caption">
-          <h3>Robe de soirée verte audacieuse</h3>
+          <h4>Robe de soirée verte audacieuse</h4>
           <!--<p>Grâce à cette ravissante robe vous serez la plus belle pour allez danser et rendrez jalouse toutes les femmes.-->EUR 100.99
           <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
         </div>
@@ -61,7 +61,7 @@
       <div class="thumbnail">
         <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_bleueFonce.jpg" title="Robe de soirée bleue séductrice" /></a>
         <div class="caption">
-          <h3>Robe de soirée bleue séductrice</h3>
+          <h4>Robe de soirée bleue séductrice</h4>
           <!--<p>En portant cette robe aucun homme ne pourra vous resister. N'hésitez plus elle est faite pour vous !-->EUR 129.99
           <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
         </div>
@@ -73,7 +73,7 @@
         <div class="thumbnail">
           <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_bleueClaire.jpg" title="Robe de soirée bleue attirante" /></a>
           <div class="caption">
-            <h3>Robe de soirée bleue attirante</h3>
+            <h4>Robe de soirée bleue attirante</h4>
             <!--<p>Cette robe fera de vous la plus convoitée femmes !--><br />EUR 104.99
             <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
           </div>
@@ -85,7 +85,7 @@
         <div class="thumbnail">
           <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_jaune.jpg" title="Robe de soirée dorée lumineuse" /></a>
           <div class="caption">
-            <h3>Robe de soirée dorée lumineuse</h3>
+            <h4>Robe de soirée dorée lumineuse</h4>
             <!--<p>En portant ce tissu dorée vous deviendrez la plus lumineuse des femmes.--><br />EUR 139.99
             <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
           </div>
@@ -96,7 +96,7 @@
         <div class="thumbnail">
           <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_violette.jpg" title="Robe de soirée violette tentatrice" /></a>
           <div class="caption">
-            <h3>Robe de soirée violette tentatrice</h3>
+            <h4>Robe de soirée violette tentatrice</h4>
             <!--<p>Cette robe d'une extreme tendance est parfaite pour les femmes tentatrice.--><br />EUR 119.99
             <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
           </div>
@@ -107,7 +107,7 @@
         <div class="thumbnail">
           <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_beige.jpg" title="Robe de soirée beige élégante" /></a>
           <div class="caption">
-            <h3>Robe de soirée bleue attirante</h3>
+            <h4>Robe de soirée bleue attirante</h4>
             <!--<p>Parfaite pour une soirée chic, cette robe élégante vous ira à ravir !--><br />EUR 104.99
             <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
           </div>
