@@ -15,14 +15,14 @@
         </ul>
         
         <div class="row">
-            <div class="col-md-2">
-                <ul class="listMenuStyle">
+        <div class="col-md-3">
+                <ul class="nav nav-stacked" id="listMenuStyle">
                     <h1 class="enTete">STYLES</h1>
-                    <a href="robeSoiree.php"><li>Robe de soirée</li></a>
-                    <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
-                    <a href="robeMariee.php"><li>Robe de mariée</li></a>
+                    <li class="active"><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
+                    <li class="active"><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
+                    <li class="active"><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
                 </ul>
-            </div>
+        </div>
             <div class="col-md-1">
             </div>  
             <!--div class="col-md-2" id="cache">
@@ -35,7 +35,7 @@
                             <td rowspan="2">
                                  <img class="imgRobeSoireeRouge" src="Contenu/images/robe_soiree_rouge.jpg" />v
                             </td>
-                            <td class="detailRobetr">
+                            <td class="RobeDetailTD">
                                 <p>
                                     <u>Description</u> :<br /><br />
                                     
