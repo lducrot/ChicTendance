@@ -5,67 +5,7 @@
     </head>
         <?php include("header.html"); ?>
     <body> 
-    <!--<ul class="breadcrumb">
-         <li><a class="filAriane" href="accueil.php">Accueil</a></li>
-         <li><a class="filAriane" href="style.php">Style</a></li>
-         <li class="active">Robes de cocktails</li>
-    </ul>-->
-    
-    <!--<nav>
-        <div class="row-xs-4">
-            <ul class="nav nav-justified nav-stacked">
-                <li class="active"><a class="navPrincipal" href="accueil.php">Accueil</a></li>
-                <li><a class="navPrincipal" href="nouveaute.php">Nouveautés</a></li>
-                <li class="dropdown">
-                <a class="navPrincipal dropdown-toggle" data-toggle="dropdown" href="style.php">
-                Styles <span class="caret"></span><span class="badge">24</span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                </ul>
-                </li>
-            </ul>
-        </div>
-
-    </nav>
-    <div class="btn-group">
-        <button type="button" class="btn btn-danger">Action</button>
-        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li class="divider"></li>
-          <li><a href="#">Separated link</a></li>
-        </ul>
-    </div>
-    <div class="btn-group">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          STYLES <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li class="divider"></li>
-          <li><a href="#">Separated link</a></li>
-        </ul>
-    </div>
-    <div class="btn-group">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          STYLES
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a href="robeSoiree.php">Robe de soirée</a></li>
-          <li><a href="robeCocktail.php">Robe de cocktail</a></li>
-          <li><a href="robeMariee.php">Robe de mariée</a></li>
-        </ul>
-    </div>
-    <div class="row">
+    <div class="row" id="styles">
         <div class="col-md-3 col-sm-3">
             <ul class="nav nav-stacked" id="listMenuStyle">
                 <h1 class="enTete">STYLES</h1>
@@ -74,7 +14,7 @@
                 <li><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
             </ul>
         </div>
-    </div>-->
+    </div>
         <div class="row">
     <!--Robe 1-->
     <div class="col-sm-4 col-md-3">
