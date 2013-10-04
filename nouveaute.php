@@ -11,6 +11,15 @@
             <li class="active">Nouveautes</li>
         </ul>
         <center><h1>Nouvelle collection</h1></center>
+        <div class="row">
+        <div class="col-md-3">
+                <ul class="nav nav-stacked" id="listMenuStyle">
+                    <h1 class="enTete">STYLES</h1>
+                    <li class="active"><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
+                    <li class="active"><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
+                    <li class="active"><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
+                </ul>
+        </div>
         <center>
         <table class="imgAccueil">
             <tr>
@@ -31,7 +40,7 @@
             </tr>
         </table>
         </center>
-        
+        </div>
     </body>
     <?php include("footer.html"); ?>
 </html>
