@@ -18,7 +18,7 @@
                     <li class="active"><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
                     <li class="active"><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
                 </ul>
-        </div>
+            </div>
             <div class="col-md-1"></div>
         <article>
             <!--Style robe de soiree-->
