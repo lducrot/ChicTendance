@@ -17,7 +17,7 @@
     </div>
     <div class="row">
     <!--Robe 1-->
-    <div class="col-sm-4 col-md-2">
+    <div class="col-sm-4 col-md-3">
       <div class="thumbnail">
         <a class="thumbnail" href="details.php"><img class="robeCocktail" src="Contenu/images/robe_cocktail_rouge.jpg" title="Robe de cocktail rouge" /></a>
         <div class="caption">
