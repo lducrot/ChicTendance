@@ -23,7 +23,7 @@
     <!--Robe 1-->
     <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
-        <img class="robeCocktail" src="Contenu/images/robe_cocktail_rouge.jpg" title="Robe de cocktail rouge" />
+        <a class="thumbnail" href="details.php"><img class="robeCocktail" src="Contenu/images/robe_cocktail_rouge.jpg" title="Robe de cocktail rouge" /></a>
         <div class="caption">
           <h3>Robe de cocktail rouge</h3>
           <!--<p>Vous avez envie de vous faire remarquer ? Cette robe extremement tendance est parfaite pour vous !--><br /><br />EUR 89.99
@@ -34,7 +34,7 @@
     <!--Robe 2-->
     <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
-        <img class="robeCocktail" src="Contenu/images/robe_cocktail_noire.jpg" title="Robe de cocktail noire" />
+        <a class="thumbnail" href="details.php"><img class="robeCocktail" src="Contenu/images/robe_cocktail_noire.jpg" title="Robe de cocktail noire" /></a>
         <div class="caption">
           <h3>Robe de cocktail noire</h3>
           <!--<p>Parfaite pour une soirée chic, cette robe élégante vous ira à ravir !--><br />EUR 99.99
@@ -45,7 +45,7 @@
     <!--Robe 3-->
     <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
-        <img class="robeCocktail" src="Contenu/images/robe_cocktail_rose.jpg" title="Robe de cocktail rose" />
+        <a class="thumbnail" href="details.php"><img class="robeCocktail" src="Contenu/images/robe_cocktail_rose.jpg" title="Robe de cocktail rose" /></a>
         <div class="caption">
           <h3>Robe de cocktail rose</h3>
           <!--<p>En portant cette robe aucun homme ne pourra vous resister. N'hésitez plus elle est faite pour vous !--><br />EUR 85.99
@@ -56,7 +56,7 @@
     <!--Robe 4-->
     <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
-        <img class="robeCocktail" src="Contenu/images/robe_cocktail_verte.jpg" title="Robe de cocktail verte" />
+        <a class="thumbnail" href="details.php"><img class="robeCocktail" src="Contenu/images/robe_cocktail_verte.jpg" title="Robe de cocktail verte" /></a>
         <div class="caption">
           <h3>Robe de cocktail verte</h3>
           <!--<p>Grâce à cette ravissante robe vous serez la plus belle pour allez danser et rendrez jalouse toutes les femmes.--><br />EUR 79.99
@@ -70,7 +70,7 @@
     <!--Robe 5-->
     <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
-        <img class="robeCocktail" src="Contenu/images/robe_cocktail_bleue.jpg" title="Robe de cocktail bleue" />
+        <a class="thumbnail" href="details.php"><img class="robeCocktail" src="Contenu/images/robe_cocktail_bleue.jpg" title="Robe de cocktail bleue" /></a>
         <div class="caption">
           <h3>Robe de cocktail bleue</h3>
           <!--<p>Cette robe fera de vous la plus convoitée femmes !--><br /><br /><br />EUR 79.99
@@ -81,7 +81,7 @@
     <!--Robe 6-->
     <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
-        <img class="robeCocktail" src="Contenu/images/robe_cocktail_violette.jpg" title="Robe de cocktail violette" />
+        <a class="thumbnail" href="details.php"><img class="robeCocktail" src="Contenu/images/robe_cocktail_violette.jpg" title="Robe de cocktail violette" /></a>
         <div class="caption">
           <h3>Robe de cocktail violette</h3>
           <!--<p>Cette robe d'une extreme tendance est parfaite pour les femmes tentatrice.--><br />EUR 79.99
@@ -92,7 +92,7 @@
     <!--Robe 7-->
     <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
-        <img class="robeCocktail" src="Contenu/images/robe_cocktail_blanche.jpg" title="Robe de cocktail blanche" />
+        <a class="thumbnail" href="details.php"><img class="robeCocktail" src="Contenu/images/robe_cocktail_blanche.jpg" title="Robe de cocktail blanche" /></a>
         <div class="caption">
           <h3>Robe de cocktail blanche</h3>
           <!--<p>Cette robe est tellement brillante qu'elle fera de vous la plus étincelante lorsque vous la portrez.--><br /><br />EUR 85.9
@@ -103,7 +103,7 @@
     <!--Robe 8-->
     <div class="col-sm-6 col-md-2">
       <div class="thumbnail">
-        <img class="robeCocktail" src="Contenu/images/robe_cocktail_corail.jpg" title="Robe de cocktail corail" />
+        <a class="thumbnail" href="details.php"><img class="robeCocktail" src="Contenu/images/robe_cocktail_corail.jpg" title="Robe de cocktail corail" /></a>
         <div class="caption">
           <h3>Robe de cocktail corail</h3>
           <!--<p>En portant ce tissu dorée vous deviendrez la plus lumineuse des femmes.--><br /><br />EUR 89.99
