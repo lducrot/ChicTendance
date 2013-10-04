@@ -6,7 +6,7 @@
         <?php include("header.html"); ?>
     <body> 
     <div class="row" id="styles">
-        <div class="col-md-3 col-sm-3">
+        <div class="col-md-12 col-sm-12">
             <ul class="nav nav-stacked" id="listMenuStyle">
                 <h1 class="enTete">STYLES</h1>
                 <li><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
