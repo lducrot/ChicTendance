@@ -12,18 +12,18 @@
     </ul>
         
         <div class="row">
-        <div class="col-sm-6 col-md-2">
-            <ul class="listMenuStyle">
-                <h1 class="enTete">STYLES</h1>
-                <a href="robeSoiree.php"><li>Robe de soirée</li></a>
-                <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
-                <a href="robeMariee.php"><li>Robe de mariée</li></a>
-            </ul>
+        <div class="col-md-3">
+                <ul class="nav nav-stacked" id="listMenuStyle">
+                    <h1 class="enTete">STYLES</h1>
+                    <li class="active"><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
+                    <li class="active"><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
+                    <li class="active"><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
+                </ul>
         </div>
         <!--Robe 1-->
         <div class="col-sm-6 col-md-2">
           <div class="thumbnail">
-            <img class="robeMariee" src="Contenu/images/robe_mariee_1.jpg" title="Robe de mariée élégante" />
+            <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_1.jpg" title="Robe de mariée élégante" /></a>
             <div class="caption">
               <h3>Robe de mariée élégante</h3>
               <!--<p>Vous avez envie de vous faire remarquer ? Cette robe tres élégante est parfaite pour vous !--><br />EUR 199.99
@@ -34,7 +34,7 @@
         <!--Robe 2-->
         <div class="col-sm-6 col-md-2">
           <div class="thumbnail">
-            <img class="robeMariee" src="Contenu/images/robe_mariee_2.jpg" title="Robe de mariée dentelle" />
+            <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_2.jpg" title="Robe de mariée dentelle" /></a>
             <div class="caption">
               <h3>Robe de mariée dentelle</h3>
               <!--<p>Parfaite pour un mariage d'exception, cette robe élégante vous ira à ravir !-->EUR 299.99
@@ -45,7 +45,7 @@
         <!--Robe 3-->
         <div class="col-sm-6 col-md-2">
           <div class="thumbnail">
-            <img class="robeMariee" src="Contenu/images/robe_mariee_3.jpg" title="Robe de mariée perlée" />
+            <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_3.jpg" title="Robe de mariée perlée" /></a>
             <div class="caption">
               <h3>Robe de mariée perlée</h3>
               <!--<p>En portant cette robe, tous les regards se tourneront vers vous. N'hésitez plus elle est faite pour vous !--><br />EUR 285.99
@@ -56,7 +56,7 @@
         <!--Robe 4-->
         <div class="col-sm-6 col-md-2">
           <div class="thumbnail">
-            <img class="robeMariee" src="Contenu/images/robe_mariee_4.jpg" title="Robe de mariée plume" />
+            <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_4.jpg" title="Robe de mariée plume" /></a>
             <div class="caption">
               <h3>Robe de mariée plume</h3>
               <!--<p>Grâce à cette magnifique robe votre mariage sera un réel conte de fées et vous rendrez jalouse toutes les femmes.--><br />EUR 379.99
@@ -70,7 +70,7 @@
         <!--Robe 5-->
         <div class="col-sm-6 col-md-2">
           <div class="thumbnail">
-            <img class="robeMariee" src="Contenu/images/robe_mariee_5.jpg" title="Robe de mariée duvet" />
+            <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_5.jpg" title="Robe de mariée duvet" /></a>
             <div class="caption">
               <h3>Robe de mariée duvet</h3>
               <!--<p>Cette robe fera de vous la plus convoitée femmes !--><br /><br /><br />EUR 179.99
@@ -81,7 +81,7 @@
         <!--Robe 6-->
         <div class="col-sm-6 col-md-2">
           <div class="thumbnail">
-            <img class="robeMariee" src="Contenu/images/robe_mariee_6.jpg" title="Robe de mariée étincelante" />
+            <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_6.jpg" title="Robe de mariée étincelante" /></a>
             <div class="caption">
               <h3>Robe de mariée étincelante</h3>
               <!--<p>Cette robe originale brillera de mille feux sur vous.--><br />EUR 279.99
@@ -92,7 +92,7 @@
         <!--Robe 7-->
         <div class="col-sm-6 col-md-2">
           <div class="thumbnail">
-            <img class="robeMariee" src="Contenu/images/robe_mariee_7.jpg" title="Robe de mariée légère" />
+            <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_7.jpg" title="Robe de mariée légère" /></a>
             <div class="caption">
               <h3>Robe de mariée légère</h3>
               <!--<p>Grâce à cette robe simple et aérienne vous serez la princesse de cet évènement.--><br />EUR 485.99
@@ -103,7 +103,7 @@
         <!--Robe 8-->
         <div class="col-sm-6 col-md-2">
           <div class="thumbnail">
-            <img class="robeMariee" src="Contenu/images/robe_mariee_8.jpg" title="Robe de mariée classe" />
+            <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_8.jpg" title="Robe de mariée classe" /></a>
             <div class="caption">
               <h3>Robe de mariée classe</h3>
               <!--<p>En portant cette robe proche du corps vous deviendrez la plus féminine et désirée des femmes.--><br /><br />EUR 589.99<

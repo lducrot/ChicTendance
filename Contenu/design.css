@@ -17,7 +17,7 @@ margin-left: 15px;
     opacity: 0;
     border: transparent;
 }
-.navPrincipal, h1 {
+.navPrincipal, h1, .titreDetail {
     color: #ffdead;
     font-family: 'Cinzel Decorative', cursive;
     font-size: 44px;
@@ -64,13 +64,9 @@ body {
 /* Accueil */
 .imgAccueil {
     text-align: center;
-    /*border-radius: 30px;
-    border: 3px solid black;*/
 }
 .imgAccueil td {
     border-collapse: collapse;
-    /*border: 3px solid;
-    border-radius: 20px;*/
 }
 .imgAccueilRobeSoiree {
     width: 400px;
@@ -87,10 +83,6 @@ body {
     margin-right: 30px;
     margin-left: 30px;
     margin-bottom: 20px;
-}
-.detailRobetr {
-    padding-left: 20px;
-    
 }
 .imgAccueilRobeMariee, .imgAccueilRobeCocktail, .imgNouveaute1, .imgNouveaute4 {
     border-radius: 5px;
@@ -115,8 +107,9 @@ p {
     /* FIN Accueil */
     
 /* Style */
-.listMenuStyle {
+#listMenuStyle li {
     list-style: none;
+    font-size: 17px;
 }
 .row [class="col-md-1"] {
     opacity: 0;
@@ -140,3 +133,19 @@ p {
     border: 1px solid black;
     border-radius: 5px;
 }
+    /*FIN Robe de soirée*/
+    
+/* Detail */
+.detail {
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+}
+.btnPanier {
+    vertical-align: top;
+    text-align: right;
+    width: 60px;
+}
+.RobeDetailTD, .detailRobetr {
+    padding-left: 20px;
+}
+        /* FIN Detail */

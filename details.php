@@ -15,39 +15,43 @@
         </ul>
         
         <div class="row">
-            <div class="col-md-2">
-                <ul class="listMenuStyle">
+        <div class="col-md-3">
+                <ul class="nav nav-stacked" id="listMenuStyle">
                     <h1 class="enTete">STYLES</h1>
-                    <a href="robeSoiree.php"><li>Robe de soirée</li></a>
-                    <a href="robeCocktail.php"><li>Robe de cocktail</li></a>
-                    <a href="robeMariee.php"><li>Robe de mariée</li></a>
+                    <li class="active"><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
+                    <li class="active"><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
+                    <li class="active"><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
                 </ul>
-            </div>
+        </div>
             <div class="col-md-1">
             </div>  
             <!--div class="col-md-2" id="cache">
             </div>-->
             <div class="col-md-8">
                 <center>
-                    <h1>Robe de soirée rouge tendance</h1>
+                    <h1 class="titreDetail">Robe De Soirée Rouge Tendance</h1>
                     <table class="detailRobe">
                         <tr>
                             <td rowspan="2">
-                                 <img class="imgRobeSoireeRouge" src="Contenu/images/robe_soiree_rouge.jpg" />v
+                                 <img class="imgRobeSoireeRouge" src="Contenu/images/robe_soiree_rouge.jpg" />
                             </td>
-                            <td class="detailRobetr">
-                                <p>
+                            <td class="RobeDetailTD">
+                                <p class="detail">
                                     <u>Description</u> :<br /><br />
-                                    
+                                    Couturier : Louis Bodin<br />
                                     Matière : 96% polyester, 4% élasthanne<br />
                                     Entretien : Lavage à la main uniquement<br />
                                     Prix : 129.99€<br />
-                                    Temps de livraison : 6 jours;
+                                    Temps de livraison : 6 jours
                                 </p>
+                            </td>
+                            <td class="btnPanier">
+                                <a href="#" class="btn btn-default glyphicon glyphicon-shopping-cart"> Panier</a>
+                            </td>
                             </td>
                         </tr>
                         <tr>
-                            <td class="detailRobetr">
+                            <td class="detailRobetr" colspan="2">
                                 <p>Vous avez envie de vous faire remarquer ? Cette robe extremement tendance est parfaite pour vous !</p>
                             </td>
                         </tr>
