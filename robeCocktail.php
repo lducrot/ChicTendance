@@ -11,7 +11,7 @@
          <li class="active">Robes de cocktails</li>
     </ul>-->
     
-    <nav>
+    <!--<nav>
         <div class="row-xs-4">
             <ul class="nav nav-justified nav-stacked">
                 <li class="active"><a class="navPrincipal" href="accueil.php">Accueil</a></li>
@@ -29,7 +29,7 @@
         </div>
 
     </nav>
-   <!-- <div class="btn-group">
+    <div class="btn-group">
         <button type="button" class="btn btn-danger">Action</button>
         <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
           <span class="caret"></span>
