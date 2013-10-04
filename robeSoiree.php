@@ -28,7 +28,7 @@
           <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_rouge.jpg" title="Robe de soirée rouge tendance" /></a>
         <div class="caption">
           <h3>Robe de soirée rouge tendance</h3>
-          <br />EUR 129.99
+          EUR 129.99
           <p><a href="details.php" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
         </div>
       </div>

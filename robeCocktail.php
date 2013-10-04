@@ -103,7 +103,7 @@
         <div class="caption">
           <h3>Robe de cocktail violette</h3>
           <!--<p>Cette robe d'une extreme tendance est parfaite pour les femmes tentatrice.--><br />EUR 79.99
-          <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
+          <p><a href="#" class="btn btn-primary">Voir détails</a><a href="#" class="btn btn-default">Panier</a></p>
         </div>
       </div>
     </div>
