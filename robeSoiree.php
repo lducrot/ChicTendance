@@ -12,7 +12,7 @@
     </ul>
     
     <div class="row" id="styles">
-        <div class="col-md-3 col-sm-3">
+        <div class="col-md-12 col-sm-12">
             <ul class="nav nav-stacked" id="listMenuStyle">
                 <h1 class="enTete">STYLES</h1>
                 <li class="btn-default active"><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
@@ -21,6 +21,7 @@
             </ul>
         </div>
     </div>
+        
     <div class="row">
     <!--Robe 1-->
     <div class="col-sm-4 col-md-3">
@@ -50,7 +51,7 @@
         <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_verte.jpg" title="Robe de soirée verte audacieuse" /></a>
         <div class="caption">
           <h3>Robe de soirée verte audacieuse</h3>
-          <!--<p>Grâce à cette ravissante robe vous serez la plus belle pour allez danser et rendrez jalouse toutes les femmes.--><br />EUR 100.99
+          <!--<p>Grâce à cette ravissante robe vous serez la plus belle pour allez danser et rendrez jalouse toutes les femmes.-->EUR 100.99
           <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
         </div>
       </div>
@@ -61,12 +62,12 @@
         <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_bleueFonce.jpg" title="Robe de soirée bleue séductrice" /></a>
         <div class="caption">
           <h3>Robe de soirée bleue séductrice</h3>
-          <!--<p>En portant cette robe aucun homme ne pourra vous resister. N'hésitez plus elle est faite pour vous !--><br />EUR 129.99
+          <!--<p>En portant cette robe aucun homme ne pourra vous resister. N'hésitez plus elle est faite pour vous !-->EUR 129.99
           <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
         </div>
       </div>
     </div> 
-      
+    
     <!--Robe 5-->
       <div class="col-sm-4 col-md-2">
         <div class="thumbnail">
@@ -78,6 +79,7 @@
           </div>
         </div>
       </div>
+    <!--</div><div class="row">-->
     <!--Robe 6-->
       <div class="col-sm-4 col-md-2">
         <div class="thumbnail">

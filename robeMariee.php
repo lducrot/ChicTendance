@@ -11,17 +11,19 @@
          <li class="active">Robes de mariées</li>
     </ul>
         
-        <div class="row">
-        <div class="col-md-3">
-                <ul class="nav nav-stacked" id="listMenuStyle">
-                    <h1 class="enTete">STYLES</h1>
-                    <li><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
-                    <li><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
-                    <li class="btn-default active"><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
-                </ul>
+    <div class="row" id="styles">
+        <div class="col-md-12 col-sm-12">
+            <ul class="nav nav-stacked" id="listMenuStyle">
+                <h1 class="enTete">STYLES</h1>
+                <li><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
+                <li><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
+                <li class="btn-default active"><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
+            </ul>
         </div>
+    </div>
+        <div class="row">
         <!--Robe 1-->
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-4 col-md-3">
           <div class="thumbnail">
             <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_1.jpg" title="Robe de mariée élégante" /></a>
             <div class="caption">
@@ -32,7 +34,7 @@
           </div>
         </div>
         <!--Robe 2-->
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-4 col-md-2">
           <div class="thumbnail">
             <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_2.jpg" title="Robe de mariée dentelle" /></a>
             <div class="caption">
@@ -43,7 +45,7 @@
           </div>
         </div>
         <!--Robe 3-->
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-4 col-md-2">
           <div class="thumbnail">
             <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_3.jpg" title="Robe de mariée perlée" /></a>
             <div class="caption">
@@ -54,7 +56,7 @@
           </div>
         </div>
         <!--Robe 4-->
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-4 col-md-2">
           <div class="thumbnail">
             <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_4.jpg" title="Robe de mariée plume" /></a>
             <div class="caption">
@@ -65,10 +67,10 @@
           </div>
         </div>
         </div>
-        <div class="row">
-         <div class="col-sm-6 col-md-2" id="cache"></div>
+       
+         <!--<div class="col-sm-6 col-md-2" id="cache"></div>-->
         <!--Robe 5-->
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-4 col-md-2">
           <div class="thumbnail">
             <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_5.jpg" title="Robe de mariée duvet" /></a>
             <div class="caption">
@@ -79,7 +81,7 @@
           </div>
         </div>
         <!--Robe 6-->
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-4 col-md-2">
           <div class="thumbnail">
             <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_6.jpg" title="Robe de mariée étincelante" /></a>
             <div class="caption">
@@ -90,7 +92,7 @@
           </div>
         </div>
         <!--Robe 7-->
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-4 col-md-2">
           <div class="thumbnail">
             <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_7.jpg" title="Robe de mariée légère" /></a>
             <div class="caption">
@@ -101,7 +103,7 @@
           </div>
         </div>
         <!--Robe 8-->
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-4 col-md-2">
           <div class="thumbnail">
             <a class="thumbnail" href="details.php"><img class="robeMariee" src="Contenu/images/robe_mariee_8.jpg" title="Robe de mariée classe" /></a>
             <div class="caption">
