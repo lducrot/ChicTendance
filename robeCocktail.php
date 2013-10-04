@@ -15,9 +15,9 @@
         <div class="col-md-3 col-sm-3">
                 <ul class="nav nav-stacked" id="listMenuStyle">
                     <h1 class="enTete">STYLES</h1>
-                    <li class="active"><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
-                    <li class="active"><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
-                    <li class="active"><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
+                    <li><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
+                    <li class="btn-default active"><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
+                    <li><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
                 </ul>
         </div>
     <!--Robe 1-->
