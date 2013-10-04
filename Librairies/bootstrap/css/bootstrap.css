@@ -4957,7 +4957,6 @@ a.list-group-item.active > .badge,
   display: inline-block;
   display: block;
   height: auto;
-  max-height: 150px;
   max-width: 100%;
   padding: 4px;
   line-height: 1.428571429;
