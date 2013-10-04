@@ -10,6 +10,33 @@
          <li><a class="filAriane" href="style.php">Style</a></li>
          <li class="active">Robes de cocktails</li>
     </ul>
+    
+        
+    <div class="btn-group">
+        <button type="button" class="btn btn-danger">Action</button>
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+    </div>
+    <!--<div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          STYLES <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+    </div>
     <div class="btn-group">
         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
           STYLES
@@ -21,7 +48,7 @@
           <li><a href="robeMariee.php">Robe de mariée</a></li>
         </ul>
     </div>
-    <!--<div class="row">
+    <div class="row">
         <div class="col-md-3 col-sm-3">
             <ul class="nav nav-stacked" id="listMenuStyle">
                 <h1 class="enTete">STYLES</h1>
