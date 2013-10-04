@@ -84,9 +84,6 @@ body {
     margin-left: 30px;
     margin-bottom: 20px;
 }
-.RobeDetailTD {
-    padding-left: 20px;
-}
 .imgAccueilRobeMariee, .imgAccueilRobeCocktail, .imgNouveaute1, .imgNouveaute4 {
     border-radius: 5px;
     width: 205px;
@@ -148,7 +145,7 @@ p {
     text-align: right;
     width: 60px;
 }
-.detailRobetr {
-    margin-left: 25px;
+.RobeDetailTD, .detailRobetr {
+    padding-left: 20px;
 }
         /* FIN Detail */

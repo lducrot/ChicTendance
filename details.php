@@ -38,7 +38,7 @@
                             <td class="RobeDetailTD">
                                 <p class="detail">
                                     <u>Description</u> :<br /><br />
-
+                                    Couturier : Louis Bodin<br />
                                     Matière : 96% polyester, 4% élasthanne<br />
                                     Entretien : Lavage à la main uniquement<br />
                                     Prix : 129.99€<br />
