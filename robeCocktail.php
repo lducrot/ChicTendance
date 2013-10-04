@@ -5,13 +5,7 @@
     </head>
         <?php include("header.html"); ?>
     <body> 
-    <ul class="breadcrumb">
-         <li><a class="filAriane" href="accueil.php">Accueil</a></li>
-         <li><a class="filAriane" href="style.php">Style</a></li>
-         <li class="active">Robes de cocktails</li>
-    </ul>
-        
-    <div class="row">
+    <div class="row" id="styles">
         <div class="col-md-3 col-sm-3">
             <ul class="nav nav-stacked" id="listMenuStyle">
                 <h1 class="enTete">STYLES</h1>
@@ -21,7 +15,7 @@
             </ul>
         </div>
     </div>
-        <div class="row">
+    <div class="row">
     <!--Robe 1-->
     <div class="col-sm-4 col-md-3">
       <div class="thumbnail">
