@@ -12,6 +12,7 @@ background-color: rgba(0,0,28,.30);
 color: black;
 position: center;
 margin-left: 15px;
+margin-bottom: 50px;
 }
 #cache {
     opacity: 0;
