@@ -69,7 +69,7 @@
         <a class="thumbnail" href="details.php"><img class="robeCocktail" src="Contenu/images/robe_cocktail_blanche.jpg" title="Robe de cocktail blanche" /></a>
         <div class="caption">
           <h4>Robe de cocktail blanche</h4>
-          <!--<p>Cette robe est tellement brillante qu'elle fera de vous la plus étincelante lorsque vous la portrez.--><br />EUR 85.9
+          <!--<p>Cette robe est tellement brillante qu'elle fera de vous la plus étincelante lorsque vous la portrez.--><br />EUR 85.99
           <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
         </div>
       </div>
