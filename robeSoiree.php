@@ -107,8 +107,8 @@
         <div class="thumbnail">
           <a class="thumbnail" href="details.php"><img class="robeSoiree" src="Contenu/images/robe_soiree_beige.jpg" title="Robe de soirée beige élégante" /></a>
           <div class="caption">
-            <h4>Robe de soirée bleue attirante</h4>
-            <!--<p>Parfaite pour une soirée chic, cette robe élégante vous ira à ravir !--><br />EUR 104.99
+            <h4>Robe de soirée rose envoutante</h4>
+            <!--<p>Parfaite pour une soirée chic, cette robe envoutante vous ira à ravir !--><br />EUR 104.99
             <p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>
           </div>
         </div>
