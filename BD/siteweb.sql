@@ -19,8 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données: `siteweb`
 --
-CREATE DATABASE IF NOT EXISTS `siteweb` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `siteweb`;
+CREATE DATABASE IF NOT EXISTS `chicTendance` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `chicTendance`;
 
 -- --------------------------------------------------------
 
@@ -81,5 +81,5 @@ ALTER TABLE `t_robe_de_soiree`
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
 
-CREATE USER IF NOT EXISTS 'userCT' IDENTIFIED BY 'ct';
+CREATE USER 'userCT' IDENTIFIED BY 'ct';
 GRANT ALL PRIVILEGES ON *.* TO 'userCT';
