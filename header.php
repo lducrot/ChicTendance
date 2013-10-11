@@ -68,8 +68,12 @@ catch (Exception $e) {
                     $stmtContenuGenre = $bdd->prepare("SELECT COUNT(styl_id) AS nbContenuGenre FROM t_robe_de_soiree WHERE STYL_ID=?");
                     $stmtContenuGenre->execute(array($ligne['STYL_ID']));
                     $ligneContenuGenre=$stmtContenuGenre->fetch();
+                    $tabGenre = split(" ",$ligne['STYL_LIBELLE']);
+                    $genre = str_replace("é", "e", $tabGenre['2']);
+                    $genre = ucfirst($genre);
+                    $pageGenre = "robe".$genre.".php";
                 ?>
-                    <li><a class="navPrincipal" href="robeSoiree.php"><?= $ligne['STYL_LIBELLE'].' '; ?><span class="badge"><?= $ligneContenuGenre['nbContenuGenre']; ?></span></a></li>
+                    <li><a class="navPrincipal" href="<?= $pageGenre ?>"><?= $ligne['STYL_LIBELLE'].' '; ?><span class="badge"><?= $ligneContenuGenre['nbContenuGenre']; ?></span></a></li>
                 <?php } ?> 
             </ul>
         </div>
