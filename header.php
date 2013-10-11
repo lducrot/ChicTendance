@@ -3,7 +3,7 @@ try {
     // Connexion à la base de données desert
     $bdd = new PDO("mysql:host=localhost;dbname=chicTendance;charset=utf8", "userCT", "ct", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     $stmtGenre = $bdd->query("SELECT * FROM t_style ORDER BY styl_id");
-    
+    $stmtStyle = $bdd->prepare("SELECT * FROM t_style WHERE styl_id=?");
 }
 catch (Exception $e) {
     $messageErreur = $e->getMessage().'('.$e->getFile().', ligne '.$e->getLine().')';
@@ -69,7 +69,7 @@ catch (Exception $e) {
                     $stmtContenuGenre->execute(array($ligne['STYL_ID']));
                     $ligneContenuGenre=$stmtContenuGenre->fetch();
                 ?>
-                    <li><a class="navPrincipal" href="robeSoiree.php"><?php echo $ligne['STYL_LIBELLE'].' '; ?><span class="badge"><?php echo $ligneContenuGenre['nbContenuGenre']; ?></span></a></li>
+                    <li><a class="navPrincipal" href="robeSoiree.php"><?= $ligne['STYL_LIBELLE'].' '; ?><span class="badge"><?= $ligneContenuGenre['nbContenuGenre']; ?></span></a></li>
                 <?php } ?> 
             </ul>
         </div>

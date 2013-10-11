@@ -1,13 +1,25 @@
+<?php
+try { 
+    include("header.php");
+    
+    $stmtStyle->execute(array(1));
+    $ligneStyle = $stmtStyle->fetch();
+    $nomStyle = $ligneStyle['STYL_LIBELLE'];
+}
+catch (Exception $e) {
+    $messageErreur = $e->getMessage().'('.$e->getFile().', ligne '.$e->getLine().')';
+}
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <title>Catégorie robes de soirées</title>
     </head>
-        <?php include("header.php"); ?>
+       
     <body> 
     <ul class="breadcrumb">
          <li><a class="filAriane" href="accueil.php">Accueil</a></li>
-         <li class="active">Robes de soirée</li>
+         <li class="active"><?= $nomStyle; ?></li>
     </ul>
         
     <div class="row">
