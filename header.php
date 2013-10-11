@@ -2,6 +2,7 @@
 try {
     // Connexion à la base de données desert
     $bdd = new PDO("mysql:host=localhost;dbname=chicTendance;charset=utf8", "userCT", "ct", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    $stmtGenre = $bdd->query("SELECT * FROM t_style ORDER BY styl_id");
     
 }
 catch (Exception $e) {
@@ -62,14 +63,16 @@ catch (Exception $e) {
         <div class="row-xs-4">
             <ul class="nav nav-justified nav-stacked">
                 <li class="active"><a class="navPrincipal" href="accueil.php">Accueil </a></li>
-                <li><a class="navPrincipal" href="robeSoiree.php">Robes De Soirée <span class="badge">8</span></a></li>
-                <li><a class="navPrincipal"  href="robeCocktail.php">Robes De Cocktail <span class="badge">8</span></a></li>
-                <li><a class="navPrincipal" href="robeMariee.php">Robes De Mariée <span class="badge">8</span></a>  
+                <?php foreach ($stmtGenre as $ligne)
+                { 
+                    $stmtContenuGenre = $bdd->prepare("SELECT COUNT(styl_id) AS nbContenuGenre FROM t_robe_de_soiree WHERE STYL_ID=?");
+                    $stmtContenuGenre->execute(array($ligne['STYL_ID']));
+                    $ligneContenuGenre=$stmtContenuGenre->fetch();
+                ?>
+                    <li><a class="navPrincipal" href="robeSoiree.php"><?php echo $ligne['STYL_LIBELLE'].' '; ?><span class="badge"><?php echo $ligneContenuGenre['nbContenuGenre']; ?></span></a></li>
+                <?php } ?> 
             </ul>
         </div>
 
     </nav>
     <br />
-    
-        
-
