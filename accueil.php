@@ -1,8 +1,11 @@
 <?php
-
+try {
     // Connexion à la base de données desert
-   // $bdd = new PDO("mysql:host=localhost;dbname=chicTendance;charset=utf8", "userCT", "ct",
-    //                array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    $bdd = new PDO("mysql:host=localhost;dbname=chicTendance;charset=utf8", "userCT", "ct", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+}
+catch (Exception $e) {
+    $messageErreur = $e->getMessage().'('.$e->getFile().', ligne '.$e->getLine().')';
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,6 +18,7 @@
     <ul class="breadcrumb">
          <li><a class="filAriane" href="accueil.php">Accueil</a></li>
     </ul>
+        <?php if (isset($messageErreur)) echo $messageErreur; ?>
         
     <div class="row">
         <div class="col-md-1">

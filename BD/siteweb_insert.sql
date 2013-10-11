@@ -1,16 +1,14 @@
-delete from t_robe_de_soiree;
-delete from t_createur;
-delete from t_style;
+
 
 /* TABLE Styles */
-insert into t_style (styl_id, styl_libelle) VALUES
+insert into chicTendance.t_style (styl_id, styl_libelle) VALUES
  (1, "Robes de soirée"),
  (2, "Robes de cocktail"),
  (3, "Robes de mariée");
 	/* FIN TABLE Style */
 	
 /* TABLE Createur */
-insert into t_createur (crea_id, crea_nom) VALUES
+insert into chicTendance.t_createur (crea_id, crea_nom) VALUES
  (1, "Chanel"),
  (2, "Zilli"),
  (3, "Givenchy"),
@@ -19,7 +17,7 @@ insert into t_createur (crea_id, crea_nom) VALUES
 	/*FIN TABLE createur*/
 	
 /* TABLE t_robe de soiree */
-insert into t_robe_de_soiree (robe_id, robe_nom, robe_dateajout, robe_prix, robe_image, crea_id, styl_id) VALUES
+insert into chicTendance.t_robe_de_soiree (robe_id, robe_nom, robe_dateajout, robe_prix, robe_image, crea_id, styl_id) VALUES
  (1, "Robe de soirée rouge tendance", "2013-10-08", 129.99, "../Contenu/images/robe_soiree_rouge.jpg", 1, 1),
  (2, "Robe de soirée blanche étincelante", "2013-10-08", 109.99, "../Contenu/images/robe_soiree_blanche.jpg", 1, 1),
  (3, "Robe de soirée verte audacieuse", "2013-10-08", 100.99, "../Contenu/images/robe_soiree_verte.jpg", 1, 1),
