@@ -1,8 +1,8 @@
 <?php
 
     // Connexion à la base de données desert
-    $bdd = new PDO("mysql:host=localhost;dbname=chicTendance;charset=utf8", "userCT", "ct",
-                    array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+   // $bdd = new PDO("mysql:host=localhost;dbname=chicTendance;charset=utf8", "userCT", "ct",
+    //                array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 ?>
 <!DOCTYPE html>
 <html>
@@ -17,19 +17,11 @@
     </ul>
         
     <div class="row">
-        <div class="col-md-3">
-                <ul class="nav nav-stacked" id="listMenuStyle">
-                    <h1 class="enTete">STYLES</h1>
-                    <li class="active"><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
-                    <li class="active"><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
-                    <li class="active"><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
-                </ul>
-            
-        </div>
         <div class="col-md-1">
         </div>
-        <div class="col-md-8">
+        <div class="col-md-11">
         <center>
+ 
         <table class="imgAccueil">
             <tr>
                 <td rowspan="2">
@@ -45,12 +37,14 @@
                 </td>
             </tr>
         </table>
-        </center>
         <p>Chic Tendance vous présente ces plus belles créations en robes de soirées, robes de mariée et robes de cocktails ! Grâce à elles vous êtes sûr d'être à la pointe de la mode. Il y en a assez pour satisfaire tout les goûts, alors n'hésitez plus !</p>
+
+
+        </center> 
         </div>
     </div>
-        
-        
+    
+           
           
         
         

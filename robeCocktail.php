@@ -5,15 +5,11 @@
     </head>
         <?php include("header.html"); ?>
     <body> 
-    <div class="row" id="styles">
-        <div class="col-xs-12 col-md-12 col-sm-12">
-            <ul class="nav nav-stacked" id="listMenuStyle">
-                <h1 class="enTete">STYLES</h1>
-                <li><a href="robeSoiree.php">Robe de soirée <span class="badge">8</span></a></li>
-                <li class="btn-default active"><a href="robeCocktail.php">Robe de cocktail <span class="badge">8</span></a></li>
-                <li><a href="robeMariee.php">Robe de mariée <span class="badge">8</span></a></li>
-            </ul>
-        </div>
+        <ul class="breadcrumb">
+         <li><a class="filAriane" href="accueil.php">Accueil</a></li>
+         <li class="active">Robes de cocktail</li>
+    </ul>
+    <div class="row" id="styles">    
     </div>
     <div class="row">
     <!--Robe 1-->
