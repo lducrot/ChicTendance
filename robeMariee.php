@@ -3,7 +3,7 @@
     <head>
         <title>Catégorie robes de mariées</title>
     </head>
-        <?php include("header.html"); ?>
+        <?php include("header.php"); ?>
     <body> 
     <ul class="breadcrumb">
          <li><a class="filAriane" href="accueil.php">Accueil</a></li>
