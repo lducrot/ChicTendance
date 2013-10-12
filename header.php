@@ -72,6 +72,7 @@ catch (Exception $e) {
                     $genre = str_replace("é", "e", $tabGenre['2']);
                     $genre = ucfirst($genre);
                     $pageGenre = "robe".$genre.".php";
+                
                 ?>
                     <li><a class="navPrincipal" href="<?= $pageGenre ?>"><?= $ligne['STYL_LIBELLE'].' '; ?><span class="badge"><?= $ligneContenuGenre['nbContenuGenre']; ?></span></a></li>
                 <?php } ?> 

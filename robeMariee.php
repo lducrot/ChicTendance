@@ -4,7 +4,7 @@ try {
     
     $stmtStyle->execute(array(3));
     $ligneStyle = $stmtStyle->fetch();
-    $nomStyle=$ligneStyle['STYL_LIBELLE'];
+    $nomStyle = $ligneStyle['STYL_LIBELLE'];
 }
 catch (Exception $e) {
     $messageErreur = $e->getMessage().'('.$e->getFile().', ligne '.$e->getLine().')';

@@ -1,3 +1,11 @@
+<?php
+try { 
+    include("header.php");
+}
+catch (Exception $e) {
+    $messageErreur = $e->getMessage().'('.$e->getFile().', ligne '.$e->getLine().')';
+}
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,12 +13,17 @@
     </head>
         <?php include("header.php"); ?>
     <body>
-       
+        <?php foreach ($stmtGenre as $ligne)
+        { 
+            $stmtContenuGenre = $bdd->prepare("SELECT COUNT(styl_id) AS nbContenuGenre FROM t_style WHERE STYL_ID=?");
+            $stmtContenuGenre->execute(array($ligne['STYL_ID']));
+            $ligneContenuGenre = $stmtContenuGenre->fetch();
+            $nomGenre = "robe de".$ligneContenuGenre['STYL_LIBELLE'];
+        }
+        ?>
         <ul class="breadcrumb">
             <li><a class="filAriane" href="accueil.php">Accueil</a></li>
-            <li><a class="filAriane" href="style.php">Style</a></li>
-            <li><a class="filAriane" href="robeSoiree.php">Robes de soirées</a></li>
-            <li class="active">Robe de soirée rouge tendance</li>
+            <li class="active"><?= $nomGenre ?></li>
             
         </ul>
         
