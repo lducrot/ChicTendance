@@ -1,22 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Accueil</title>
 
-    </head>
-    <?php include("header.html"); ?>
-    <body> 
-        <ul class="breadcrumb">
-            <li><a class="filAriane" href="accueil.php">Accueil</a></li>
-        </ul>
-        <?php if (isset($messageErreur)) echo $messageErreur; ?>
+        <?php 
+        $titre = "Accueil";
+        ob_start();        
+        if (isset($messageErreur)) echo $messageErreur; ?>
 
         <div class="row">
             <div class="col-md-1">
             </div>
             <div class="col-md-11">
                 <center>
-
                     <table class="imgAccueil">
                         <tr>
                             <td rowspan="2">
@@ -36,6 +28,5 @@
                 </center> 
             </div>
         </div>
-    </body>
-    <?php include("footer.html"); ?>
-</html>
+       <?php $contenu = ob_get_clean();
+       require 'gabarit.php'; ?>
