@@ -1,6 +1,6 @@
 <?php 
 
-require 'Modele.php';
+require 'Framework/Modele.php';
 
 /*ob_start();?>
 <div class="row-xs-4">
