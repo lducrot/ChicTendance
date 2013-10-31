@@ -1,30 +1,55 @@
 <?php
-function getGenre() {
-    $bdd = getBdd();
-    $genres = $bdd->query("SELECT * FROM t_style ORDER BY styl_id");
-    return $genres;
-}
 
-function getBdd() {
-    $bdd = new PDO("mysql:host=localhost;dbname=chicTendance;charset=utf8", "userCT", "ct", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-    return $bdd;
-}
+require_once 'Configuration.php';
 
-function getStyle($idStyle) {
-    $bdd = getBdd();
-    $style = $bdd->prepare("SELECT * FROM t_style WHERE styl_id=?");
-    $style->execute(array($idStyle));
-    $ligneStyle = $style->fetch();
-    $nomStyle = $ligneStyle['STYL_LIBELLE'];
-    return $nomStyle;
-}
+/**
+ * Classe abstraite Modèle.
+ * Centralise les services d'accès à une base de données.
+ * Utilise l'API PDO de PHP
+ *
+ * @version 1.0
+ * @author Baptiste Pesquet
+ */
+abstract class Modele {
 
-function getNombreRobe($idStyle) {
-    $bdd = getBdd();
-    $style = $bdd->prepare("SELECT COUNT(*) as 'Nombre de robes' FROM t_robe_de_soiree WHERE styl_id=?");
-    $style->execute(array($idStyle));
-    $ligneStyle = $style->fetch();
-    $nomStyle = $ligneStyle['STYL_LIBELLE'];
-    return $nomStyle;
-}
+    /** Objet PDO d'accès à la BD 
+        Statique donc partagé par toutes les instances des classes dérivées */
+    private static $bdd;
 
+    /**
+     * Exécute une requête SQL
+     * 
+     * @param string $sql Requête SQL
+     * @param array $params Paramètres de la requête
+     * @return PDOStatement Résultats de la requête
+     */
+    protected function executerRequete($sql, $params = null) {
+        if ($params == null) {
+            $resultat = self::getBdd()->query($sql);   // exécution directe
+        }
+        else {
+            $resultat = self::getBdd()->prepare($sql); // requête préparée
+            $resultat->execute($params);
+        }
+        return $resultat;
+    }
+
+    /**
+     * Renvoie un objet de connexion à la BDD en initialisant la connexion au besoin
+     * 
+     * @return PDO Objet PDO de connexion à la BDD
+     */
+    private static function getBdd() {
+        if (self::$bdd === null) {
+            // Récupération des paramètres de configuration BD
+            $dsn = Configuration::get("dsn");
+            $login = Configuration::get("login");
+            $mdp = Configuration::get("mdp");
+            // Création de la connexion
+            self::$bdd = new PDO($dsn, $login, $mdp, 
+                    array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        }
+        return self::$bdd;
+    }
+
+}
