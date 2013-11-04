@@ -2,8 +2,8 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8" />
-        <base href="<?= $racineWeb ?>" >
-        <title><?= $titre ?></title>
+        <base href="<?= $this->nettoyer($racineWeb) ?>" >
+        <title><?= $this->nettoyer($titre) ?></title>
         <link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>       
@@ -55,15 +55,16 @@
                         <div class="row-xs-4">
                             <ul class="nav nav-justified nav-stacked">
                                 <li class="active"><a class="navPrincipal" href="accueil.php">Accueil </a></li>
-                                <?= $nav ?>
+                                <?php foreach ($styles as $style): ?>
+                                    <li class="active"><a class="navPrincipal" href="<?= "style/index/" . $this->nettoyer($style['styl_id']) ?>"><?= $this->nettoyer($style['styl_libelle']) . ' ' . $this->nettoyer($style['nbContenuStyle']) ?></a></li>
+                                <?php endforeach; ?>
                             </ul>
                         </div>
-
                     </nav>
                     <br />
             </header>
             <div id="contenu">
-                <?= $contenu ?>
+                <?= $this->nettoyer($contenu) ?>
             </div> <!-- #contenu -->
             <footer id="piedBlog">
                 <center><p class="footer">Site réalisé par Gwendoline et Lauriane, étudiantes en BTS Services Informatique aux Organisations (SIO).</p></center>
