@@ -63,9 +63,7 @@
                     </nav>
                     <br />
             </header>
-            <div id="contenu">
-                <?= $this->nettoyer($contenu) ?>
-            </div> <!-- #contenu -->
+            <!-- #contenu -->
             <footer id="piedBlog">
                 <center><p class="footer">Site réalisé par Gwendoline et Lauriane, étudiantes en BTS Services Informatique aux Organisations (SIO).</p></center>
             </footer>

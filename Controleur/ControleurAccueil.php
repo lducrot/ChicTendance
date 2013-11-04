@@ -12,7 +12,7 @@ class ControleurAccueil extends Controleur {
     }
     
     public function index () {
-        $styles = $this->style->getStyle();
+        $styles = $this->style->getStyles();
         $this->genererVue(array('styles' => $styles));
         
     }
