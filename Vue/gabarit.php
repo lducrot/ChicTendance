@@ -22,51 +22,41 @@
     <body>
         <div id="global">
             <header>
-                    <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-                        <!-- Partie de la barre toujours affichee -->
-                        <div class="navbar-header">
-                            <!-- Bouton affiché a droite si la zone d'affichage est trop petite -->
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" >
-                                <span class="sr-only">Activer la navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="titreEnTete" href="accueil.php">Chic Tendance</a>
-                        </div>
-                        <!-- Partie de la barre masquee en fonction de la zone d'affichage -->  
-                        <nav class="nav nav-collapse navbar-collapse" role="navigation" >
-                            <ul class="nav navbar-nav navbar-right">
-                                <form class="navbar-form navbar-left" role="recherche">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Recherche">
-                                    </div></form>
-                                <li><a class="enTete" href="#">Inscription</a></li>
-                                <li><a class="enTete" href="#">Se Connecter</a></li>
-                                <li><a class="enTete" href="#">Panier</a></li>
-                            </ul>
-                        </nav>
-
+                <!--NAVBAR-->
+                <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+                    <!-- Partie de la barre toujours affichee -->
+                    <div class="navbar-header">
+                        <!-- Bouton affiché a droite si la zone d'affichage est trop petite -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" >
+                            <span class="sr-only">Activer la navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="titreEnTete" href="index.php">Chic Tendance</a>
                     </div>
-
-                    <br /><br /><br /><br /><br />
-
-                    <nav>
-                        <div class="row-xs-4">
-                            <ul class="nav nav-justified nav-stacked">
-                                <li class="active"><a class="navPrincipal" href="accueil.php">Accueil </a></li>
-                                <?php foreach ($styles as $style): ?>
-                                    <li class="active"><a class="navPrincipal" href="<?= "style/index/" . $this->nettoyer($style['styl_id']) ?>"><?= $this->nettoyer($style['styl_libelle']) . ' ' . $this->nettoyer($style['nbContenuStyle']) ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
+                    <!-- Partie de la barre masquee en fonction de la zone d'affichage -->  
+                    <nav class="nav nav-collapse navbar-collapse" role="navigation" >
+                        <ul class="nav navbar-nav navbar-right">
+                            <form class="navbar-form navbar-left" role="recherche">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Recherche">
+                                </div></form>
+                            <li><a class="enTete" href="#">Inscription</a></li>
+                            <li><a class="enTete" href="#">Se Connecter</a></li>
+                            <li><a class="enTete" href="#">Panier</a></li>
+                        </ul>
                     </nav>
-                    <br />
-            </header>
+                </div>
+                <!--FIN NAVBAR-->
+            </header> 
+
+            <?= $contenu ?>
+
             <!-- #contenu -->
             <footer id="piedBlog">
                 <center><p class="footer">Site réalisé par Gwendoline et Lauriane, étudiantes en BTS Services Informatique aux Organisations (SIO).</p></center>
             </footer>
-        </div> <!-- #global -->
+        </div> 
     </body>
 </html>

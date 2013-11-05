@@ -1,18 +1,20 @@
+body { padding-top: 80px; }
+
 .row {
-margin-top: 40px;
-margin-left: 40px;
-margin-right: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .row [class^="col-"] {
-padding-top: 10px;
-padding-bottom: 10px;
-border: 1px solid black;
-border-radius: 15px;
-background-color: rgba(0,0,28,.30);
-color: black;
-position: center;
-margin-left: 15px;
-margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgba(0,0,28,.30);
+    color: black;
+    position: center;
+    margin-left: 15px;
+    margin-bottom: 50px;
 }
 #cache {
     opacity: 0;
@@ -105,8 +107,8 @@ p {
     text-align: justify;
     color: #ffdead;
 }
-    /* FIN Accueil */
-    
+/* FIN Accueil */
+
 /* Style */
 #listMenuStyle li {
     list-style: none;
@@ -135,15 +137,15 @@ p {
 h3 {
     font-size: 18px;
 }
-    /*FIN Style */
-    
+/*FIN Style */
+
 /*Robe de soiree */
 .robeSoiree, .robeMariee, .robeCocktail {
     border: 1px solid black;
     border-radius: 5px;
 }
-    /*FIN Robe de soirée*/
-    
+/*FIN Robe de soirée*/
+
 /* Detail */
 .detail {
     font-family: 'Playball', cursive;
@@ -157,4 +159,4 @@ h3 {
 .RobeDetailTD, .detailRobetr {
     padding-left: 20px;
 }
-        /* FIN Detail */
+/* FIN Detail */
