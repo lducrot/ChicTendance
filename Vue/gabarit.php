@@ -51,7 +51,7 @@
                 <!--FIN NAVBAR-->
             </header> 
 
-            <?= $contenu ?>
+            <?= $this->nettoyer($contenu) ?>
 
             <!-- #contenu -->
             <footer id="piedBlog">
