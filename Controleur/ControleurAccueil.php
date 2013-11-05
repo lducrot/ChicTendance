@@ -1,7 +1,7 @@
 <?php
 
 require_once 'Framework/Controleur.php';
-require_once 'Modele/style.php';
+require_once 'Modele/Styles.php';
 
 class ControleurAccueil extends Controleur {
     
