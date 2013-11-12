@@ -1,5 +1,6 @@
 
-<?php $this->titre = "Robes"; ?>
+<?php $this->titre = "Robes"; 
+require 'Vue/_Commun/navigation.php'; ?>
 
 <div class='row'>
 

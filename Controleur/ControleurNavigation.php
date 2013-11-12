@@ -2,13 +2,16 @@
 
     require_once 'Framework/Controleur.php';
     require_once 'Modele/Robe.php';
+    require_once 'Modele/Styles.php';
     
 class ControleurNavigation extends Controleur {
     
     private $robe;
+    private $style;
     
     public function __construct() {
         $this->robe = new Robe();
+        $this->style = new Style();
     }
     
     public function index() {
@@ -23,6 +26,7 @@ class ControleurNavigation extends Controleur {
     // Affiche les détails sur un style
     private function afficher($styl_id) {
         $robes = $this->robe->getRobes($styl_id);
-        $this->genererVue(array('robes' => $robes));
+        $styles = $this->style->getStyles();
+        $this->genererVue(array('robes' => $robes, 'styles' => $styles));
     }
 }

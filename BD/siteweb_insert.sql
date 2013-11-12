@@ -30,7 +30,7 @@ insert into chicTendance.t_robe_de_soiree (robe_id, robe_nom, robe_dateajout, ro
  (9, "Robe de cocktail rouge", "2013-10-08", 89.99, "robe_cocktail_rouge.jpg", 3, 2),
  (10, "Robe de cocktail noire", "2013-10-08", 99.99, "robe_cocktail_noire.jpg", 3, 2),
  (11, "Robe de cocktail rose", "2013-10-08", 85.99, "robe_cocktail_rose.jpg", 3, 2),
- (12, "Robe de cocktail verte", "2013-10-08", 79.99, "robe_cocktail_vert.jpg", 3, 2),
+ (12, "Robe de cocktail verte", "2013-10-08", 79.99, "robe_cocktail_verte.jpg", 3, 2),
  (13, "Robe de cocktail blanche", "2013-10-08", 85.99, "robe_cocktail_blanche.jpg", 4, 2),
  (14, "Robe de cocktail bleue", "2013-10-08", 79.99, "robe_cocktail_bleue.jpg", 4, 2),
  (15, "Robe de cocktail corail", "2013-10-08", 89.99, "robe_cocktail_corail.jpg", 4, 2),
