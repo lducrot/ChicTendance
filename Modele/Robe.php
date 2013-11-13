@@ -10,7 +10,7 @@ class Robe extends Modele {
         $req = $this->sqlRobe . "where rs.styl_id=?";
         $robes = $this->executerRequete($req, array($styl_id));
         if ($robes->rowCount() >= 1)
-            return $robes;  // Accès à la première ligne de résultat
+            return $robes;
         else
             throw new Exception("Aucune robe ne correspond au type de robe référencé : '$styl_id'");
     }

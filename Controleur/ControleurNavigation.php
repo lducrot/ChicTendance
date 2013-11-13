@@ -27,6 +27,7 @@ class ControleurNavigation extends Controleur {
     private function afficher($styl_id) {
         $robes = $this->robe->getRobes($styl_id);
         $styles = $this->style->getStyles();
-        $this->genererVue(array('robes' => $robes, 'styles' => $styles));
+        $style = $this->style->getStyle($styl_id);
+        $this->genererVue(array('robes' => $robes, 'styles' => $styles, 'style' => $style));
     }
 }
