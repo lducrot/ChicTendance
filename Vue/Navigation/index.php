@@ -1,16 +1,17 @@
 
 <?php $this->titre = "Robes"; 
-require 'Vue/_Commun/navigation.php'; ?>
+require 'Vue/_Commun/menuNavigation.php'; ?>
 
 <div class='row'>
 
     <ul class="breadcrumb">
         <li><a class="filAriane" href="index.php">Accueil</a></li>
-        <li class="active"><?= $this->nettoyer($style['styl_libelle']) ?></li>
+        <li class="active"><?= $this->nettoyer($style['STYL_LIBELLE'])?></li>
     </ul>
-    
-    <?php foreach ($robes as $robe): ?>
-        <div class="col-sm-3 col-md-1">
+    <div class="test">
+    <?php if ($robes->rowCount() >= 1) {
+    foreach ($robes as $robe): ?>
+        <div class="col-sm-3 col-md-2">
             <div class="thumbnail">
                 <a class="thumbnail" href="#"><img class="robeSoiree" src="<?= 'Contenu/images/' . $this->nettoyer($robe['ROBE_IMAGE']) ?>" title="<?= $this->nettoyer($robe['ROBE_NOM']) ?>" /></a>
                
@@ -18,7 +19,11 @@ require 'Vue/_Commun/navigation.php'; ?>
                 
             </div>
         </div>
-    <?php endforeach; ?>
+    <?php endforeach; }
+    else {
+        echo "<div class='alert alert-info'>Aucune robe ne correspond au type de robe référencé : " . $this->nettoyer($style['STYL_ID'])."</div>";
+    }
+?></div>
 </div>
 
 <!-- 

@@ -34,13 +34,13 @@ insert into chicTendance.t_robe_de_soiree (robe_id, robe_nom, robe_dateajout, ro
  (13, "Robe de cocktail blanche", "2013-10-08", 85.99, "robe_cocktail_blanche.jpg", 4, 2),
  (14, "Robe de cocktail bleue", "2013-10-08", 79.99, "robe_cocktail_bleue.jpg", 4, 2),
  (15, "Robe de cocktail corail", "2013-10-08", 89.99, "robe_cocktail_corail.jpg", 4, 2),
- (16, "Robe de cocktail violette", "2013-10-08", 79.99, "robe_cocktail_violette.jpg", 4, 2),
+ (16, "Robe de cocktail violette", "2013-10-08", 79.99, "robe_cocktail_violette.jpg", 4, 2);
  
- (17, "Robe de mariée élégante", "2013-10-08", 199.99, "robe_mariee_1.jpg", 5, 3),
+/*(17, "Robe de mariée élégante", "2013-10-08", 199.99, "robe_mariee_1.jpg", 5, 3),
  (18, "Robe de mariée dentelle", "2013-10-08", 299.99, "robe_mariee_2.jpg", 5, 3),
  (19, "Robe de mariée perlée", "2013-10-08", 285.99, "robe_mariee_3.jpg", 5, 3),
  (20, "Robe de mariée plume", "2013-10-08", 379.99, "robe_mariee_4.jpg", 5, 3),
  (21, "Robe de mariée duvet", "2013-10-08", 179.99, "robe_mariee_5.jpg", 5, 3),
  (22, "Robe de mariée étincelante", "2013-10-08", 279.99, "robe_mariee_6.jpg", 5, 3),
  (23, "Robe de mariée légère", "2013-10-08", 485.99, "robe_mariee_7.jpg", 5, 3),
- (24, "Robe de mariée classe", "2013-10-08", 589.99, "robe_mariee_8.jpg", 5, 3);
+ (24, "Robe de mariée classe", "2013-10-08", 589.99, "robe_mariee_8.jpg", 5, 3);*/

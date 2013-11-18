@@ -1,4 +1,9 @@
-body { padding-top: 80px; }
+body { 
+    background: url("images/fond2.jpg") repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding-top: 80px; 
+}
 
 .row {
     margin-top: 40px;
@@ -31,7 +36,13 @@ body { padding-top: 80px; }
     font-weight: bold;
     border-radius: 60%;
     text-decoration: none;
-} 
+}
+.navPrincipalActive {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(143,146,143);
+}
 .enTete, h2 {
     /*font-family: 'Raleway Dots', cursive; /* écriture en points */
     font-family: 'Playball', cursive;
@@ -51,11 +62,6 @@ a {
 .filAriane {
     font-family: 'Playball', cursive;
     font-size: 18px;
-}
-body {
-    background: url("images/fond2.jpg") repeat;
-    background-attachment: fixed;
-    background-size: 100%;
 }
 .footer {
     color: #ffdead;
@@ -136,6 +142,10 @@ p {
 }
 h3 {
     font-size: 18px;
+}
+.test {
+    margin-left: 200px;
+    margin-right: 200px;
 }
 /*FIN Style */
 

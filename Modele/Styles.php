@@ -13,7 +13,7 @@ class Style extends Modele {
     }
     
     public function getStyle($idStyle) {
-        $req = "SELECT styl_id, styl_libelle FROM t_style WHERE styl_id=?";
+        $req = "SELECT * FROM t_style WHERE styl_id=?";
         $style = $this->executerRequete($req, array($idStyle));
         if ($style->rowCount() == 1)
             return $style->fetch();  // Accès à la première ligne de résultat

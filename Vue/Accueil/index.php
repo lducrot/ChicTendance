@@ -1,6 +1,6 @@
 
 <?php $this->titre = "Chic Tendance"; 
-require 'Vue/_Commun/navigation.php'; ?>
+require 'Vue/_Commun/menuNavigation.php'; ?>
 
 <ul class="breadcrumb">
     <li><a class="filAriane" href="index.php">Accueil</a></li>
