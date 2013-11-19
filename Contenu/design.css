@@ -159,9 +159,9 @@ h3 {
     font-size: 20px;
 }
 .btnPanier {
-    vertical-align: top;
-    text-align: right;
-    width: 60px;
+    vertical-align: bottom;
+    /*text-align: right;*/
+    /*width: 60px;*/
 }
 .RobeDetailTD, .detailRobetr {
     padding-left: 20px;

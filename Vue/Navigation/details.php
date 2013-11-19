@@ -9,8 +9,8 @@ require 'Vue/_Commun/menuNavigation.php';
         <li><a class="filAriane" href="navigation/index/<?= $this->nettoyer($style['STYL_ID'])?>"><?= $this->nettoyer($style['STYL_LIBELLE'])?></a></li>
         <li class="active"><?= $this->nettoyer($details['ROBE_NOM'])?></li>
     </ul>
-    <div class="marge"></div>
-    <div class="col-md-8">
+    <div class="marge">
+    <div class="col-md-12">
         <center>
             <h1 class="titreDetail"><?= $this->nettoyer($details['ROBE_NOM']); ?></h1>
             <table class="detailRobe">
@@ -21,12 +21,10 @@ require 'Vue/_Commun/menuNavigation.php';
                     <td class="RobeDetailTD">
                         <p class="detail">
                             Couturier : <?= $this->nettoyer($details['CREA_NOM']); ?><br />
-                            Prix : <?= $this->nettoyer($details['ROBE_PRIX']); ?><br />
+                            Prix : <?= $this->nettoyer($details['ROBE_PRIX']); ?> €<br />
                             Date : <?= $this->nettoyer($details['ROBE_DATEAJOUT']); ?>
-                        </p>
-                    </td>
-                    <td class="btnPanier">
-                        <a href="#" class="btn btn-default glyphicon glyphicon-shopping-cart"> Panier</a>
+                        </p><br />
+                        <a href="#" class="btn btn-default glyphicon glyphicon-shopping-cart btnPanier"> Panier</a>
                     </td>
                 </tr>
                 <tr>
@@ -36,6 +34,7 @@ require 'Vue/_Commun/menuNavigation.php';
                 </tr>
             </table>
         </center>
+    </div>
     </div>
 
 </div>
