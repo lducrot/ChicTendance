@@ -54,7 +54,6 @@
             </header> 
 
             <?= $contenu ?>
-
             <!-- #contenu -->
             <footer id="piedBlog">
                 <center><p class="footer">Site réalisé par Gwendoline et Lauriane, étudiantes en BTS Services Informatique aux Organisations (SIO).</p></center>
