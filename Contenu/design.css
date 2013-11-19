@@ -79,8 +79,8 @@ a {
     border-radius: 5px;
     border: 3px black solid;
 }
-.imgRobeSoireeRouge {
-    width: 190px;
+.imgRobe {
+    width: 230px;
     border-radius: 5px;
     border: solid black 1px;
 }
@@ -158,12 +158,8 @@ h3 {
     font-family: 'Playball', cursive;
     font-size: 20px;
 }
-.btnPanier {
-    vertical-align: bottom;
-    /*text-align: right;*/
-    /*width: 60px;*/
-}
-.RobeDetailTD, .detailRobetr {
+.RobeDetailTD, .detailRobetr, .btnPanier {
     padding-left: 20px;
+    verticial-align: bottom;
 }
 /* FIN Detail */

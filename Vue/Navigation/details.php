@@ -16,7 +16,7 @@ require 'Vue/_Commun/menuNavigation.php';
             <table class="detailRobe">
                 <tr>
                     <td rowspan="2">
-                        <img class="imgRobeSoireeRouge" src="<?= 'Contenu/images/'.$details['ROBE_IMAGE'] ?>" />
+                        <img class="imgRobe" src="<?= 'Contenu/images/'.$details['ROBE_IMAGE'] ?>" />
                     </td>
                     <td class="RobeDetailTD">
                         <p class="detail">
@@ -24,12 +24,12 @@ require 'Vue/_Commun/menuNavigation.php';
                             Prix : <?= $this->nettoyer($details['ROBE_PRIX']); ?> €<br />
                             Date : <?= $this->nettoyer($details['ROBE_DATEAJOUT']); ?>
                         </p><br />
-                        <a href="#" class="btn btn-default glyphicon glyphicon-shopping-cart btnPanier"> Panier</a>
+                        
                     </td>
                 </tr>
                 <tr>
-                    <td class="detailRobetr" colspan="2">
-                        <!--<p>Vous avez envie de vous faire remarquer ? Cette robe extremement tendance est parfaite pour vous !</p>-->
+                    <td class="btnPanier" colspan="2">
+                        <a href="#" class="btn btn-default glyphicon glyphicon-shopping-cart btnPanier"> Panier</a>
                     </td>
                 </tr>
             </table>
