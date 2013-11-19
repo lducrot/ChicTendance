@@ -13,7 +13,7 @@ require 'Vue/_Commun/menuNavigation.php'; ?>
     foreach ($robes as $robe): ?>
         <div class="col-sm-3 col-md-2">
             <div class="thumbnail">
-                <a class="thumbnail" href="#"><img class="robeSoiree" src="<?= 'Contenu/images/' . $this->nettoyer($robe['ROBE_IMAGE']) ?>" title="<?= $this->nettoyer($robe['ROBE_NOM']) ?>" /></a>
+                <a class="thumbnail" href="Navigation/details/<?= $this->nettoyer($robe['ROBE_ID']) ?>"><img class="robeSoiree" src="<?= 'Contenu/images/' . $this->nettoyer($robe['ROBE_IMAGE']) ?>" title="<?= $this->nettoyer($robe['ROBE_NOM']) ?>" /></a>
                
                     <!--<p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>-->
                 

@@ -30,4 +30,14 @@ class ControleurNavigation extends Controleur {
         $style = $this->style->getStyle($styl_id);
         $this->genererVue(array('robes' => $robes, 'styles' => $styles, 'style' => $style));
     }
+    
+    public function details() {
+        if ($this->requete->existeParametre("id")) {
+            $robe_id = $this->requete->getParametre("id");
+            $details = $this->rob->getDetails($robe_id);
+            $this->genererVue(array('details' => $details));
+        }
+        else
+            throw new Exception("Action impossible : aucune robe ne correspond à l'identifiant ".$robe_id);
+    }
 }
