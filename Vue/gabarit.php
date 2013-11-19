@@ -27,26 +27,28 @@
                     <!-- Partie de la barre toujours affichee -->
                     <div class="navbar-header">
                         <!-- Bouton affiché a droite si la zone d'affichage est trop petite -->
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" >
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="sr-only">Activer la navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
+                        <!-- Lien de retour à la page d'accueil -->
                         <a class="titreEnTete" href="index.php">Chic Tendance</a>
                     </div>
-                    <!-- Partie de la barre masquee en fonction de la zone d'affichage -->  
-                    <nav class="nav nav-collapse navbar-collapse" role="navigation" >
+                    <!-- Partie de la barre masquée en fonction de la zone d'affichage -->
+                    <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <form class="navbar-form navbar-left" role="recherche">
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Recherche">
-                                </div></form>
+                                </div>
+                            </form>
                             <li><a class="enTete" href="#">Inscription</a></li>
                             <li><a class="enTete" href="#">Se Connecter</a></li>
                             <li><a class="enTete" href="#">Panier</a></li>
                         </ul>
-                    </nav>
+                    </div>
                 </div>
                 <!--FIN NAVBAR-->
             </header> 
@@ -58,5 +60,9 @@
                 <center><p class="footer">Site réalisé par Gwendoline et Lauriane, étudiantes en BTS Services Informatique aux Organisations (SIO).</p></center>
             </footer>
         </div> 
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="Librairies/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>

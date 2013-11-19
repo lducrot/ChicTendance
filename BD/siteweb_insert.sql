@@ -2,9 +2,9 @@
 
 /* TABLE Styles */
 insert into chicTendance.t_style (styl_id, styl_libelle) VALUES
- (1, "Robes de soirée"),
- (2, "Robes de cocktail"),
- (3, "Robes de mariée");
+ (1, "Robes De Soirée"),
+ (2, "Robes De Cocktail"),
+ (3, "Robes De Mariée");
 	/* FIN TABLE Style */
 	
 /* TABLE Createur */

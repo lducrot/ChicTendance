@@ -25,22 +25,19 @@ body {
     opacity: 0;
     border: transparent;
 }
-.navPrincipal, h1, .titreDetail {
+.navPrincipal, h1, .titreDetail, .navPrincipalActive {
     color: #ffdead;
     font-family: 'Cinzel Decorative', cursive;
-    font-size: 38px;
+    font-size: 34px;
     font-weight: bold;
 }
-.navPrincipal:hover {
+.navPrincipal:hover, .navPrincipalActive:hover {
     color: #202020;
     font-weight: bold;
     border-radius: 60%;
     text-decoration: none;
 }
 .navPrincipalActive {
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 38px;
-    font-weight: bold;
     color: rgb(143,146,143);
 }
 .enTete, h2 {
@@ -143,9 +140,9 @@ p {
 h3 {
     font-size: 18px;
 }
-.test {
-    margin-left: 200px;
-    margin-right: 200px;
+.marge {
+    margin-left: 150px;
+    margin-right: 150px;
 }
 /*FIN Style */
 
