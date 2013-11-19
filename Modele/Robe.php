@@ -15,6 +15,6 @@ class Robe extends Modele {
     public function getDetails($robe_id) {
         $req = $this->sqlRobe."JOIN t_createur cr ON cr.crea_id = rs.crea_id where robe_id=?";
         $details = $this->executerRequete($req, array($robe_id));
-        return $details;
+        return $details->fetch();
     }
 }
