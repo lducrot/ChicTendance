@@ -32,10 +32,12 @@ body {
     font-weight: bold;
 }
 .navPrincipal:hover, .navPrincipalActive:hover {
-    color: #202020;
+    color: #00001C;
+    opacity: 0.5;
     font-weight: bold;
     border-radius: 60%;
     text-decoration: none;
+    box-shadow: 6px 6px 15px #c0c0c0;
 }
 .navPrincipalActive {
     color: rgb(143,146,143);
