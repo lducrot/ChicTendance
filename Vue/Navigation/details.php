@@ -13,26 +13,25 @@ require 'Vue/_Commun/menuNavigation.php';
     <div class="col-md-12">
         <center>
             <h1 class="titreDetail"><?= $this->nettoyer($details['ROBE_NOM']); ?></h1>
-            <table class="detailRobe">
+            <!--<table>
                 <tr>
-                    <td rowspan="2">
+                    <td rowspan="2">-->
                         <img class="imgRobe" src="<?= 'Contenu/images/'.$details['ROBE_IMAGE'] ?>" />
-                    </td>
-                    <td class="RobeDetailTD">
+                    <!--</td>
+                    <td class="RobeDetailTD">-->
                         <p class="detail">
                             Couturier : <?= $this->nettoyer($details['CREA_NOM']); ?><br />
                             Prix : <?= $this->nettoyer($details['ROBE_PRIX']); ?> €<br />
-                            Date : <?= $this->nettoyer($details['ROBE_DATEAJOUT']); ?>
+                            Date d'ajout : <?= $this->nettoyer($details['ROBE_DATEAJOUT']); ?>
                         </p><br />
-                        
-                    </td>
+                    <!--</td>
                 </tr>
                 <tr>
-                    <td class="btnPanier" colspan="2">
+                    <td class="btnPanier" colspan="2">-->
                         <a href="#" class="btn btn-default glyphicon glyphicon-shopping-cart btnPanier"> Panier</a>
-                    </td>
+                    <!--</td>
                 </tr>
-            </table>
+            </table>-->
         </center>
     </div>
     </div>
