@@ -16,7 +16,7 @@ require 'Vue/_Commun/menuNavigation.php';
             <!--<table>
                 <tr>
                     <td rowspan="2">-->
-                        <img class="imgRobe" src="<?= 'Contenu/images/'.$details['ROBE_IMAGE'] ?>" />
+                        <img class="imgRobe" src="<?= 'Contenu/images/'.$details['ROBE_IMAGE'] ?>" title="<?= $this->nettoyer($details['ROBE_NOM']) ?>"/>
                     <!--</td>
                     <td class="RobeDetailTD">-->
                         <p class="detail">
