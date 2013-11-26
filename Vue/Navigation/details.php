@@ -22,7 +22,7 @@ require 'Vue/_Commun/menuNavigation.php';
                         <p class="detail">
                             Couturier : <?= $this->nettoyer($details['CREA_NOM']); ?><br />
                             Prix : <?= $this->nettoyer($details['ROBE_PRIX']); ?> €<br />
-                            Date : <?= $this->nettoyer($details['ROBE_DATEAJOUT']); ?>
+                            Date d'ajout : <?= $this->nettoyer($details['ROBE_DATEAJOUT']); ?>
                         </p><br />
                         
                     </td>
