@@ -17,13 +17,14 @@ class ControleurNavigation extends Controleur {
     public function index() {
         if ($this->requete->existeParametre("id")) {
             $styl_id = $this->requete->getParametre("id");
+            $style = $this->style->getStyle($styl_id);
             $robes = $this->robe->getRobes($styl_id);
             $styles = $this->style->getStyles();
-            $style = $this->style->getStyle($styl_id);
             $this->genererVue(array('robes' => $robes, 'styles' => $styles, 'style' => $style));
         }
         else
             throw new Exception("Action impossible : aucun style défini");
+
     }
     
     public function details() {

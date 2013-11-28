@@ -18,6 +18,6 @@ class Style extends Modele {
         if ($style->rowCount() == 1)
             return $style->fetch();  // Accès à la première ligne de résultat
         else
-            throw new Exception("Aucun style ne correspond à l'identifiant '$style'");
+            throw new Exception("Aucun style ne correspond à l'identifiant ".$idStyle);
     }
 }
