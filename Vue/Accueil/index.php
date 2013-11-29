@@ -1,4 +1,3 @@
-
 <?php $this->titre = "Chic Tendance"; 
 require 'Vue/_Commun/menuNavigation.php'; ?>
 
