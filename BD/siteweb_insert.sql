@@ -44,3 +44,7 @@ insert into chicTendance.t_robe_de_soiree (robe_id, robe_nom, robe_dateajout, ro
  (22, "Robe de mariée étincelante", "08/10/2013", 279.99, "robe_mariee_6.jpg", 5, 3),
  (23, "Robe de mariée légère", "08/10/2013", 485.99, "robe_mariee_7.jpg", 5, 3),
  (24, "Robe de mariée classe", "08/10/2013", 589.99, "robe_mariee_8.jpg", 5, 3);*/
+
+/* TABLE t_client */
+insert into chicTendance.t_client (clie_nom, clie_prenom, clie_adresse, clie_cp, clie_ville, clie_courriel, clie_mdp) VALUES
+  ("DUPONT", "Claude", "125 rue de paris", "69002", "LYON", "claude.dupont@laposte.net", "123");
