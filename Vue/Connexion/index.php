@@ -7,8 +7,8 @@ require 'Vue/_Commun/menuNavigation.php';
 <div class='row'>
     <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
         <ul class="nav nav-tabs nav-justified">
-            <li class="active"><a href="#simple" data-toggle="tab">Recherche</a></li>
-            <li><a href="#avancee" data-toggle="tab">Recherche Avancée</a></li>
+            <li class="active"><a href="#connexion" data-toggle="tab">Connexion</a></li>
+            <li><a href="#inscription" data-toggle="tab">Inscription</a></li>
         </ul>
     </div>
     <div class="well">
