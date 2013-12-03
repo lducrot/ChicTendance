@@ -5,7 +5,6 @@ require_once 'Framework/Controleur.php';
 /**
  * Classe parente des contrôleurs soumis à authentification
  *
- * @author Baptiste Pesquet
  */
 abstract class ControleurSecurise extends Controleur
 {
@@ -16,6 +15,7 @@ abstract class ControleurSecurise extends Controleur
         // Si non, l'utilisateur est renvoyé vers le contrôleur de connexion
         if ($this->requete->getSession()->existeAttribut("idVisiteur")) {
             parent::executerAction($action);
+   
         }
         else {
             $this->rediriger("connexion");
