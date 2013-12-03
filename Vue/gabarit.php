@@ -39,7 +39,7 @@
                     <!-- Partie de la barre masquée en fonction de la zone d'affichage -->
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a class="enTete" href="connexion/connecter">Se Connecter</a></li>
+                            <li><a class="enTete" href="connexion">Se Connecter</a></li>
                             <li><a class="enTete" href="#">Inscription</a></li>
                         </ul>
                     </div>
