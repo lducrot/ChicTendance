@@ -1,5 +1,3 @@
-
-
 /* TABLE Styles */
 insert into chicTendance.t_style (styl_id, styl_libelle) VALUES
  (1, "Robes De Soirée"),
