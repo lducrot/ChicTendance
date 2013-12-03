@@ -10,15 +10,18 @@ require_once 'Modele/Client.php';
 class ControleurConnexion extends Controleur
 {
     private $client;
+    private $style;
 
     public function __construct()
     {
         $this->client = new Client();
+        $this->style = new Style();
     }
 
     public function index()
     {
-        $this->genererVue();
+        $styles = $this->style->getStyles();
+        $this->genererVue(array('style' => $style));
     }
 
     public function connecter()
