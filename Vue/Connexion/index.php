@@ -4,13 +4,13 @@ $this->titre = "Connexion";
 require 'Vue/_Commun/menuNavigation.php';
 ?>
 
-<div class='row'>
-
+<div class="row">
     <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
         <ul class="nav nav-tabs nav-justified">
             <li class="active"><a href="#connexion" data-toggle="tab">Connexion</a></li>
             <li><a href="#inscription" data-toggle="tab">Inscription</a></li>
-        </ul> <br />
+        </ul>
+        <br />
         <div class="tab-content">
             <!--Connexion-->
             <div class="tab-pane fade in active" id="connexion">
@@ -24,7 +24,7 @@ require 'Vue/_Commun/menuNavigation.php';
             <!--Inscription-->
             <div class="tab-pane fade in active" id="inscription">
                 <form class="form-signin form-horizontal" role="form" action="connexion/connecter" method="post">
-                    <div class="form-group"><label>Entrez votre nom : </label><input name="nom" type="text" class="form-control" required autofocus><br /></div>
+                    <label>Entrez votre nom : </label><input name="nom" type="text" class="form-control" required autofocus><br />
                     <label>Entrez votre prénom : </label><input name="prenom" type="text" class="form-control" required><br />
                     <label>Entrez votre adresse : </label><input name="adresse" type="text" class="form-control" required><br />
                     <label>Entrez votre code postal : </label><input name="cp" type="text" class="form-control" required><br />
@@ -34,6 +34,7 @@ require 'Vue/_Commun/menuNavigation.php';
                     <button type="submit" class="btn btn-default"> Inscription</button>
                 </form>
             </div>
+            
         </div>
-   </div>
+    </div>
 </div>
