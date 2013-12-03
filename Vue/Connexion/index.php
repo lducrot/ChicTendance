@@ -22,7 +22,7 @@ require 'Vue/_Commun/menuNavigation.php';
             </div>
 
             <!--Inscription-->
-            <div class="tab-pane fade in active" id="inscription">
+            <div class="tab-pane fade" id="inscription">
                 <form class="form-signin form-horizontal" role="form" action="connexion/connecter" method="post">
                     <label>Entrez votre nom : </label><input name="nom" type="text" class="form-control" required autofocus><br />
                     <label>Entrez votre prénom : </label><input name="prenom" type="text" class="form-control" required><br />
