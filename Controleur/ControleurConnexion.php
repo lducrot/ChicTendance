@@ -2,6 +2,7 @@
 
 require_once 'Framework/Controleur.php';
 require_once 'Modele/Client.php';
+require_once 'Modele/Styles.php';
 
 /**
  * Contrôleur gérant la connexion au site
@@ -21,7 +22,7 @@ class ControleurConnexion extends Controleur
     public function index()
     {
         $styles = $this->style->getStyles();
-        $this->genererVue(array('style' => $style));
+        $this->genererVue(array('styles' => $styles));
     }
 
     public function connecter()
