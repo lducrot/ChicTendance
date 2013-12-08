@@ -1,5 +1,3 @@
-
-
 /* TABLE Styles */
 insert into chicTendance.t_style (styl_id, styl_libelle) VALUES
  (1, "Robes De Soirée"),
@@ -14,8 +12,8 @@ insert into chicTendance.t_createur (crea_id, crea_nom) VALUES
  (3, "Givenchy"),
  (4, "Lucien Pella-Finet"),
  (5, "Zucca");
-	/*FIN TABLE createur*/
-	
+	/*FIN TABLE create
+
 /* TABLE t_robe de soiree */
 insert into chicTendance.t_robe_de_soiree (robe_id, robe_nom, robe_dateajout, robe_prix, robe_image, crea_id, styl_id) VALUES
  (1, "Robe de soirée rouge tendance", "08/10/2013", 129.99, "robe_soiree_rouge.jpg", 1, 1),
@@ -44,3 +42,9 @@ insert into chicTendance.t_robe_de_soiree (robe_id, robe_nom, robe_dateajout, ro
  (22, "Robe de mariée étincelante", "08/10/2013", 279.99, "robe_mariee_6.jpg", 5, 3),
  (23, "Robe de mariée légère", "08/10/2013", 485.99, "robe_mariee_7.jpg", 5, 3),
  (24, "Robe de mariée classe", "08/10/2013", 589.99, "robe_mariee_8.jpg", 5, 3);*/
+	/*FIN TABLE robe de soiree*/
+
+/* TABLE t_client */
+insert into chicTendance.t_client (clie_nom, clie_prenom, clie_adresse, clie_cp, clie_ville, clie_courriel, clie_mdp) VALUES
+  ("DUPONT", "Claude", "125 rue de paris", "69002", "LYON", "claude.dupont@laposte.net", "123");
+	/*FIN TABLE client*/

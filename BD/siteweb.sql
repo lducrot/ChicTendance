@@ -65,6 +65,24 @@ CREATE TABLE IF NOT EXISTS `t_style` (
   PRIMARY KEY (`STYL_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `t_client`
+--
+
+CREATE TABLE IF NOT EXISTS `t_client` (
+  `CLIE_ID` int(3) NOT NULL AUTO_INCREMENT,
+  `CLIE_NOM` varchar(50) NOT NULL,
+  `CLIE_PRENOM` varchar(50) NOT NULL,
+  `CLIE_ADRESSE` varchar(50) NOT NULL,
+  `CLIE_CP` varchar(50) NOT NULL,
+  `CLIE_VILLE` varchar(50) NOT NULL,
+  `CLIE_COURRIEL` varchar(50) NOT NULL UNIQUE,
+  `CLIE_MDP` varchar(50) NOT NULL,
+  PRIMARY KEY (`CLIE_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 --
 -- Contraintes pour les tables exportées
 --

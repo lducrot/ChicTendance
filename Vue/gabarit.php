@@ -39,14 +39,8 @@
                     <!-- Partie de la barre masquée en fonction de la zone d'affichage -->
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <form class="navbar-form navbar-left" role="recherche">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Recherche">
-                                </div>
-                            </form>
+                            <li><a class="enTete" href="connexion">Se Connecter</a></li>
                             <li><a class="enTete" href="#">Inscription</a></li>
-                            <li><a class="enTete" href="#">Se Connecter</a></li>
-                            <li><a class="enTete" href="#">Panier</a></li>
                         </ul>
                     </div>
                 </div>
