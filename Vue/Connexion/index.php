@@ -24,13 +24,14 @@ require 'Vue/_Commun/menuNavigation.php';
             <!--Inscription-->
             <div class="tab-pane fade" id="inscription">
                 <form class="form-signin form-horizontal" role="form" action="connexion/connecter" method="post">
-                    <label>Entrez votre nom : </label><input name="nom" type="text" class="form-control" required autofocus><br />
-                    <label>Entrez votre prénom : </label><input name="prenom" type="text" class="form-control" required><br />
-                    <label>Entrez votre adresse : </label><input name="adresse" type="text" class="form-control" required><br />
-                    <label>Entrez votre code postal : </label><input name="cp" type="text" class="form-control" required><br />
-                    <label>Entrez votre ville : </label><input name="ville" type="text" class="form-control" required><br />
-                    <label>Entrez votre courriel : </label><input name="courriel" type="mail" class="form-control" required><br />
-                    <label>Entrez votre mot de passe : </label><input name="mdp" type="password" class="form-control" required><br />
+                    <p>Veuillez remplir le formulaire suivant pour vous inscrire : </p>
+                    <p><label>Nom : </label><input name="nom" type="text" class="form-control" required autofocus></p>
+                    <p><label>Prénom : </label><input name="prenom" type="text" class="form-control" required></p>
+                    <p><label>Adresse : </label><input name="adresse" type="text" class="form-control" required></p>
+                    <p><label>Code postal : </label><input name="cp" type="text" class="form-control" required></p>
+                    <p><label>Ville : </label><input name="ville" type="text" class="form-control" required></p>
+                    <p><label>Courriel : </label><input name="courriel" type="mail" class="form-control" required></p>
+                    <p><label>Mot de passe : </label><input name="mdp" type="password" class="form-control" required></p>
                     <button type="submit" class="btn btn-default"> Inscription</button>
                 </form>
             </div>
@@ -38,3 +39,4 @@ require 'Vue/_Commun/menuNavigation.php';
         </div>
     </div>
 </div>
+
