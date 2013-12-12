@@ -19,7 +19,7 @@ class ControleurClient extends ControleurSecurise
 
     public function index()
     {
-        $styles = $this->style->getStyles();
+        $style = $this->style->getStyles();
         $this->genererVue(array('idClient' => $client['idClient'], 'nomClient' => $client['nomClient'], 
             'prenomClient' => $client['prenomClient'], 'adresseClient' => $client['adresseClient'], 
             'cpClient' => $client['cpClient'], 'villeClient' => $client['villeClient'], 
