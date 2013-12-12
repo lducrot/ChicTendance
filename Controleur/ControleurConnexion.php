@@ -6,7 +6,6 @@ require_once 'Modele/Styles.php';
 
 /**
  * Contrôleur gérant la connexion au site
- *
  */
 class ControleurConnexion extends Controleur
 {
@@ -33,8 +32,8 @@ class ControleurConnexion extends Controleur
             
             if ($this->client->connecter($courriel, $mdp)) {
                 $client = $this->client->getClient($courriel, $mdp);
-                $this->requete->getSession()->setAttribut("idClient", $client['clie_id']);
-                $this->requete->getSession()->setAttribut("courrielClient", $client['clie_courriel']);
+                $this->requete->getSession()->setAttribut("idClient", $client['CLIE_ID']);
+                $this->requete->getSession()->setAttribut("courrielClient", $client['CLIE_COURRIEL']);
                 $this->rediriger("accueil");
                 }
                 else

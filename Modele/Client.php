@@ -17,7 +17,7 @@ class Client extends Modele {
         $req = $this->sqlClient . "where clie_courriel=? and clie_mdp=?";
         $client = $this->executerRequete($req, array($courriel, $mdp));
         if ($client->rowCount() == 1)
-            return $client;
+            return $client->fetch();
         else
             throw new Exception ("L'utilisateur n'a pas été reconnu");
     }
