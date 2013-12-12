@@ -5,6 +5,8 @@ require 'Vue/_Commun/menuNavigation.php';
 ?>
 
 <div class="row">
+     <div class="col-md-1">
+    </div>
     <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
         <ul class="nav nav-tabs nav-justified">
             <li class="active"><a href="#connexion" data-toggle="tab">Connexion</a></li>
