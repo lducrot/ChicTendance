@@ -34,7 +34,7 @@ require 'Vue/_Commun/menuNavigation.php';
                     <p><label>Ville : </label><input name="ville" type="text" class="form-control" required></p>
                     <p><label>Courriel : </label><input name="courriel" type="mail" class="form-control" required></p>
                     <p><label>Mot de passe : </label><input name="mdp" type="password" class="form-control" required></p>
-                    <button type="submit" class="btn btn-default"> Inscription</button>
+                    <br /><button type="submit" class="btn btn-default"> Inscription</button>
                 </form>
             </div>
             
