@@ -23,6 +23,6 @@ class ControleurClient extends ControleurSecurise
         $this->genererVue(array('idClient' => $client['idClient'], 'nomClient' => $client['nomClient'], 
             'prenomClient' => $client['prenomClient'], 'adresseClient' => $client['adresseClient'], 
             'cpClient' => $client['cpClient'], 'villeClient' => $client['villeClient'], 
-            'courrielClient' => $client['courrielClient'], 'mdpClient' => $client['mdpClient'], 'style' => $style));
+            'courrielClient' => $client['courrielClient'], 'mdpClient' => $client['mdpClient'], 'style' => $styles));
     }
 }

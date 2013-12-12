@@ -1,5 +1,6 @@
 <?php
 
+require_once 'Configuration.php';
 require_once 'Requete.php';
 require_once 'Vue.php';
 
@@ -7,8 +8,6 @@ require_once 'Vue.php';
  * Classe abstraite Controleur
  * Fournit des services communs aux classes Controleur dérivées
  * 
- * @version 1.0
- * @author Baptiste Pesquet
  */
 abstract class Controleur {
 

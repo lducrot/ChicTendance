@@ -32,14 +32,8 @@ class ControleurConnexion extends Controleur
             $mdp = $this->requete->getParametre("mdp");
             if ($this->client->connecter($courriel, $mdp)) {
                 $client = $this->client->getClient($courriel, $mdp);
-                $this->requete->getSession()->setAttribut("idClient",$client['clie_id']);
-                $this->requete->getSession()->setAttribut("nomClient",$client['clie_prenom']);
-                $this->requete->getSession()->setAttribut("prenomClient",$client['clie_prenom']);
-                $this->requete->getSession()->setAttribut("adresseClient",$client['clie_adresse']);
-                $this->requete->getSession()->setAttribut("cpClient",$client['clie_cp']);
-                $this->requete->getSession()->setAttribut("villeClient",$client['clie_ville']);
-                $this->requete->getSession()->setAttribut("courrielClient",$client['clie_courriel']);
-                $this->requete->getSession()->setAttribut("mdpClient",$client['clie_mdp']);
+                $this->requete->getSession()->setAttribut("idClient",$client['CLIE_ID']);
+                $this->requete->getSession()->setAttribut("courrielClient",$client['CLIE_COURRIEL']);
                 $this->rediriger("accueil");
             }
             else
