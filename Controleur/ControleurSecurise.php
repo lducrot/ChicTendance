@@ -6,7 +6,7 @@ require_once 'Framework/Controleur.php';
  * Classe parente des contrôleurs soumis à authentification
  *
  */
-abstract class ControleurSecurise extends Controleur
+abstract class ControleurSecurise extends ControleurPersonalise
 {
     public function executerAction($action)
     {
