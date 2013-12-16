@@ -21,4 +21,11 @@ class Client extends Modele {
         else
             throw new Exception ("L'utilisateur n'a pas été reconnu");
     }
+    
+    //Ajoute un client
+    public function  AjouteClient($nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp) {
+        $sql = "insert into t_client (CLIE_NOM, CLIE_PRENOM, CLIE_ADRESSE, CLIE_CP, CLIE_VILLE, CLIE_COURRIEL, CLIE_MDP) values (?, ?, ?, ?, ?, ?, ?);";
+        $ajoutClient = $this->executerRequete($sql, array($nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp));
+        return $ajoutClient;
+    }
 }

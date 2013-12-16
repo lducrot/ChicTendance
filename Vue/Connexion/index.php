@@ -17,7 +17,7 @@ require 'Vue/_Commun/menuNavigation.php';
             <!--Connexion-->
             <div class="tab-pane fade in active" id="connexion">
                 <form class="form-signin form-horizontal" role="form" action="connexion/connecter" method="post">
-                    <input name="courriel" type="text" class="form-control" placeholder="Entrez votre courriel : " required autofocus><br />
+                    <input name="courriel" type="email" class="form-control" placeholder="Entrez votre courriel : " required autofocus><br />
                     <input name="mdp" type="password" class="form-control" placeholder="Entrez votre mot de passe : " required><br />
                     <button type="submit" class="btn btn-default btn-primary"><span class="glyphicon glyphicon-log-in"></span> Connexion</button>
                 </form>
@@ -32,7 +32,7 @@ require 'Vue/_Commun/menuNavigation.php';
                     <p><label>Adresse : </label><input name="adresse" type="text" class="form-control" required></p>
                     <p><label>Code postal : </label><input name="cp" type="text" class="form-control" required></p>
                     <p><label>Ville : </label><input name="ville" type="text" class="form-control" required></p>
-                    <p><label>Courriel : </label><input name="courriel" type="mail" class="form-control" required></p>
+                    <p><label>Courriel : </label><input name="courriel" type="email" class="form-control" required></p>
                     <p><label>Mot de passe : </label><input name="mdp" type="password" class="form-control" required></p>
                     <br /><button type="submit" class="btn btn-default"> Inscription</button>
                 </form>
