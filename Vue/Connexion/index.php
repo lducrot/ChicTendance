@@ -17,8 +17,8 @@ require 'Vue/_Commun/menuNavigation.php';
             <!--Connexion-->
             <div class="tab-pane fade in active" id="connexion">
                 <form class="form-signin form-horizontal" role="form" action="connexion/connecter" method="post">
-                    <input name="courriel" type="text" class="form-control" placeholder="Entrez votre courriel" required autofocus><br />
-                    <input name="mdp" type="password" class="form-control" placeholder="Entrez votre mot de passe" required><br />
+                    <input name="courriel" type="text" class="form-control" placeholder="Entrez votre courriel : " required autofocus><br />
+                    <input name="mdp" type="password" class="form-control" placeholder="Entrez votre mot de passe : " required><br />
                     <button type="submit" class="btn btn-default btn-primary"><span class="glyphicon glyphicon-log-in"></span> Connexion</button>
                 </form>
             </div>

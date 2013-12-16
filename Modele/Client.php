@@ -13,11 +13,11 @@ class Client extends Modele {
         return ($client->rowCount() == 1);
     }
     
-    public function getClient($clie_courriel, $clie_mdp) {
+    public function getClient($courriel, $mdp) {
         $req = $this->sqlClient . "where clie_courriel=? and clie_mdp=?";
-        $client = $this->executerRequete($req, array($clie_courriel, $clie_mdp));
+        $client = $this->executerRequete($req, array($courriel, $mdp));
         if ($client->rowCount() == 1)
-            return $client;
+            return $client->fetch();
         else
             throw new Exception ("L'utilisateur n'a pas été reconnu");
     }

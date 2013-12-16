@@ -6,7 +6,6 @@ require_once 'Modele/Styles.php';
 
 /**
  * Contrôleur gérant la connexion au site
- *
  */
 class ControleurConnexion extends Controleur
 {
@@ -30,14 +29,15 @@ class ControleurConnexion extends Controleur
         if ($this->requete->existeParametre("courriel") && $this->requete->existeParametre("mdp")) {
             $courriel = $this->requete->getParametre("courriel");
             $mdp = $this->requete->getParametre("mdp");
+            
             if ($this->client->connecter($courriel, $mdp)) {
                 $client = $this->client->getClient($courriel, $mdp);
-                $this->requete->getSession()->setAttribut("idClient",$client['CLIE_ID']);
-                $this->requete->getSession()->setAttribut("courrielClient",$client['CLIE_COURRIEL']);
+                $this->requete->getSession()->setAttribut("idClient", $client['CLIE_ID']);
+                $this->requete->getSession()->setAttribut("courrielClient", $client['CLIE_COURRIEL']);
                 $this->rediriger("accueil");
-            }
-            else
-                $this->genererVue(array('msgErreur' => 'Login ou mot de passe incorrects'),"index");
+                }
+                else
+                    $this->genererVue(array('msgErreur' => 'Login ou mot de passe incorrects'),"index");
         }
         else
             throw new Exception("Action impossible : login ou mot de passe non défini");
