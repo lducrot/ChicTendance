@@ -1,14 +1,13 @@
 <?php
 
-//require_once 'Controleur/ControleurPersonalise.php';
-require_once 'Framework/Controleur.php';
+require_once 'Controleur/ControleurPersonalise.php';
 require_once 'Modele/Client.php';
 require_once 'Modele/Styles.php';
 
 /**
  * Contrôleur gérant la connexion au site
  */
-class ControleurConnexion extends Controleur//Personalise
+class ControleurConnexion extends ControleurPersonalise
 {
     private $client;
     private $style;
