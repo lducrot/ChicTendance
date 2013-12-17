@@ -1,6 +1,7 @@
 
 <?php $this->titre = "Robes";
 require 'Vue/_Commun/menuNavigation.php';
+require 'Vue/_Commun/barreNavigation.php';
 ?>
 
 <div class='row'>

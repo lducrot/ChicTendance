@@ -20,8 +20,12 @@ class ControleurConnexion extends ControleurPersonalise
 
     public function index()
     {
-        $styles = $this->style->getStyles();
-        $this->genererVue(array('styles' => $styles));
+        if ($this->requete->getSession()->existeAttribut("idClient"))
+            $this->rediriger('accueil');
+        else {
+            $styles = $this->style->getStyles();
+            $this->genererVue(array('styles' => $styles));
+        }
     }
 
     public function connecter()
@@ -66,11 +70,7 @@ class ControleurConnexion extends ControleurPersonalise
                 }
                 else
                     $this->genererVue(array('msgErreur' => 'Login ou mot de passe incorrects'),"index");
-           
-           
        }
-    
-        
     }
 
     public function deconnecter()

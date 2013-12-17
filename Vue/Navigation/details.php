@@ -1,6 +1,7 @@
 <?php
 $this->titre = $this->nettoyer($details['ROBE_NOM']);
 require 'Vue/_Commun/menuNavigation.php';
+require 'Vue/_Commun/barreNavigation.php';
 ?>
 
 <div class="row">
