@@ -17,9 +17,10 @@ class ControleurConnexion extends ControleurPersonalise {
         $this->style = new Style();
     }
 
-    public function index() {
+    public function index()
+    {
         if ($this->requete->getSession()->existeAttribut("idClient"))
-            $this->rediriger('acceuil');
+            $this->rediriger('accueil');
         else {
             $styles = $this->style->getStyles();
             $this->genererVue(array('styles' => $styles));

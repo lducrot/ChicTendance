@@ -20,8 +20,8 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bienvenue, <?= $this->nettoyer($client['CLIE_PRENOM']) ?> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Informations personnelles</a></li>
-                        <li><a href="#">Déconnexion</a></li>
+                        <li><a href="client">Informations personnelles</a></li>
+                        <li><a href="connexion/deconnecter">Déconnexion</a></li>
                     </ul>
                 </li>
                 <?php

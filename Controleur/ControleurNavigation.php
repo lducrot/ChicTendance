@@ -1,17 +1,20 @@
 <?php
 
-    require_once 'Framework/Controleur.php';
+    require_once 'Controleur/ControleurPersonalise.php';
     require_once 'Modele/Robe.php';
     require_once 'Modele/Styles.php';
+    require_once 'Modele/Client.php';
     
-class ControleurNavigation extends Controleur {
+class ControleurNavigation extends ControleurPersonalise {
     
     private $robe;
     private $style;
+    protected $client;
     
     public function __construct() {
         $this->robe = new Robe();
         $this->style = new Style();
+        $this->client = new Client();
     }
     
     public function index() {
@@ -24,7 +27,6 @@ class ControleurNavigation extends Controleur {
         }
         else
             throw new Exception("Action impossible : aucun style défini");
-
     }
     
     public function details() {
