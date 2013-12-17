@@ -15,18 +15,22 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <?php
-                if ($this->requete->getSession()->existeAttribut("idClient")) {
+                if (isset($client)) {
                 ?>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bienvenue, <?= $this->requete->getSession()->getAttribut("idClient") ?> <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bienvenue, <?= $this->nettoyer($client['CLIE_PRENOM']) ?> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Informations personnelles</a></li>
-                        <li><a href="#">Déconnection</a></li>
+                        <li><a href="#">Déconnexion</a></li>
                     </ul>
                 </li>
-                <?php } else { ?>
+                <?php
+                } else {
+                ?>
                 <li><a class="enTete" href="connexion">Se Connecter</a></li>
-                <?php } ?>
+                <?php
+                }
+                ?>
             </ul>
         </div>
     </div>

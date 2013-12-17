@@ -1,13 +1,13 @@
 <?php
 
-require_once 'Framework/Controleur.php';
+require_once 'Controleur/ControleurPersonalise.php';
 require_once 'Modele/Client.php';
 require_once 'Modele/Styles.php';
 
 /**
  * Contrôleur gérant la connexion au site
  */
-class ControleurConnexion extends Controleur
+class ControleurConnexion extends ControleurPersonalise
 {
     private $client;
     private $style;
@@ -34,6 +34,7 @@ class ControleurConnexion extends Controleur
                 $client = $this->client->getClient($courriel, $mdp);
                 $this->requete->getSession()->setAttribut("idClient", $client['CLIE_ID']);
                 $this->requete->getSession()->setAttribut("courrielClient", $client['CLIE_COURRIEL']);
+                $this->requete->getSession()->setAttribut("mdpClient", $client['CLIE_MDP']);
                 $this->rediriger("accueil");
                 }
                 else
