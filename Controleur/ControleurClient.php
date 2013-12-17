@@ -25,4 +25,6 @@ class ControleurClient extends ControleurSecurise
             'cpClient' => $client['cpClient'], 'villeClient' => $client['villeClient'], 
             'courrielClient' => $client['courrielClient'], 'mdpClient' => $client['mdpClient'], 'style' => $styles));
     }
+    
+    
 }
