@@ -8,7 +8,6 @@ require_once 'Vue.php';
  * Classe abstraite contrôleur. 
  * Fournit des services communs aux classes contrôleurs dérivées.
  * 
- * @author Baptiste Pesquet
  */
 abstract class Controleur
 {
@@ -74,18 +73,11 @@ abstract class Controleur
         $vue = new Vue($actionVue, $controleurVue);
         $vue->generer($donneesVue);
     }
-
-    /**
-     * Effectue une redirection vers un contrôleur et une action spécifiques
-     * 
-     * @param string $controleur Contrôleur
-     * @param type $action Action Action
-     */
+    
     protected function rediriger($controleur, $action = null)
     {
         $racineWeb = Configuration::get("racineWeb", "/");
         // Redirection vers l'URL /racine_site/controleur/action
         header("Location:" . $racineWeb . $controleur . "/" . $action);
     }
-
 }
