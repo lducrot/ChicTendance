@@ -14,6 +14,7 @@ require 'Vue/_Commun/menuNavigation.php';
         </ul>
         <br />
         <div class="tab-content">
+            
             <!--Connexion-->
             <div class="tab-pane fade in active" id="connexion">
                 <form class="form-signin form-horizontal" role="form" action="connexion/connecter" method="post">
@@ -27,15 +28,15 @@ require 'Vue/_Commun/menuNavigation.php';
             <div class="tab-pane fade" id="inscription">
                 <form class="form-signin form-horizontal" role="form" action="connexion/inscription" method="post">
                     <p>Veuillez remplir le formulaire suivant pour vous inscrire : </p>
-                    <p><label>Nom : </label><input name="nom" type="text" class="form-control" required autofocus></p>
-                    <p><label>Prénom : </label><input name="prenom" type="text" class="form-control" required></p>
-                    <p><label>Adresse : </label><input name="adresse" type="text" class="form-control" required></p>
-                    <p><label>Code postal : </label><input name="cp" type="text" class="form-control" required></p>
-                    <p><label>Ville : </label><input name="ville" type="text" class="form-control" required></p>
-                    <p><label>Courriel : </label><input name="courriel" type="email" class="form-control" required></p>
-                    <p><label>Mot de passe : </label><input name="mdp" type="password" class="form-control" required></p>
+                    <p><label>Nom<span class="obligatoire">*</span> : </label></p><input name="nom" type="text" class="form-control" required autofocus><br />
+                    <p><label>Prénom<span class="obligatoire">*</span> : </label></p><input name="prenom" type="text" class="form-control" required><br />
+                    <p><label>Adresse<span class="obligatoire">*</span> : </label></p><input name="adresse" type="text" class="form-control" required><br />
+                    <p><label>Code postal<span class="obligatoire">*</span> : </label></p><input name="cp" type="text" class="form-control" required><br />
+                    <p><label>Ville<span class="obligatoire">*</span> : </label></p><input name="ville" type="text" class="form-control" required><br />
+                    <p><label>Courriel<span class="obligatoire">*</span> : </label></p><input name="courriel" type="email" class="form-control" required><br />
+                    <p><label>Mot de passe<span class="obligatoire">*</span> : </label></p><input name="mdp" type="password" class="form-control" required><br />
                     <br /><button type="submit" class="btn btn-default"> Inscription</button>
-                    <br />
+                    <br /><p class="obligatoire"><span >Les champs suivi de * sont obligatoires.</span></p>
                     <?php if (isset ($erreur)) echo "<div class='alert alert-danger'> $erreur </div>"; ?>
                 </form>
             </div>

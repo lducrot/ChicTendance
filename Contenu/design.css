@@ -173,3 +173,10 @@ h3 {
     verticial-align: bottom;
 }
 /* FIN Detail */
+
+/* Connexion */
+.obligatoire {
+    color: #66afe9;
+    text-align: right;
+}
+/* FIN Connexion */
