@@ -7,13 +7,12 @@ require_once 'Modele/Styles.php';
 /**
  * Contrôleur gérant la connexion au site
  */
-class ControleurConnexion extends ControleurPersonalise
-{
+class ControleurConnexion extends ControleurPersonalise {
+
     private $client;
     private $style;
 
-    public function __construct()
-    {
+    public function __construct() {
         $this->client = new Client();
         $this->style = new Style();
     }
@@ -28,8 +27,7 @@ class ControleurConnexion extends ControleurPersonalise
         }
     }
 
-    public function connecter()
-    {
+    public function connecter() {
         if ($this->requete->existeParametre("courriel") && $this->requete->existeParametre("mdp")) {
             $courriel = $this->requete->getParametre("courriel");
             $mdp = $this->requete->getParametre("mdp");
@@ -80,9 +78,9 @@ class ControleurConnexion extends ControleurPersonalise
        }
     }
 
-    public function deconnecter()
-    {
+    public function deconnecter() {
         $this->requete->getSession()->detruire();
         $this->rediriger("accueil");
     }
+
 }

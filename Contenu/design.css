@@ -58,6 +58,7 @@ a {
     margin-left: 10px;
     text-decoration: none;
 }
+
 .filAriane {
     font-family: 'Playball', cursive;
     font-size: 18px;
@@ -173,3 +174,10 @@ h3 {
     verticial-align: bottom;
 }
 /* FIN Detail */
+
+/* Connexion */
+.obligatoire {
+    color: #66afe9;
+    text-align: right;
+}
+/* FIN Connexion */

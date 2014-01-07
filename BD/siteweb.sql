@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS `t_client` (
   `CLIE_NOM` varchar(50) NOT NULL,
   `CLIE_PRENOM` varchar(50) NOT NULL,
   `CLIE_ADRESSE` varchar(50) NOT NULL,
-  `CLIE_CP` varchar(50) NOT NULL,
+  `CLIE_CP` varchar(5) NOT NULL,
   `CLIE_VILLE` varchar(50) NOT NULL,
   `CLIE_COURRIEL` varchar(50) NOT NULL UNIQUE,
   `CLIE_MDP` varchar(50) NOT NULL,
