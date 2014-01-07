@@ -28,4 +28,19 @@ class Client extends Modele {
         $ajoutClient = $this->executerRequete($sql, array($nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp));
         return $ajoutClient;
     }
+    
+    public function modificationClient($id, $nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp) {
+        $sql = "update t_client set clie_nom=?, clie_prenom=?, clie_adresse=?, clie_cp=?, clie_ville=?, clie_courriel=?, clie_mdp=? where clie_id=?;";
+        $modificationClient = $this->executerRequete($sql, array($nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp, $id));
+        return $modificationClient;
+    }
+    
+    public function existeCourriel($courriel) {
+        $sql = "select clie_id from t_client where clie_courriel=?";
+        $nbCourriel = $this->executerRequete($sql, array($courriel));
+        $existe = false;
+        if ($nbCourriel->rowCount() == 1)
+            $existe = true;
+        return $existe;
+    }
 }

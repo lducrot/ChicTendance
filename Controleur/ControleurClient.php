@@ -34,8 +34,26 @@ class ControleurClient extends ControleurPersonalise
     public function modifier()
     {
         if ($this->requete->getSession()->existeAttribut("idClient")) {
-            if ($this->requete->existeParametre("nom"))
-            $this->rediriger('client');
+            if ($this->requete->existeParametre("nom")) {
+                $id = $this->requete->getSession()->getAttribut("idClient");
+                $nom = $this->requete->getParametre("nom");
+                $prenom = $this->requete->getParametre("prenom");
+                $adresse = $this->requete->getParametre("adresse");
+                $cp = $this->requete->getParametre("cp");
+                $ville = $this->requete->getParametre("ville");
+                $courriel = $this->requete->getParametre("courriel");
+                $mdp = $this->requete->getParametre("mdp");
+                $styles = $this->style->getStyles();
+                
+                if ($nom != "" && $prenom != "" && $adresse != "" && $cp != "" && $ville != "" && $courriel != "" && $mdp != "") {
+                    $modif = $this->client->modificationClient($id, $nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp);
+                }
+            }
+            
+            if (isset($modif))
+                $this->genererVue(array('styles' => $styles));
+            else
+                $this->rediriger('client');
         }
         else 
             $this->rediriger('connexion');

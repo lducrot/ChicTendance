@@ -33,6 +33,7 @@ class ControleurConnexion extends ControleurPersonalise
         if ($this->requete->existeParametre("courriel") && $this->requete->existeParametre("mdp")) {
             $courriel = $this->requete->getParametre("courriel");
             $mdp = $this->requete->getParametre("mdp");
+            $styles = $this->style->getStyles();
             
             if ($this->client->connecter($courriel, $mdp)) {
                 $client = $this->client->getClient($courriel, $mdp);
@@ -42,7 +43,7 @@ class ControleurConnexion extends ControleurPersonalise
                 $this->rediriger("accueil");
                 }
                 else
-                    $this->genererVue(array('msgErreur' => 'Login ou mot de passe incorrects'),"index");
+                    $this->genererVue(array('msgErreurConnexion' => 'Login ou mot de passe incorrects', 'styles' => $styles),"index");
         }
         else
             throw new Exception("Action impossible : login ou mot de passe non défini");
@@ -58,18 +59,24 @@ class ControleurConnexion extends ControleurPersonalise
            $ville = $this->requete->getParametre("ville");
            $courriel = $this->requete->getParametre("courriel");
            $mdp = $this->requete->getParametre("mdp");
+           $styles = $this->style->getStyles();
            
-           $this->client->ajoutClient($nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp);
-           
-           if ($this->client->connecter($courriel, $mdp)) {
-                $client = $this->client->getClient($courriel, $mdp);
-                $this->requete->getSession()->setAttribut("idClient", $client['CLIE_ID']);
-                $this->requete->getSession()->setAttribut("courrielClient", $client['CLIE_COURRIEL']);
-                $this->requete->getSession()->setAttribut("mdpClient", $client['CLIE_MDP']);
-                $this->rediriger("accueil");
-                }
-                else
-                    $this->genererVue(array('msgErreur' => 'Login ou mot de passe incorrects'),"index");
+           if (!$this->client->existeCourriel($courriel)) {
+               
+                $this->client->ajoutClient($nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp);
+
+                if ($this->client->connecter($courriel, $mdp)) {
+                     $client = $this->client->getClient($courriel, $mdp);
+                     $this->requete->getSession()->setAttribut("idClient", $client['CLIE_ID']);
+                     $this->requete->getSession()->setAttribut("courrielClient", $client['CLIE_COURRIEL']);
+                     $this->requete->getSession()->setAttribut("mdpClient", $client['CLIE_MDP']);
+                     $this->rediriger("accueil");
+                 }
+                 else
+                     $this->genererVue(array('msgErreur' => 'Login ou mot de passe incorrects', 'styles' => $styles),"index");
+            }
+            else
+                $this->genererVue(array('msgErreurInscription' => 'Cette adresse mail est déjà utilisée.', 'styles' => $styles, 'inscription' => 'ko'),"index");
        }
     }
 

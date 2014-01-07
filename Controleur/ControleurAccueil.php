@@ -18,5 +18,4 @@ class ControleurAccueil extends ControleurPersonalise {
         $styles = $this->style->getStyles();
         $this->genererVue(array('styles' => $styles), 'index');
     }
-    
 }
