@@ -9,7 +9,6 @@ require_once 'Modele/Styles.php';
  */
 abstract class ControleurPersonalise extends Controleur
 {
-    
     public function genererVue($donnees = array(), $action = null)
     {
         if ($this->requete->getSession()->existeAttribut("idClient"))
