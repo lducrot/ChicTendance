@@ -18,7 +18,7 @@ require 'Vue/_Commun/barreNavigation.php'; ?>
             <p><label>Ville : </label></p><input  value="<?= $this->nettoyer($client['CLIE_VILLE']) ?>"name="ville" type="text" class="form-control" required><br />
             <p><label>Courriel : </label></p><input  value="<?= $this->nettoyer($client['CLIE_COURRIEL']) ?>"name="courriel" type="email" class="form-control" required><br />
             <p><label>Mot de passe : </label></p><input  value="<?= $this->nettoyer($client['CLIE_MDP']) ?>"name="mdp" type="password" class="form-control" required><br />
-            <br /><button type="submit" class="btn btn-default"> Modifier</button>
+            <br /><button type="submit" class="btn btn-default"> Mettre à jour</button>
         </form>
     </div>
 </div>

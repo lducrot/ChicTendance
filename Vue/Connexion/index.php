@@ -48,7 +48,7 @@ require 'Vue/_Commun/menuNavigation.php';
                     <p><label>Mot de passe<span class="obligatoire">*</span> : </label></p><input name="mdp" type="password" class="form-control" required><br />
                     <br /><button type="submit" class="btn btn-default"> Inscription</button>
                     <br /><p class="obligatoire"><span >Les champs suivi de * sont obligatoires.</span></p>
-                    <?php if (isset ($erreur)) echo "<div class='alert alert-danger'> $erreur </div>"; ?>
+                    <?php if (isset ($erreur)) echo "<div class='alert alert-danger'>".$this->nettoyer($erreur)."</div>"; ?>
                 </form>
             </div>
             

@@ -47,6 +47,8 @@ class ControleurClient extends ControleurPersonalise
                 
                 if ($nom != "" && $prenom != "" && $adresse != "" && $cp != "" && $ville != "" && $courriel != "" && $mdp != "") {
                     $modif = $this->client->modificationClient($id, $nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp);
+                    $this->requete->getSession()->setAttribut("courrielClient", $courriel);
+                    $this->requete->getSession()->setAttribut("mdpClient", $mdp);
                 }
             }
             
