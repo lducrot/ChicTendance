@@ -17,7 +17,8 @@ class ControleurClient extends ControleurPersonalise
         $this->client = new Client();
         $this->style = new Style();
     }
-
+    
+    
     public function index()
     {
         if ($this->requete->getSession()->existeAttribut("idClient")) {
