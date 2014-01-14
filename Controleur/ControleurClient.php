@@ -4,7 +4,7 @@ require_once 'Modele/Client.php';
 require_once 'Modele/Styles.php';
 
 /**
- * Contrôleur gérant la connexion au site
+ * Contrôleur gérant les données du client
  *
  */
 class ControleurClient extends ControleurPersonalise
@@ -31,6 +31,10 @@ class ControleurClient extends ControleurPersonalise
             $this->rediriger('connexion');
     }
     
+    
+    /**
+     * Modification d'un client
+     */
     public function modifier()
     {
         if ($this->requete->getSession()->existeAttribut("idClient")) {

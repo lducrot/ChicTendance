@@ -1,10 +1,12 @@
 <?php
+require_once 'Controleur/ControleurPersonalise.php';
+require_once 'Modele/Robe.php';
+require_once 'Modele/Styles.php';
+require_once 'Modele/Client.php';
 
-    require_once 'Controleur/ControleurPersonalise.php';
-    require_once 'Modele/Robe.php';
-    require_once 'Modele/Styles.php';
-    require_once 'Modele/Client.php';
-    
+/**
+ * Contrôleur gérant la navigation dans les styles
+ */
 class ControleurNavigation extends ControleurPersonalise {
     
     private $robe;
@@ -29,6 +31,9 @@ class ControleurNavigation extends ControleurPersonalise {
             throw new Exception("Action impossible : aucun style défini");
     }
     
+    /**
+     * Affiche les détails d'une robe
+     */
     public function details() {
         if ($this->requete->existeParametre("id")) {
             $robe_id = $this->requete->getParametre("id");
