@@ -1,11 +1,11 @@
 <?php
-
 require_once 'Controleur/ControleurPersonalise.php';
 require_once 'Modele/Client.php';
 require_once 'Modele/Styles.php';
 
 /**
  * Contrôleur gérant la connexion au site
+ * 
  */
 class ControleurConnexion extends ControleurPersonalise {
 
@@ -26,7 +26,9 @@ class ControleurConnexion extends ControleurPersonalise {
             $this->genererVue(array('styles' => $styles));
         }
     }
-
+    
+    
+    //Permet au client de se connecter
     public function connecter() {
         if ($this->requete->existeParametre("courriel") && $this->requete->existeParametre("mdp")) {
             $courriel = $this->requete->getParametre("courriel");
@@ -47,6 +49,7 @@ class ControleurConnexion extends ControleurPersonalise {
             throw new Exception("Action impossible : login ou mot de passe non défini");
     }
     
+    //Permet au client de s'inscrire
     public function inscription()
     {
        if ($this->requete->existeParametre("nom") && $this->requete->existeParametre("prenom") && $this->requete->existeParametre("adresse") && $this->requete->existeParametre("cp") && $this->requete->existeParametre("ville") && $this->requete->existeParametre("courriel") && $this->requete->existeParametre("mdp")) {
@@ -78,6 +81,7 @@ class ControleurConnexion extends ControleurPersonalise {
        }
     }
 
+    //Permet au client de se déconnecter
     public function deconnecter() {
         $this->requete->getSession()->detruire();
         $this->rediriger("accueil");

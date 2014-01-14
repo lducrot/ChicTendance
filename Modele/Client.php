@@ -5,6 +5,7 @@ class Client extends Modele {
     
     private $sqlClient = "SELECT * FROM t_client ";
     
+    //Recherhe le client dans la bdd
     public function connecter($courriel, $mdp)
     {
         $sql = "select clie_id from t_client where clie_courriel=? and clie_mdp=?";
@@ -12,6 +13,7 @@ class Client extends Modele {
         return ($client->rowCount() == 1);
     }
     
+    //Renvoi les données du client
     public function getClient($courriel, $mdp) {
         $req = $this->sqlClient . "where clie_courriel=? and clie_mdp=?";
         $client = $this->executerRequete($req, array($courriel, $mdp));
@@ -28,12 +30,14 @@ class Client extends Modele {
         return $ajoutClient;
     }
     
+    //Met à jour les données du client
     public function modificationClient($id, $nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp) {
         $sql = "update t_client set clie_nom=?, clie_prenom=?, clie_adresse=?, clie_cp=?, clie_ville=?, clie_courriel=?, clie_mdp=? where clie_id=?;";
         $modificationClient = $this->executerRequete($sql, array($nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp, $id));
         return $modificationClient;
     }
     
+    //Vérifie l'existance d'un courriel dans la bdd
     public function existeCourriel($courriel) {
         $sql = "select clie_id from t_client where clie_courriel=?";
         $nbCourriel = $this->executerRequete($sql, array($courriel));

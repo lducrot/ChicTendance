@@ -2,7 +2,6 @@
 require_once 'Framework/Controleur.php';
 require_once 'Modele/Styles.php';
 
-
 /**
  * Classe parente des contrôleurs soumis à authentification
  *
