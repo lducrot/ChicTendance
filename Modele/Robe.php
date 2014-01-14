@@ -25,8 +25,8 @@ class Robe extends Modele {
      * Renvoi les informations d'une robe
 
      * @param int $robe_id
-     * @return type
-     * @throws Exception
+     * @return array $details
+     * @throws Exception si la robe n'est pas trouvée
      */
     public function getDetails($robe_id) {
         $req = $this->sqlRobe."JOIN t_createur cr ON cr.crea_id = rs.crea_id where robe_id=?";

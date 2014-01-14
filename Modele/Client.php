@@ -49,7 +49,7 @@ class Client extends Modele {
      * @param string $ville
      * @param string $courriel
      * @param string $mdp
-     * @return le résultat de la requete
+     * @return null si la requête échoue
      */
     public function  ajoutClient($nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp) {
         $sql = "insert into t_client (CLIE_NOM, CLIE_PRENOM, CLIE_ADRESSE, CLIE_CP, CLIE_VILLE, CLIE_COURRIEL, CLIE_MDP) values (?, ?, ?, ?, ?, ?, ?);";
