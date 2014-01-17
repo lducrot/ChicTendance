@@ -11,8 +11,8 @@ class Client extends Modele {
     /**
      * Recherhe le client dans la bdd
      * 
-     * @param string $courriel
-     * @param string $mdp
+     * @param string $courriel le courriel rentré par l'utilisateur
+     * @param string $mdp le mot de passe rentré par l'utilisateur
      * @return vrai si le client dont le courriel et le mdp ont été saisis est trouvé sinon retourne faux
      */
     public function connecter($courriel, $mdp)
@@ -25,8 +25,8 @@ class Client extends Modele {
     /**
      * Renvoi les données du client
      * 
-     * @param string $courriel
-     * @param string $mdp
+     * @param string $courriel le courriel rentré par l'utilisateur
+     * @param string $mdp le mot de passe rentré par l'utilisateur
      * @return toutes les informations concerant le client dont le courriel et le mdp sont passé en paramètre
      * @throws Exception si l'utilisateur est inconnu
      */
@@ -42,13 +42,13 @@ class Client extends Modele {
     /**
      * Ajout d'un client dans la bdd
      * 
-     * @param string $nom
-     * @param string $prenom
-     * @param string $adresse
-     * @param string $cp
-     * @param string $ville
-     * @param string $courriel
-     * @param string $mdp
+     * @param string $nom nom du nouvel utilisateur
+     * @param string $prenom prenom du nouvel utilisateur
+     * @param string $adresse adresse du nouvel utilisateur
+     * @param string $cp cp du nouvel utilisateur
+     * @param string $ville ville du nouvel utilisateur
+     * @param string $courriel courriel  du nouvel utilisateur
+     * @param string $mdp mdp du nouvel utilisateur
      * @return null si la requête échoue
      */
     public function  ajoutClient($nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp) {
@@ -60,14 +60,14 @@ class Client extends Modele {
     /**
      * Met à jour les données du client
      * 
-     * @param int $id
-     * @param string $nom
-     * @param string $prenom
-     * @param string $adresse
-     * @param string $cp
-     * @param string $ville
-     * @param string $courriel
-     * @param string $mdp
+     * @param int $id id de l'utilisateur
+     * @param string $nom nouveau nom de l'utilisateur
+     * @param string $prenom nouveau prenom de l'utilisateur
+     * @param string $adresse nouveau adresse de l'utilisateur
+     * @param string $cp nouveau cp de l'utilisateur
+     * @param string $ville nouveau ville de l'utilisateur
+     * @param string $courriel nouveau courriel de l'utilisateur
+     * @param string $mdp nouveau mdp de l'utilisateur
      * @return la mise à jour des données passée en paramètre
      */
     public function modificationClient($id, $nom, $prenom, $adresse, $cp, $ville, $courriel, $mdp) {

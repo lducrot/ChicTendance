@@ -25,7 +25,7 @@ class Robe extends Modele {
      * Renvoi les informations d'une robe
 
      * @param int $robe_id
-     * @return array $details
+     * @return array $details 
      * @throws Exception si la robe n'est pas trouvée
      */
     public function getDetails($robe_id) {
