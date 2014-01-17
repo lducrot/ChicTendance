@@ -11,8 +11,8 @@ class Client extends Modele {
     /**
      * Recherhe le client dans la bdd
      * 
-     * @param string $courriel
-     * @param string $mdp
+     * @param string $courriel courriel du client recherché
+     * @param string $mdp mot de passe du client recherché
      * @return vrai si le client dont le courriel et le mdp ont été saisis est trouvé sinon retourne faux
      */
     public function connecter($courriel, $mdp)
@@ -25,8 +25,8 @@ class Client extends Modele {
     /**
      * Renvoi les données du client
      * 
-     * @param string $courriel
-     * @param string $mdp
+     * @param string $courriel courriel du client qui veut se connecter
+     * @param string $mdp mot de passe du client qui veut se connecter
      * @return toutes les informations concerant le client dont le courriel et le mdp sont passé en paramètre
      * @throws Exception si l'utilisateur est inconnu
      */
