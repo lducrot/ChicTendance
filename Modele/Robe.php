@@ -12,7 +12,7 @@ class Robe extends Modele {
     /**
      * Renvoi les données des robes
      * 
-     * @param int $styl_id
+     * @param int $styl_id l'id du style passé en paramètre
      * @return toutes les robes d'un style passé en paramètre
      */
     public function getRobes($styl_id) {
@@ -24,8 +24,8 @@ class Robe extends Modele {
     /**
      * Renvoi les informations d'une robe
 
-     * @param int $robe_id
-     * @return array $details 
+     * @param int $robe_id l'id de la robe recherchée
+     * @return array $details toutes les informations concernant la robe
      * @throws Exception si la robe n'est pas trouvée
      */
     public function getDetails($robe_id) {
