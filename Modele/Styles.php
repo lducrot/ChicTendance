@@ -23,7 +23,7 @@ class Style extends Modele {
     /**
      * Renvoi les informations du style passé en paramètre
      * 
-     * @param int $idStyle
+     * @param int $idStyle l'id du style recherché
      * @return array Les données liées au style recherché
      * @throws Exception Si le style recherché n'a pas été trouvé
      */
