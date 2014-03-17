@@ -18,6 +18,9 @@ class ControleurAccueil extends ControleurPersonalise {
         $this->client = new Client();
     }
     
+    /**
+     * Génère la vue index par défaut
+     */
     public function index () {
         $styles = $this->style->getStyles();
         $this->genererVue(array('styles' => $styles), 'index');

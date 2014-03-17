@@ -8,6 +8,13 @@ require_once 'Modele/Styles.php';
  */
 abstract class ControleurPersonalise extends Controleur
 {
+    
+    /**
+     * Génère les vues 
+     * 
+     * @param array $donnees tableau de données venant des autres controleurs
+     * @param string $action indique la page de redirection
+     */
     public function genererVue($donnees = array(), $action = null)
     {
         if ($this->requete->getSession()->existeAttribut("idClient"))

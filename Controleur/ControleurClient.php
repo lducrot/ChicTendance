@@ -18,7 +18,9 @@ class ControleurClient extends ControleurPersonalise
         $this->style = new Style();
     }
     
-    
+    /**
+     * Génère la vue index par défaut
+     */
     public function index()
     {
         if ($this->requete->getSession()->existeAttribut("idClient")) {

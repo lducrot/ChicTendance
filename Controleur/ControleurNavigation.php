@@ -19,6 +19,9 @@ class ControleurNavigation extends ControleurPersonalise {
         $this->client = new Client();
     }
     
+    /**
+     * Génère la vue index par défaut
+     */
     public function index() {
         if ($this->requete->existeParametre("id")) {
             $styl_id = $this->requete->getParametre("id");
