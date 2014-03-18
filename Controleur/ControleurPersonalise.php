@@ -10,7 +10,7 @@ abstract class ControleurPersonalise extends Controleur
 {
     
     /**
-     * Génère les vues 
+     * Génère les vues.
      * 
      * @param array $donnees tableau de données venant des autres controleurs
      * @param string $action indique la page de redirection

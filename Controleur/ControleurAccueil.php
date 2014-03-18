@@ -5,7 +5,7 @@ require_once 'Modele/Styles.php';
 require_once 'Modele/Client.php';
 
 /**
- * Contrôleur gérant la page d'accueil
+ * Contrôleur gérant la page d'accueil.
  * 
  */
 class ControleurAccueil extends ControleurPersonalise {
@@ -17,7 +17,7 @@ class ControleurAccueil extends ControleurPersonalise {
         $this->style = new Style();
         $this->client = new Client();
     }
-    
+     
     /**
      * Génère la vue index par défaut
      */

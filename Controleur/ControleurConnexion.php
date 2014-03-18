@@ -16,9 +16,9 @@ class ControleurConnexion extends ControleurPersonalise {
         $this->client = new Client();
         $this->style = new Style();
     }
-
+ 
     /**
-     * Génère la vue index par défaut
+     * Génère la vue index par défaut.
      */
     public function index()
     {

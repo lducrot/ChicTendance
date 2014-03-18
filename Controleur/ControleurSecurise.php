@@ -3,7 +3,7 @@
 require_once 'Controleur/ControleurPersonalise.php';
 
 /**
- * Classe parente des contrôleurs soumis à authentification
+ * Classe parente des contrôleurs soumis à authentification.
  *
  */
 abstract class ControleurSecurise extends ControleurPersonalise
