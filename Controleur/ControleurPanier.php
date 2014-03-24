@@ -1,4 +1,9 @@
 <?php
+require_once 'Controleur/ControleurSecurise.php';
+require_once 'Modele/Client.php';
+require_once 'Modele/Styles.php';
+require_once 'Modele/Robe.php';
+require_once 'Modele/Panier.php';
 
 /*
  * To change this template, choose Tools | Templates
@@ -29,15 +34,8 @@ class ControleurPanier extends ControleurSecurise {
      * Génère la vue index par défaut.
      */
     public function index() {
-        if ($this->requete->existeParametre("id")) {
-            $styl_id = $this->requete->getParametre("id");
-            $style = $this->style->getStyle($styl_id);
-            $robes = $this->robe->getRobes($styl_id);
-            $styles = $this->style->getStyles();
-            $this->genererVue(array('robes' => $robes, 'styles' => $styles, 'style' => $style));
-        }
-        else
-            throw new Exception("Action impossible : aucun style défini");
+        $styles = $this->style->getStyles();
+        $this->genererVue(array('styles' => $styles));
     }
 }
 

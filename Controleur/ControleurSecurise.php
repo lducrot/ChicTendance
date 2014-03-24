@@ -16,7 +16,7 @@ abstract class ControleurSecurise extends ControleurPersonalise
      */
     public function executerAction($action)
     {
-        if ($this->requete->getSession()->existeAttribut("idVisiteur")) {
+        if ($this->requete->getSession()->existeAttribut("idClient")) {
             parent::executerAction($action);
    
         }
