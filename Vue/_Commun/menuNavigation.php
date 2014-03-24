@@ -7,12 +7,12 @@
                 if (isset($style['STYL_ID'])) {
                     if ($unStyle['styl_id'] == $style['STYL_ID']) {
                         $menu = str_replace("navPrincipal", "navPrincipalActive", $menu);
-                        echo utf8_decode($menu);
+                        echo $menu;
                     } else {
-                        echo utf8_decode($menu);
+                        echo $menu;
                     }
                 } else {
-                    echo utf8_decode($menu);
+                    echo $menu;
                 } endforeach;
             ?>
         </ul>
