@@ -40,6 +40,10 @@ class ControleurPanier extends ControleurSecurise {
             $articles = $this->panier->getArticles($idClient);
             $this->genererVue(array('styles' => $styles, 'articles' => $articles));
         }
+    }
+    
+    public function ajoutPanier() {
+        
         
     }
 }
