@@ -50,7 +50,7 @@ class ControleurPanier extends ControleurSecurise {
             $idClient = $this->requete->getSession()->getAttribut("idClient");
             $idArticle = $this->requete->getParametre("id");
             $qteArticle = $this->panier->qteArticlePanier($idClient, $idArticle);
-            $qteArticle += 1;
+            $qteArticle = $qteArticle + 1;
             $this->panier->ajoutArticle($idClient, $idArticle, $qteArticle);
             $this->rediriger("panier");
         } else $this->rediriger ($accueil);

@@ -24,7 +24,8 @@
                         <li><a href="connexion/deconnecter">Déconnexion</a></li>
                     </ul>
                 </li>
-                <li><a href="panier/index">Panier</a></li>
+                
+                <li><a href="panier/index">Panier <span class='badge'><?php //$this->nettoyer($nbQtePanier) ?></span></a></li>
                 
                 <?php
             } else {

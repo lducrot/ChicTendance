@@ -39,8 +39,8 @@ class Panier extends Modele {
             $sql = "insert into t_article_panier (artpan_idrobe, artpan_idclie, artpan_qtecde) values (?, ?, ?);";
             $ajoutArticle = $this->executerRequete($sql, array($idArticle, $idClient, $qteArticle));
         } else {
-            $sql = "update t_article_panier set artpan_qtecde=?;";
-            $ajoutArticle = $this->executerRequete($sql, array($qteArticle));
+            $sql = "update t_article_panier set artpan_qtecde=? where artpan_idrobe=? and artpan_idclie=?;";
+            $ajoutArticle = $this->executerRequete($sql, array($qteArticle, $idArticle, $idClient));
         }
         return $ajoutArticle;
     }
@@ -54,10 +54,11 @@ class Panier extends Modele {
      */
     public function qteArticlePanier($idClient, $idArticle) {
         $sql = "select artpan_qtecde from t_article_panier where artpan_idclie=? and artpan_idrobe=?";
-        $nbCourriel = $this->executerRequete($sql, array($idClient, $idArticle));
+        $reqQtecde = $this->executerRequete($sql, array($idClient, $idArticle));
         $qteCde = 0;
-        if ($nbCourriel->rowCount() == 1)
-            $qteCde = $nbCourriel;
+        if ($reqQtecde->rowCount() == 1)
+            $nbQtecde = $reqQtecde->fetch();
+            $qteCde = $nbQtecde['artpan_qtecde'];
         return $qteCde;
     }
 }

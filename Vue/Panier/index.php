@@ -18,14 +18,19 @@ require 'Vue/_Commun/barreNavigation.php'; ?>
                     <th>Prix unitaire</th>
                     <th>Prix total</th>
                 </tr>
-                <?php foreach($articles as $unArticle) :
+                <?php 
+                $prixTotal = 0;
+                foreach($articles as $unArticle) :
+                    $prixTotalRobe = ($unArticle['ARTPAN_QTECDE'])*($unArticle['ROBE_PRIX']);
+                    $prixTotal += $prixTotalRobe;
                 echo "<tr>
-                    <td>".$this->nettoyer($unArticle['ROBE_NOM'])."</td>
+                    <td><a href='Navigation/details/".$this->nettoyer($unArticle['ROBE_ID'])."'>".$this->nettoyer($unArticle['ROBE_NOM'])."</a></td>
                     <td>".$this->nettoyer($unArticle['ARTPAN_QTECDE'])."</td>
                     <td>".$this->nettoyer($unArticle['ROBE_PRIX'])."</td>
-                    <td>".$this->nettoyer($unArticle['ARTPAN_QTECDE'])*$this->nettoyer($unArticle['ROBE_PRIX'])."</td>
+                    <td>$prixTotalRobe</td>
                 </tr>";        
                 endforeach;?>
+                <tr><td></td><td></td><td></td><td><strong><?= $prixTotal?></strong></td></tr>
             </table>
         </div></div>
     </center>
