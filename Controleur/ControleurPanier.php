@@ -37,8 +37,9 @@ class ControleurPanier extends ControleurSecurise {
         if ($this->requete->getSession()->existeAttribut("idClient")) {
             $styles = $this->style->getStyles();
             $idClient = $this->requete->getSession()->getAttribut("idClient");
+            $nbQtePanier = $this->panier->getNbArticles($idClient);
             $articles = $this->panier->getArticles($idClient);
-            $this->genererVue(array('styles' => $styles, 'articles' => $articles));
+            $this->genererVue(array('styles' => $styles, 'articles' => $articles, 'nbQtePanier' => $nbQtePanier));
         }
     }
     
@@ -50,10 +51,10 @@ class ControleurPanier extends ControleurSecurise {
             $idClient = $this->requete->getSession()->getAttribut("idClient");
             $idArticle = $this->requete->getParametre("id");
             $qteArticle = $this->panier->qteArticlePanier($idClient, $idArticle);
-            $qteArticle += 1;
+            $qteArticle = $qteArticle + 1;
             $this->panier->ajoutArticle($idClient, $idArticle, $qteArticle);
             $this->rediriger("panier");
-        } else $this->rediriger ($accueil);
+        } else $this->rediriger("accueil");
     }
 }
 
