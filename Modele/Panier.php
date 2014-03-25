@@ -35,8 +35,13 @@ class Panier extends Modele {
      * @return null si la requête échoue
      */
     public function  ajoutArticle($idClient, $idArticle, $qteArticle) {
-        $sql = "insert into t_article_panier (artpan_idrobe, artpan_idclie, artpan_qtecde) values (?, ?, ?);";
-        $ajoutArticle = $this->executerRequete($sql, array($idClient, $idArticle, $qteArticle));
+        if ($qteArticle == 1) {
+            $sql = "insert into t_article_panier (artpan_idrobe, artpan_idclie, artpan_qtecde) values (?, ?, ?);";
+            $ajoutArticle = $this->executerRequete($sql, array($idArticle, $idClient, $qteArticle));
+        } else {
+            $sql = "update t_article_panier set artpan_qtecde=?;";
+            $ajoutArticle = $this->executerRequete($sql, array($qteArticle));
+        }
         return $ajoutArticle;
     }
     
