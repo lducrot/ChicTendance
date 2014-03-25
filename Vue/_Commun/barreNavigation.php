@@ -24,6 +24,8 @@
                         <li><a href="connexion/deconnecter">Déconnexion</a></li>
                     </ul>
                 </li>
+                <li><a href="panier/index">Panier</a></li>
+                
                 <?php
             } else {
                 ?>
