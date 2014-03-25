@@ -56,10 +56,17 @@ class Panier extends Modele {
         $sql = "select artpan_qtecde from t_article_panier where artpan_idclie=? and artpan_idrobe=?";
         $reqQtecde = $this->executerRequete($sql, array($idClient, $idArticle));
         $qteCde = 0;
-        if ($reqQtecde->rowCount() == 1)
+        if ($reqQtecde->rowCount() == 1) {
             $nbQtecde = $reqQtecde->fetch();
             $qteCde = $nbQtecde['artpan_qtecde'];
+        }
         return $qteCde;
+    }
+    
+    public function getNbArticles($idClient) {
+        $sql = "select sum(artpan_qtecde) as nbArticle from t_article_panier where artpan_idclie=?";
+        $nbArticle = $reqNbArticle->fetch();
+        return $nbArticle['nbArticle'];
     }
 }
 

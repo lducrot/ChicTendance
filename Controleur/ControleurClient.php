@@ -2,6 +2,7 @@
 require_once 'Controleur/ControleurPersonalise.php';
 require_once 'Modele/Client.php';
 require_once 'Modele/Styles.php';
+require_once 'Modele/Panier.php';
 
 /**
  * Contrôleur gérant les données du client
@@ -11,11 +12,13 @@ class ControleurClient extends ControleurPersonalise
 {
     protected $client;
     private $style;
+    private $panier;
 
     public function __construct()
     {
         $this->client = new Client();
         $this->style = new Style();
+        $this->panier = new Panier();
     }
      
     /**
