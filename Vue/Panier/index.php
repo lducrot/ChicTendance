@@ -1,20 +1,22 @@
-<?php $this->titre = "Chic Tendance"; 
+<?php $this->titre = "Votre panier"; 
 require 'Vue/_Commun/menuNavigation.php'; 
 require 'Vue/_Commun/barreNavigation.php'; ?>
 
 <ul class="breadcrumb">
     <li><a class="filAriane" href="index.php">Accueil</a></li>
-    <li class="active"><a class="filAriane" href="#">Panier</a></li>
+    <li class="active">Panier</li>
 </ul>
 
 <div class="row">
     <table>
         <tr>
-            <th></th>
-            <th></th>
+            <th>Nom</th>
+            <th>Quantité</th>
+            <th>Prix unitaire</th>
+            <th>Prix total</th>
         </tr>
         <tr>
-            <td></td>
+            <td><?= $this->nettoyer($styles['STYL_LIBELLE']) ?></td>
         </tr>
     </table>
         
