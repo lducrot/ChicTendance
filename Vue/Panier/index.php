@@ -15,9 +15,12 @@ require 'Vue/_Commun/barreNavigation.php'; ?>
             <th>Prix unitaire</th>
             <th>Prix total</th>
         </tr>
+        <?php foreach($articles as $unArticle) :
+        echo "
         <tr>
-            <td><?= $this->nettoyer($styles['STYL_LIBELLE']) ?></td>
-        </tr>
+            <td>".$this->nettoyer($article['ROBE_NOM'])."</td>
+        </tr>";        
+        endforeach;?>
     </table>
         
 </div>
