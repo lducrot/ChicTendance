@@ -20,7 +20,10 @@ require 'Vue/_Commun/barreNavigation.php'; ?>
                 </tr>
                 <?php foreach($articles as $unArticle) :
                 echo "<tr>
-                    <td>".$this->nettoyer($article['ROBE_NOM'])."</td>
+                    <td>".$this->nettoyer($unArticle['ROBE_NOM'])."</td>
+                    <td>".$this->nettoyer($unArticle['ARTPAN_QTECDE'])."</td>
+                    <td>".$this->nettoyer($unArticle['ROBE_PRIX'])."</td>
+                    <td>".$this->nettoyer($unArticle['ARTPAN_QTECDE'])*$this->nettoyer($unArticle['ROBE_PRIX'])."</td>
                 </tr>";        
                 endforeach;?>
             </table>
