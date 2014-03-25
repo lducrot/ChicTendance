@@ -25,7 +25,7 @@
                     </ul>
                 </li>
                 
-                <li><a href="panier/index">Panier <span class='badge'><?php //$this->nettoyer($nbQtePanier) ?></span></a></li>
+                <li><a href="panier/index">Panier <span class='badge'><?= $this->nettoyer($nbQtePanier) ?></span></a></li>
                 
                 <?php
             } else {

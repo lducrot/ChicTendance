@@ -13,7 +13,7 @@ class ControleurAccueil extends ControleurPersonalise {
     
     private $style;
     protected $client;
-    private $panier;
+    protected $panier;
     
     public function __construct() {
         $this->style = new Style();

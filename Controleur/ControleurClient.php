@@ -12,7 +12,7 @@ class ControleurClient extends ControleurPersonalise
 {
     protected $client;
     private $style;
-    private $panier;
+    protected $panier;
 
     public function __construct()
     {

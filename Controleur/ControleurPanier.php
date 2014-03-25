@@ -21,7 +21,7 @@ class ControleurPanier extends ControleurSecurise {
     private $robe;
     private $style;
     protected $client;
-    private $panier;
+    protected $panier;
     
     public function __construct() {
         $this->robe = new Robe();

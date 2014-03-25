@@ -18,6 +18,7 @@ abstract class ControleurPersonalise extends Controleur
     {
         if ($this->requete->getSession()->existeAttribut("idClient"))
         {
+            $idClient = $this->requete->getSession()->getAttribut("idClient");
             $courriel = $this->requete->getSession()->getAttribut("courrielClient");
             $mdp = $this->requete->getSession()->getAttribut("mdpClient");
             $client = $this->client->getClient($courriel, $mdp);

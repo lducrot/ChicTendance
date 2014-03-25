@@ -65,6 +65,7 @@ class Panier extends Modele {
     
     public function getNbArticles($idClient) {
         $sql = "select sum(artpan_qtecde) as nbArticle from t_article_panier where artpan_idclie=?";
+        $reqNbArticle = $this->executerRequete($sql, array($idClient));
         $nbArticle = $reqNbArticle->fetch();
         return $nbArticle['nbArticle'];
     }

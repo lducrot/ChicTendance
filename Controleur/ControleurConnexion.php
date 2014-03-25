@@ -12,7 +12,7 @@ class ControleurConnexion extends ControleurPersonalise {
 
     private $client;
     private $style;
-    private $panier;
+    protected $panier;
 
     public function __construct() {
         $this->client = new Client();
