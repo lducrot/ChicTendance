@@ -34,8 +34,13 @@ class ControleurPanier extends ControleurSecurise {
      * Génère la vue index par défaut.
      */
     public function index() {
-        $styles = $this->style->getStyles();
-        $this->genererVue(array('styles' => $styles));
+        if ($this->requete->getSession()->existeAttribut("idClient")) {
+            $styles = $this->style->getStyles();
+            $idClient = $this->requete->getSession()->getAttribut("idClient");
+            $articles = $this->panier->getArticles($idClient);
+            $this->genererVue(array('styles' => $styles, 'articles' => $articles));
+        }
+        
     }
 }
 

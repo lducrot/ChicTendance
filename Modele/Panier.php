@@ -11,7 +11,7 @@
  * @author ggome
  */
 class Panier {
-    private $sqlPanier = "SELECT * FROM t_article_panier ";
+    private $sqlPanier = "SELECT * FROM t_article_panier tap JOIN t_robe_de_soiree trs ON tap.artpan_idrobe = robe_id JOIN";
     
     /**
      * Recherhe les articles du panier dans la bdd
