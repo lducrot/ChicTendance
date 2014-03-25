@@ -8,19 +8,23 @@ require 'Vue/_Commun/barreNavigation.php'; ?>
 </ul>
 
 <div class="row">
-    <table>
-        <tr>
-            <th>Nom</th>
-            <th>Quantité</th>
-            <th>Prix unitaire</th>
-            <th>Prix total</th>
-        </tr>
-        <?php foreach($articles as $unArticle) :
-        echo "
-        <tr>
-            <td>".$this->nettoyer($article['ROBE_NOM'])."</td>
-        </tr>";        
-        endforeach;?>
-    </table>
+    <center><div class="tableauPanier">
+        <div class="panel panel-default">
+        
+            <table class="table">
+                <tr>
+                    <th>Nom</th>
+                    <th>Quantité</th>
+                    <th>Prix unitaire</th>
+                    <th>Prix total</th>
+                </tr>
+                <?php foreach($articles as $unArticle) :
+                echo "<tr>
+                    <td>".$this->nettoyer($article['ROBE_NOM'])."</td>
+                </tr>";        
+                endforeach;?>
+            </table>
+        </div></div>
+    </center>
         
 </div>
