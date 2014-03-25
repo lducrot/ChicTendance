@@ -43,7 +43,7 @@ class ControleurPanier extends ControleurSecurise {
     }
     
     /**
-     * Ajoute un article au panier et rendvoie a la page du panier.
+     * Ajoute un article au panier et renvoie a la page du panier.
      */
     public function ajoutPanier() {
         if ($this->requete->existeParametre("id") && $this->requete->getSession()->existeAttribut("idClient")) {
