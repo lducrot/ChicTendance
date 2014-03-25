@@ -10,8 +10,8 @@ require_once 'Framework/Modele.php';
  *
  * @author ggome
  */
-class Panier {
-    private $sqlPanier = "SELECT * FROM t_article_panier tap JOIN t_robe_de_soiree trs ON tap.artpan_idrobe = robe_id JOIN";
+class Panier extends Modele {
+    private $sqlPanier = "SELECT * FROM t_article_panier tap JOIN t_robe_de_soiree trs ON tap.artpan_idrobe = robe_id ";
     
     /**
      * Recherhe les articles du panier dans la bdd
