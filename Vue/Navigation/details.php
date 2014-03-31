@@ -29,7 +29,7 @@ require 'Vue/_Commun/barreNavigation.php';
                 </tr>
                 <tr>
                     <td class="btnPanier" colspan="2">-->
-                        <a href="Panier/ajoutPanier/<?= $this->nettoyer($details['ROBE_ID']); ?>" class="btn btn-default glyphicon glyphicon-shopping-cart btnPanier"> Panier</a>
+                    <a href="Panier/ajoutPanier/<?= $this->nettoyer($details['ROBE_ID']); ?>"><button class='btn btn-default btnPanier'><span class="glyphicon glyphicon-shopping-cart"></span> Panier</button></a>
                     <!--</td>
                 </tr>
             </table>-->

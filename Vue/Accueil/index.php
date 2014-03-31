@@ -12,6 +12,7 @@ require 'Vue/_Commun/barreNavigation.php';?>
     <div class="col-md-11">
         <center>
             <table class="imgAccueil">
+                
                 <tr>
                     <td rowspan="2" class="tdAccueilRobeSoiree">
                         <img class="imgAccueilRobeSoiree" src="Contenu/images/robe_soiree_bleueFonce.jpg" />
@@ -25,6 +26,7 @@ require 'Vue/_Commun/barreNavigation.php';?>
                         <img class="imgAccueilRobeCocktail" src="Contenu/images/robe_cocktail_rouge.jpg" />
                     </td>
                 </tr>
+                
             </table>
             <p>Chic Tendance vous présente ses plus belles créations en robes de soirée, robes de mariée et robes de cocktail ! Grâce à elles vous êtes sûr d'être à la pointe de la mode. Il y en a assez pour satisfaire tous les goûts, alors n'hésitez plus !</p>
         </center> 
