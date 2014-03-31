@@ -56,6 +56,15 @@ class ControleurPanier extends ControleurSecurise {
             $this->rediriger("panier");
         } else $this->rediriger("accueil");
     }
+    
+    public function supprimer() {
+        if ($this->requete->existeParametre("id") && $this->requete->getSession()->existeAttribut("idClient")) {
+            $idRobe = $this->requete->getParametre("id");
+            $idClient = $this->requete->getSession()->getAttribut("idClient");
+            $this->panier->supprimerArticle($idClient, $idRobe);
+        }
+        $this->rediriger("panier");
+    }
 }
 
 ?>

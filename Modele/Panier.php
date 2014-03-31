@@ -52,9 +52,9 @@ class Panier extends Modele {
      * @param int $idArticle id de l'article à chercher
      * @return int $qteCde quantité enregistrée dans le panier pour un article
      */
-    public function qteArticlePanier($idClient, $idArticle) {
+    public function qteArticlePanier($idClient, $idRobe) {
         $sql = "select artpan_qtecde from t_article_panier where artpan_idclie=? and artpan_idrobe=?";
-        $reqQtecde = $this->executerRequete($sql, array($idClient, $idArticle));
+        $reqQtecde = $this->executerRequete($sql, array($idClient, $idRobe));
         $qteCde = 0;
         if ($reqQtecde->rowCount() == 1) {
             $nbQtecde = $reqQtecde->fetch();
@@ -71,6 +71,19 @@ class Panier extends Modele {
         if ($nbArticle['nbArticle'] != null)
             $qteArticle = $nbArticle['nbArticle'];
         return $qteArticle;
+    }
+    
+    public function supprimerArticle($idClient, $idRobe) {
+        $qteArticle = $this->qteArticlePanier($idClient, $idRobe);
+        if ($qteArticle > 1)
+        {
+            $qteArticle -= 1;
+            $sql = "update t_article_panier set artpan_qtecde=? where artpan_idclie=? and artpan_idrobe=?;";
+            $this->executerRequete($sql, array($qteArticle, $idClient, $idRobe));
+        } else {
+            $sql = "delete from t_article_panier WHERE artpan_idclie=? and artpan_idrobe=?";
+            $this->executerRequete($sql, array($idClient, $idRobe));
+        }
     }
 }
 
