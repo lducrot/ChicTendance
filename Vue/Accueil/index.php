@@ -10,7 +10,8 @@ require 'Vue/_Commun/barreNavigation.php';?>
     <div class="col-md-1">
     </div>
     <div class="col-md-11">
-        <center>
+        <!--<center>-->
+        <div class="col-md-5">
             <table class="imgAccueil">
                 
                 <tr>
@@ -20,16 +21,34 @@ require 'Vue/_Commun/barreNavigation.php';?>
                     <td class="tdAccueilRobeMariee">
                         <img class="imgAccueilRobeMariee" src="Contenu/images/robe_mariee_4.jpg" />
                     </td>
+                    <tr>
+                        <td class="tdAccueilRobeCocktail">
+                            <img class="imgAccueilRobeCocktail" src="Contenu/images/robe_cocktail_rouge.jpg" />
+                        </td>
+                    </tr>
+                        
                 </tr>
+            </table>
+        </div>
+        <div class="col-md-6">
+            
+            <p>Chic Tendance vous présente ses plus belles créations en robes de soirée, robes de mariée et robes de cocktail ! Grâce à elles vous êtes sûr d'être à la pointe de la mode. Il y en a assez pour satisfaire tous les goûts, alors n'hésitez plus !</p>
+            
+        </div>
+                <!--
+                
+            </table>-->
+        
+            <!--<table style="border: red 1px solid; float: right;">
                 <tr>
-                    <td class="tdAccueilRobeMariee">
-                        <img class="imgAccueilRobeCocktail" src="Contenu/images/robe_cocktail_rouge.jpg" />
+                    <td>
+                        <p>Chic Tendance vous présente ses plus belles créations en robes de soirée, robes de mariée et robes de cocktail ! Grâce à elles vous êtes sûr d'être à la pointe de la mode. Il y en a assez pour satisfaire tous les goûts, alors n'hésitez plus !</p>
+        
                     </td>
                 </tr>
-                
-            </table>
-            <p>Chic Tendance vous présente ses plus belles créations en robes de soirée, robes de mariée et robes de cocktail ! Grâce à elles vous êtes sûr d'être à la pointe de la mode. Il y en a assez pour satisfaire tous les goûts, alors n'hésitez plus !</p>
-        </center> 
+            </table>-->
+            <!--</center> -->
+        
     </div>
 </div>
 
