@@ -31,9 +31,7 @@ require 'Vue/_Commun/barreNavigation.php';?>
             </table>
         </div>
         <div class="col-md-6">
-            
             <p>Chic Tendance vous présente ses plus belles créations en robes de soirée, robes de mariée et robes de cocktail ! Grâce à elles vous êtes sûr d'être à la pointe de la mode. Il y en a assez pour satisfaire tous les goûts, alors n'hésitez plus !</p>
-            
         </div>
                 <!--
                 
