@@ -22,9 +22,7 @@
     <body>
         <div id="global">
             <header>
-                <!--NAVBAR-->
-                <?php require 'Vue/_Commun/barreNavigation.php'; ?>
-                <!--FIN NAVBAR-->
+                
              
 
             <?= $contenu ?>

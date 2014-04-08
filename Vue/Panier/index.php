@@ -1,7 +1,9 @@
 <?php $this->titre = "Votre panier"; 
-require 'Vue/_Commun/menuNavigation.php'; 
-require 'Vue/_Commun/barreNavigation.php'; ?>
+require 'Vue/_Commun/barreNavigation.php'; 
+$menuPanier = 1;?>
 
+<div class="row">
+    
 <ul class="breadcrumb">
     <li><a class="filAriane" href="index.php">Accueil</a></li>
     <li class="active">Panier</li>
@@ -11,7 +13,7 @@ require 'Vue/_Commun/barreNavigation.php'; ?>
 if ($articles->rowCount() == 0)
     echo "<div class='alert alert-info'>Il n'y a aucun article dans votre panier.</div>";
 else { ?>
-<div class="row">
+
     <center><div class="tableauPanier">
         <div class="panel panel-default">
         

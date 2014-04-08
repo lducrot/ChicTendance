@@ -1,13 +1,11 @@
 <?php $this->titre = "Chic Tendance"; 
-require 'Vue/_Commun/menuNavigation.php'; 
 require 'Vue/_Commun/barreNavigation.php'; ?>
 
 <ul class="breadcrumb">
     <li><a class="filAriane" href="index.php">Accueil</a></li>
 </ul>
 <div class="row">
-    <div class="col-md-1">
-    </div>
+    <div class="col-md-1"></div>
     <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
         <form method="post" action="client/modifier">
             <center><h2 class="titreDetail">Informations Personnelles</h2></center>
