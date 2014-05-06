@@ -25,7 +25,7 @@
                 <!--NAVBAR-->
                 <?php require 'Vue/_Commun/barreNavigation.php'; ?>
                 <!--FIN NAVBAR-->
-             
+
 
             <?= $contenu ?>
             <!-- #contenu -->
