@@ -83,6 +83,21 @@ CREATE TABLE IF NOT EXISTS `t_client` (
   PRIMARY KEY (`CLIE_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `t_article_panier`
+--
+
+CREATE TABLE IF NOT EXISTS `t_article_panier` (
+  `ARTPAN_ID` int(3) NOT NULL AUTO_INCREMENT,
+  `ARTPAN_IDROBE` int(3) NOT NULL,
+  `ARTPAN_IDCLIE` int(3) NOT NULL,
+  `ARTPAN_QTECDE` int(5) DEFAULT NULL,
+  PRIMARY KEY (`ARTPAN_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
 --
 -- Contraintes pour les tables exportées
 --
@@ -92,6 +107,11 @@ CREATE TABLE IF NOT EXISTS `t_client` (
 --
 ALTER TABLE `t_robe_de_soiree` ADD CONSTRAINT `FK_ROBE_CLASSER_CREATEUR` FOREIGN KEY (`CREA_ID`) REFERENCES `t_createur` (`CREA_ID`);
 ALTER TABLE `t_robe_de_soiree` ADD CONSTRAINT `FK_ROBE_CLASSER_STYLE` FOREIGN KEY (`STYL_ID`) REFERENCES `t_style` (`STYL_ID`);
+--
+-- Contraintes pour la table `t_article_panier`
+--
+ALTER TABLE `t_article_panier` ADD CONSTRAINT `FK_ARTICLEPANIER_CLASSER_ROBE` FOREIGN KEY (`ARTPAN_IDROBE`) REFERENCES `t_robe_de_soiree` (`ROBE_ID`);
+ALTER TABLE `t_article_panier` ADD CONSTRAINT `FK_ARTICLEPANIER_CLASSER_CLIENT` FOREIGN KEY (`ARTPAN_IDCLIE`) REFERENCES `t_client` (`CLIE_ID`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

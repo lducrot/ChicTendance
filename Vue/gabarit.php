@@ -22,16 +22,17 @@
     <body>
         <div id="global">
             <header>
-                <!--NAVBAR-->
-                <?php require 'Vue/_Commun/barreNavigation.php'; ?>
-                <!--FIN NAVBAR-->
-
+                
+             
 
             <?= $contenu ?>
             <!-- #contenu -->
             <footer id="piedBlog">
-                <center><p class="footer">Site réalisé par Gwendoline et Lauriane, étudiantes en BTS Services Informatique aux Organisations (SIO).</p></center>
-            </footer>
+                <div class='row'>
+                    <table class='piedPage'><tr><td>
+                    <p class="footer">Site réalisé par Gwendoline et Lauriane, étudiantes en BTS Services Informatique aux Organisations (SIO).</p>
+                </td></tr></table>
+            </div></footer>
         </div> 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://code.jquery.com/jquery.js"></script>

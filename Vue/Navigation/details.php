@@ -1,6 +1,5 @@
 <?php
 $this->titre = $this->nettoyer($details['ROBE_NOM']);
-require 'Vue/_Commun/menuNavigation.php';
 require 'Vue/_Commun/barreNavigation.php';
 ?>
 
@@ -17,7 +16,7 @@ require 'Vue/_Commun/barreNavigation.php';
             <!--<table>
                 <tr>
                     <td rowspan="2">-->
-                        <img class="imgRobe" src="<?= 'Contenu/images/'.$this->nettoyer($details['ROBE_IMAGE']) ?>" title="<?= $this->nettoyer($details['ROBE_NOM']) ?>"/>
+                        <img class="imgRobe" src="<?= 'Contenu/images/'.$this->nettoyer($details['ROBE_IMAGE']) ?>" title="<?= $this->nettoyer(utf8_decode($details['ROBE_NOM'])) ?>"/>
                     <!--</td>
                     <td class="RobeDetailTD">-->
                         <p class="detail">
@@ -29,7 +28,7 @@ require 'Vue/_Commun/barreNavigation.php';
                 </tr>
                 <tr>
                     <td class="btnPanier" colspan="2">-->
-                        <a href="#" class="btn btn-default glyphicon glyphicon-shopping-cart btnPanier"> Panier</a>
+                    <a href="Panier/ajoutPanier/<?= $this->nettoyer($details['ROBE_ID']); ?>"><button class='btn btn-default btnPanier'><span class="glyphicon glyphicon-shopping-cart"></span> Panier</button></a>
                     <!--</td>
                 </tr>
             </table>-->

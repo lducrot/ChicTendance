@@ -2,6 +2,7 @@
 require_once 'Controleur/ControleurPersonalise.php';
 require_once 'Modele/Client.php';
 require_once 'Modele/Styles.php';
+require_once 'Modele/Panier.php';
 
 /**
  * Contrôleur gérant la connexion au site
@@ -11,12 +12,17 @@ class ControleurConnexion extends ControleurPersonalise {
 
     private $client;
     private $style;
+    protected $panier;
 
     public function __construct() {
         $this->client = new Client();
         $this->style = new Style();
+        $this->panier = new Panier();
     }
-
+ 
+    /**
+     * Génère la vue index par défaut.
+     */
     public function index()
     {
         if ($this->requete->getSession()->existeAttribut("idClient"))

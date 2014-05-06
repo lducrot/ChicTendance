@@ -3,6 +3,7 @@ require_once 'Controleur/ControleurPersonalise.php';
 require_once 'Modele/Robe.php';
 require_once 'Modele/Styles.php';
 require_once 'Modele/Client.php';
+require_once 'Modele/Panier.php';
 
 /**
  * Contrôleur gérant la navigation dans les styles
@@ -12,13 +13,18 @@ class ControleurNavigation extends ControleurPersonalise {
     private $robe;
     private $style;
     protected $client;
+    protected $panier;
     
     public function __construct() {
         $this->robe = new Robe();
         $this->style = new Style();
         $this->client = new Client();
+        $this->panier = new Panier();
     }
-    
+     
+    /**
+     * Génère la vue index par défaut.
+     */
     public function index() {
         if ($this->requete->existeParametre("id")) {
             $styl_id = $this->requete->getParametre("id");

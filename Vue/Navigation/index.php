@@ -1,6 +1,5 @@
 
 <?php $this->titre = "Robes";
-require 'Vue/_Commun/menuNavigation.php';
 require 'Vue/_Commun/barreNavigation.php';
 ?>
 
@@ -16,7 +15,7 @@ require 'Vue/_Commun/barreNavigation.php';
                 ?>
                 <div class="col-sm-3 col-md-2">
                     <a class="thumbnail" href="Navigation/details/<?= $this->nettoyer($robe['ROBE_ID']); ?>"><img class="robeSoiree" src="<?= 'Contenu/images/' . $this->nettoyer($robe['ROBE_IMAGE']) ?>" title="<?= $this->nettoyer($robe['ROBE_NOM']) ?>" /></a>
-                        <!--<p><a href="#" class="btn btn-primary">Voir détails</a> <a href="#" class="btn btn-default">Panier</a></p>-->
+                       
                 </div>
             <?php
             endforeach;

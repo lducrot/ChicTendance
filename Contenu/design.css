@@ -2,9 +2,8 @@ body {
     background: url("images/fond2.jpg") repeat;
     background-attachment: fixed;
     background-size: 100%;
-    padding-top: 80px; 
+    padding-top: 20px; 
 }
-
 .row {
     margin-top: 40px;
     margin-left: 40px;
@@ -25,22 +24,23 @@ body {
     opacity: 0;
     border: transparent;
 }
-.navPrincipal, h1, .titreDetail, .navPrincipalActive {
+.nav {
+    height: 20px;
+}
+h1, .titreDetail {
     color: #ffdead;
     font-family: 'Cinzel Decorative', cursive;
-    font-size: 34px;
     font-weight: bold;
-}
-.navPrincipal:hover, .navPrincipalActive:hover {
-    color: #00001C;
-    opacity: 0.5;
-    font-weight: bold;
-    border-radius: 60%;
-    text-decoration: none;
-    box-shadow: 6px 6px 15px #c0c0c0;
 }
 .navPrincipalActive {
-    color: rgb(143,146,143);
+    background-color: #fff;
+    box-shadow: 3px 3px 1px black;
+    border-radius: 2px;
+}
+.navPrincipalActive:hover {
+    color: #ffdead;
+    text-decoration: none;
+    
 }
 .enTete, h2 {
     /*font-family: 'Raleway Dots', cursive; /* écriture en points */
@@ -54,7 +54,7 @@ a {
 }
 .titreEnTete, .titreEnTete:link {
     font-family: 'Mr De Haviland', cursive;
-    font-size: 42px;
+    font-size: 39px;
     margin-left: 10px;
     text-decoration: none;
 }
@@ -70,11 +70,15 @@ a {
     font-size: 16px;
     margin-right: 15px;
 }
+.piedPage {
+    border-top: white solid 1px;
+    float: right;
+}
 /* Accueil */
 .imgAccueil {
     text-align: center;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .imgAccueil td {
     border-collapse: collapse;
@@ -84,6 +88,13 @@ a {
 }
 .imgAccueil .tdAccueilRobeMariee {
     width: 9%;
+}
+.tdAccueilRobeMariee {
+    vertical-align: bottom;
+    
+}
+.tdAccueilRobeCocktail {
+    vertical-align: top;
 }
 .imgAccueilRobeSoiree {
     width: 100%;
@@ -114,7 +125,7 @@ a {
 }
 p {   
     font-family: 'Parisienne', cursive;
-    font-size: 23px;
+    font-size: 25px;
     margin-top: 40px;
     margin-right: 70px;
     margin-left: 70px;
@@ -131,6 +142,15 @@ p {
 .row [class="col-md-1"] {
     opacity: 0;
     width: 50px;
+}
+.row [class="col-md-5"] {
+    background-color: rgba(0,0,28,.0);
+    border: 0px transparent;
+}
+.row [class="col-md-6"] {
+    padding-top: 6%;
+    background-color: rgba(0,0,28,.0);
+    border: 0px transparent;
 }
 .row [class="col-md-3"] {
     width: 225px;
@@ -175,9 +195,27 @@ h3 {
 }
 /* FIN Detail */
 
+/* Infos Perso */
+.aligner {
+    display: inline;
+}
+/* FIN Infos persos */
+
 /* Connexion */
 .obligatoire {
     color: #66afe9;
     text-align: right;
 }
 /* FIN Connexion */
+
+/* Panier */
+.tableauPanier {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+.aligneDroite {
+    float: right;
+    margin-right: 40px;
+}
+  /* FIN Panier */

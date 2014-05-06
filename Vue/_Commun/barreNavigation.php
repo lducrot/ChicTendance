@@ -15,6 +15,22 @@
     <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
             <?php
+            foreach ($styles as $unStyle): 
+                $menu = "<li class='navPrincipal'><a href='navigation/index/" 
+                    .$this->nettoyer($unStyle['styl_id']) . "'> " . $this->nettoyer($unStyle['styl_libelle']) 
+                    . " <span class='badge'>" . $this->nettoyer($unStyle['nbContenuStyle']) . "</span></a></li>";
+                if (isset($style['STYL_ID'])) {
+                    if ($unStyle['styl_id'] == $style['STYL_ID'] || isset($menuPanier)) {
+                        $menu = str_replace("navPrincipal", "navPrincipalActive", $menu);
+                        echo $menu;
+                    } else {
+                        echo $menu;
+                    }
+                } else {
+                    echo $menu;
+                }
+            endforeach;
+            
             if (isset($client)) {
                 ?>
                 <li class="dropdown">
@@ -24,6 +40,9 @@
                         <li><a href="connexion/deconnecter">Déconnexion</a></li>
                     </ul>
                 </li>
+                
+                <li><a href="panier/index">Panier <span class='badge'><?= $this->nettoyer($nbQtePanier) ?></span></a></li>
+                
                 <?php
             } else {
                 ?>

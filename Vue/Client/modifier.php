@@ -1,5 +1,4 @@
 <?php $this->titre = "Chic Tendance"; 
-require 'Vue/_Commun/menuNavigation.php'; 
 require 'Vue/_Commun/barreNavigation.php'; ?>
 
 <ul class="breadcrumb">
