@@ -6,7 +6,6 @@ require_once 'Modele/Panier.php';
 
 /**
  * Contrôleur gérant la connexion au site
- * 
  */
 class ControleurConnexion extends ControleurPersonalise {
 
